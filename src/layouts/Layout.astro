@@ -83,4 +83,48 @@ const { title, description } = Astro.props;
 		gap: 1rem;
 		padding: 0;
 	}
+
+	nav {
+		border-bottom: 0px solid rgba(255, 62, 0, 0.1);
+		font-weight: 300;
+		padding: 0 1em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		max-width: 100ch;
+	}
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* clearfix */
+
+	ul::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	nav li {
+		display: block;
+		float: left;
+	}
+
+	[aria-current] {
+		position: relative;
+		display: inline-block;
+		color: black;
+	}
+
+	nav a {
+		text-decoration: none;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		nav a:hover {
+			color: yellow;
+		}
+	}
 </style>
