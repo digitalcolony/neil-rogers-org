@@ -1,3 +1,13 @@
+---
+
+export interface Props {	
+	url: string;
+}
+
+const { url } = Astro.props;
+---
+
+
 <nav class="top-nav">	
 	<div></div>
 	<input id="menu-toggle" type="checkbox" />
@@ -5,12 +15,12 @@
 		<div class="menu-button"></div>
 	</label>
 	<ul class="menu">
-		<li><a href="/">Home</a></li>
-		<li><a href="/listen">Podcast</a></li>
-		<li><a href="/audio">Audio</a></li>
-		<li><a href="/timeline">Timeline</a></li>
-		<li><a href="/docs">Docs</a></li>
-		<li><a href="#">Soundboard</a></li>
+		<li>{ url==="" ? <span>Home</span> : <a href="/">Home</a> }</li>
+		<li>{ url==="/listen/" ? <span>Podcast</span> : <a href="/listen/">Podcast</a> }</li>
+		<li>{ url==="/audio/" ? <span>Audio</span> : <a href="/audio/">Audio</a> }</li>
+		<li>{ url==="/timeline/" ? <span>Timeline</span> : <a href="/timeline/">Timeline</a> }</li>
+		<li>{ url==="/docs/" ? <span>Docs</span> : <a href="/docs/">Docs</a> }</li>
+		<li>{ url==="/Soundboard/" ? <span>Soundboard</span> : <a href="#">Soundboard</a> }</li>
 	</ul>
 </nav>
 
@@ -24,9 +34,10 @@
 		/* background-color: #00baf0;
 		background: linear-gradient(to left, #161616, #575757);
 		/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-		color: #fff; */
+		color: black
 		height: 50px;
 		padding: 1em;
+		padding-right:150px;
 	}
 
 	.menu {
@@ -93,6 +104,7 @@
 		transform: rotate(-405deg);
 	}
 
+	
 	@media (max-width: 700px) {
 		.menu-button-container {
 			display: flex;
