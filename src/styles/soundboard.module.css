@@ -1,0 +1,21 @@
+.filter {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 1px 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  margin-right: 7px;
+}
+input[type="radio"]:checked + span {
+  background: yellow;
+  color: black;
+}
