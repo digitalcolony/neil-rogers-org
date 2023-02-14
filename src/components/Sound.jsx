@@ -3,7 +3,6 @@ import * as soundStyles from "../styles/sound.module.css";
 import DownloadLink from "./DownloadLink";
 
 const Sound = ({ artist, src, name, action }) => {
-	// TODO: "Saved to Clipboard" and "Downloading" message not displaying
 	const [buttonText, setButtonText] = useState(name);
 	const isDownload = action === "download";
 	const handlePress = () => {
@@ -27,7 +26,7 @@ const Sound = ({ artist, src, name, action }) => {
 		<span className="track">
 			<DownloadLink display={isDownload} src={src}>
 				<button id={src} className={soundStyles.myButton} onClick={handlePress} title={artist}>
-					{name}
+					{buttonText}
 				</button>
 			</DownloadLink>
 		</span>
