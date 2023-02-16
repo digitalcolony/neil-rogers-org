@@ -40,6 +40,8 @@ export default function FilteredSoundList({ sounds }) {
 						placeholder="Search Sounds"
 					/>
 				</li>
+			</ul>
+			<ul>
 				<li>
 					<RadioButton label="Play" value={action === "play"} onChange={handlePlayChange} />
 				</li>

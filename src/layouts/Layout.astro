@@ -151,6 +151,21 @@ const canonicalUrl = `httos://neilrogers.org${url}`;
 		text-decoration: none;
 	}
 
+	.yahoo {
+		font-family: monospace, monospace;
+		font-size: 1.2em;
+		list-style-type: none;
+		word-break: break-all;
+	}
+	@media screen and (max-width: 500px) {
+		.yahoo {
+			font-family: monospace, monospace;
+			font-size: 0.8em;
+			list-style-type: none;
+			word-break: break-word;
+		}
+	}
+
 	@media (prefers-color-scheme: dark) {
 		nav a:hover {
 			color: yellow;
