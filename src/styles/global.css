@@ -1,0 +1,47 @@
+:root {
+	--accent: 124, 58, 237;
+	--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+}
+html {
+	font-family: system-ui, sans-serif;
+	background-color: #f6f6f6;
+}
+html.dark {
+	background-color: #434346;
+	color: #fff;
+}
+a {
+	color: #4169e1;
+	text-decoration: none;
+}
+.dark a {
+	color: #ffbf00;
+	text-decoration: none;
+}
+
+code {
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Courier New,
+		monospace;
+}
+main,
+nav,
+footer {
+	margin: auto;
+	padding: 1.5rem;
+	max-width: 80ch;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 800;
+	margin: 0;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+
+li {
+	font-size: 1rem;
+	padding: 10px;
+}
