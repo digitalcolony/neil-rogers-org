@@ -541,6 +541,12 @@
             "mp3": "/sounds/He's-an-agent-provocateur.mp3"
         },
         {
+            "name": "Hello Jorge",
+            "artist": "Moe Howard",
+            "duration": "0:01",
+            "mp3": "/sounds/Hello-Jorge.mp3"
+        },
+        {
             "name": "Hey Asshole",
             "artist": "Jennifer Rehm",
             "duration": "0:01",
@@ -941,6 +947,12 @@
             "artist": "Unknown",
             "duration": "0:02",
             "mp3": "/sounds/Johnny-Dark-Jingle.mp3"
+        },
+        {
+            "name": "Jorge",
+            "artist": "Moe Howard",
+            "duration": "0:01",
+            "mp3": "/sounds/Jorge.mp3"
         },
         {
             "name": "Just tell me what your problem is",
