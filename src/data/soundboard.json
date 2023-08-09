@@ -1357,6 +1357,12 @@
             "mp3": "/sounds/Pluck-The-Bird.mp3"
         },
         {
+            "name": "Poke in the Ass",
+            "artist": "Jim Mandich",
+            "duration": "0:02",
+            "mp3": "/sounds/Poke-in-the-Ass.mp3"
+        },
+        {
             "name": "Ponderous",
             "artist": "Casey Kasem",
             "duration": "0:01",
