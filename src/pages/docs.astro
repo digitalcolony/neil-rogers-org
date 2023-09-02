@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Image } from 'astro:assets';
 import convert_tapes from "../assets/convert-tapes-650.jpg";
 ---
 
@@ -108,7 +109,7 @@ import convert_tapes from "../assets/convert-tapes-650.jpg";
 		</p>
 
 		<figure>
-			<img src={convert_tapes} alt="converting a cassette to MP3" />
+			<Image src={convert_tapes} alt="converting a cassette to MP3" />
 			<figcaption>We can convert cassettes to MP3s</figcaption>
 		</figure>
 

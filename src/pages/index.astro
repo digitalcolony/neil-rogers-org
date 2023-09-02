@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Image } from 'astro:assets';
 import neil_mask from "../assets/neil-mask-radio.jpg";
 ---
 
@@ -30,7 +31,7 @@ import neil_mask from "../assets/neil-mask-radio.jpg";
 		</p>
 
 		<figure>
-			<img src={neil_mask} alt="Neil Rogers with a mask of himself" />
+			<Image src={neil_mask} alt="Neil Rogers with a mask of himself" />			
 			<figcaption>Neil Rogers</figcaption>
 		</figure>
 

@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Image } from 'astro:assets';
 import neil_sigh from "../assets/neil-sigh.jpg";
 ---
 
@@ -14,7 +15,7 @@ import neil_sigh from "../assets/neil-sigh.jpg";
 		<p>This page you are looking for doesn't exist. Return to the <a href="/">Home page</a>.</p>
 
 		<figure>
-			<img src={neil_sigh} alt="Neil Rogers sigh" />
+			<Image src={neil_sigh} alt="Neil Rogers sigh" />
 			<figcaption>Neil Rogers</figcaption>
 		</figure>
 	</main>
