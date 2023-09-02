@@ -12,6 +12,8 @@ export interface Props {
 
 const { title, description, url } = Astro.props;
 const canonicalUrl = `httos://neilrogers.org${url}`;
+
+Astro.response.headers.set('Cache-Control', 'max-age=3607');
 ---
 
 <!DOCTYPE html>
