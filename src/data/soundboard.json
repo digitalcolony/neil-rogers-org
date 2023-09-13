@@ -67,6 +67,12 @@
             "mp3": "/sounds/Are-You-Sure.mp3"
         },
         {
+            "name": "Asking Marino",
+            "artist": "Jim Mandich",
+            "duration": "0:07",
+            "mp3": "/sounds/Asking-Marino.mp3"
+        },
+        {
             "name": "Awright",
             "artist": "Jim Mandich",
             "duration": "0:01",
