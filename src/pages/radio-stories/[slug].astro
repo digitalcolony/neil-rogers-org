@@ -1,0 +1,29 @@
+---
+import { getCollection, getEntryBySlug } from "astro:content";
+import { Image } from "astro:assets";
+
+import Layout from "../../layouts/Layout.astro";
+const { slug } = Astro.params;
+
+const story = await getEntryBySlug("stories", slug as string);
+
+if (!story) {
+	return Astro.redirect("/404");
+}
+
+const { Content, headings } = await story.render();
+---
+
+<Layout
+	title={`Neil Rogers - ${story.data.title}    `}
+	description={story.data.description}
+	url={`https://neilrogers.dev/radio-stories/${story.slug}`}
+>
+	<main>
+		<h1>😂 Radio Stories</h1>
+		<h3>{story.data.title}</h3>
+
+		<Content />
+		<h4>by {story.data.author} - {story.data.date}</h4>
+	</main>
+</Layout>

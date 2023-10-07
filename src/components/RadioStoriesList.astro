@@ -1,0 +1,18 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+const { stories } = Astro.props;
+---
+
+<h3>Radio Stories</h3>
+
+<ul>
+	{
+		stories &&
+			stories.map((story) => (
+				<li>
+					<a href={`/radio-stories/${story.slug}`}>{story.data.title}</a>
+				</li>
+			))
+	}
+</ul>
