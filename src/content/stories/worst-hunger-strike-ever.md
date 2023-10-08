@@ -5,8 +5,6 @@ description: The Rick and Suds Show brings food to a hunger strike.
 title: Worst. Hunger Strike. EVER.
 ---
 
-## Worst. Hunger Strike. EVER.
-
 Eve of Christmas Eve Bedtime Story: Worst. Hunger Strike. EVER.
 
 As soon as the Clinton Administration came up with that whole “wet foot – dry foot” thing to determine whether or not Cuban rafters would be sent back or not, a group of people started protesting it. It was very peaceful
@@ -45,7 +43,7 @@ The food arrives and so do a few listeners.
 
 Contrasts the 4 guys barely awake, needing a shave, in rumpled clothes they slept in.. with the 3 gringos in faded Guy Harvey type tshirts, worn and pitted with old baseball caps faded pastel by the sun. A few more hunger strikers showed up out of the blue and sat down on the curb.
 
-We put out this HUGE spread.. 2 trays of Cuban sammys.. two trays of assorted pastelitos , two huge containers of coffee… napkins, plates, coffee cups,,, and me and Reaper and the 3 gringo scarfed. I’m on the phone with Rick and Suds schlurping Cuban coffee, and stuffing pastries in my skull…
+We put out this HUGE spread.. 2 trays of Cuban sammys.. two trays of assorted pastelitos , two huge containers of coffee… napkins, plates, coffee cups, and me and Reaper and the 3 gringo scarfed. I’m on the phone with Rick and Suds schlurping Cuban coffee, and stuffing pastries in my skull…
 
 “Tell them they’re welcome to eat.”
 
@@ -55,7 +53,7 @@ We put out this HUGE spread.. 2 trays of Cuban sammys.. two trays of assorted pa
 
 “Mph’ts really good. Mmmmmm” holding it under their noses. “They..(gulp) say they don’t want any. “
 
-“Ask them if they'''''re hungry and how long it’s been since they ate..”
+“Ask them if they're hungry and how long it’s been since they ate..”
 
 “Are you hungry? When was the last time you had anything to eat?” switching to reporter mode.
 
@@ -80,5 +78,3 @@ And that was it.. sporadically a few listeners would trickle in, grab a sandwich
 A few days later I was sent a photo copy of the Front Page of the Wall Street Journal. There was an article above the fold about the Cuban reaction in Miami. And in one paragraph, was a mention of WIOD stopping by with food.
 
 None of us were mentioned by name. Not even Pedro.
-
-AK 12/23/2014

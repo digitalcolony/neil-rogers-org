@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import news from "../../assets/john-baker-news.png";
 import logo from "../../assets/john-baker-logo.jpg";
@@ -29,7 +30,7 @@ import logo from "../../assets/john-baker-logo.jpg";
 			> that appeared in both the Miami Herald and Sun-Sentinel in January 2014.
 		</p>
 		<figure>
-			<img src={news} alt="neil rogers news story" />
+			<Image src={news} alt="neil rogers news story" />
 			<figcaption>Neil Rogers news story</figcaption>
 		</figure>
 		<p>
@@ -72,7 +73,7 @@ import logo from "../../assets/john-baker-logo.jpg";
 		</p>
 		<p>He will be greatly missed. RIP John.</p>
 		<figure>
-			<img src={logo} alt="John Baker" style="width:70%;" />
+			<Image src={logo} alt="John Baker" style="width:70%;" />
 			<figcaption>
 				I never met John face to face, as I live in Seattle, so I know him best from this image he
 				used for his Facebook profile.

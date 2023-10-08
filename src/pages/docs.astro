@@ -1,11 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Image } from 'astro:assets';
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import convert_tapes from "../assets/convert-tapes-650.jpg";
+import RadioStoriesList from "../components/RadioStoriesList.astro";
+
+const allStories = await getCollection("stories");
 ---
 
 <Layout
-	title="Neil Rogers Documents - Tributes, Media, and Show Info"
+	title="Neil Rogers Docs - Tributes, Media, Stories, and Show Info"
 	description="News and updates related to the Neil Rogers audio restoration project."
 	url="/docs/"
 >
@@ -18,7 +22,7 @@ import convert_tapes from "../assets/convert-tapes-650.jpg";
 				<a
 					href="https://docs.google.com/spreadsheets/d/1czK9DiOqCK_P8lYS5Im8a_u9IZnKW39lBAuq3FXdmRM/edit?usp=sharing"
 					target="_blank"
-					rel="noreferrer">Google Spreadsheet</a
+					rel="noreferrer">Neil Rogers Google Sheet</a
 				> - Our Spreadsheet has data regarding show dates, times when Neil had a guest host, best of
 				show info, timeline dates, and more.
 			</li>
@@ -35,8 +39,8 @@ import convert_tapes from "../assets/convert-tapes-650.jpg";
 				ever and was essential in helping us recover so much of Neil's memory.
 			</li>
 			<li>
-				<a href="/docs/jorge-rodriguez/">Tribute to Jorge Rodriguez</a> - Jorge was the longtime producer
-				and guest host for the Neil Rogers Show.
+				<a href="/docs/jorge-rodriguez/">Tribute to Jorge Rodriguez</a> - Jorge was the longtime
+				producer and guest host for the Neil Rogers Show.
 			</li>
 		</ul>
 
@@ -60,20 +64,15 @@ import convert_tapes from "../assets/convert-tapes-650.jpg";
 					A Neil Rogers renaissance (January 2014: Sun Sentinel)
 				</a>
 			</li>
-			<li>
-				<a
-					href="https://southfloridareporter.com/legendary-radio-host-neil-rogers-lives-on-online/"
-				>
-					Legendary Radio Host Neil Rogers Lives On … Online! (April 2018: Miami Herald)
-				</a>
-			</li>
 		</ul>
+
+		<RadioStoriesList stories={allStories} />
 
 		<h3>Other</h3>
 		<ul>
 			<li>
-				<a href="/docs/neil-rogers-myspace/">Neil Rogers on MySpace</a> - We have recovered his posts
-				to MySpace from January 2007.
+				<a href="/docs/neil-rogers-myspace/">Neil Rogers on MySpace</a> - We have recovered his
+				posts to MySpace from January 2007.
 			</li>
 			<li>
 				<a href="https://github.com/NeilRogersRadio/radio-stories">Radio Stories</a> - Radio stories
@@ -81,17 +80,18 @@ import convert_tapes from "../assets/convert-tapes-650.jpg";
 			</li>
 			<li>
 				<em>Cranker's Courier</em> - In the mid 1980s a young man, while still in high school, began
-				sending out a newsletter to various talk hosts. He was one of the most prolific crank callers
-				in the Miami market, and managed to befriend some of the board ops. He was able to get inside
-				information about the talk stations. Neil dubbed him Fruit Cake, and the moniker stuck.
+				sending out a newsletter to various talk hosts. He was one of the most prolific crank
+				callers in the Miami market, and managed to befriend some of the board ops. He was able to
+				get inside information about the talk stations. Neil dubbed him Fruit Cake, and the moniker
+				stuck.
 				<a href="https://archive.org/details/crankers-courier">Archive</a>,
 				<a href="https://1drv.ms/u/s!AgQrITkx1J-8pPcHiQJAWd_dwKJKGw?e=GyryKE">
 					OneDrive PDF Folder</a
 				>
 			</li>
 			<li>
-				<a href="/docs/learning-to-spell/">Learning to Spell With Neil Rogers</a> - Common spelling mistakes
-				associated with the Neil Rogers Show.
+				<a href="/docs/learning-to-spell/">Learning to Spell With Neil Rogers</a> - Common spelling
+				mistakes associated with the Neil Rogers Show.
 			</li>
 		</ul>
 

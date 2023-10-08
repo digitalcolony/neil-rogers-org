@@ -2,7 +2,7 @@
 import { getCollection, getEntryBySlug } from "astro:content";
 import { Image } from "astro:assets";
 
-import Layout from "../../layouts/Layout.astro";
+import Layout from "../../../layouts/Layout.astro";
 const { slug } = Astro.params;
 
 const story = await getEntryBySlug("stories", slug as string);
@@ -11,19 +11,25 @@ if (!story) {
 	return Astro.redirect("/404");
 }
 
+// convert MM/DD/YYYY to Month DD, YYYY
+const date = new Date(story.data.date);
+story.data.date = date.toLocaleDateString("en-US", {
+	year: "numeric",
+	month: "long",
+	day: "numeric",
+});
+
 const { Content, headings } = await story.render();
 ---
 
 <Layout
-	title={`Neil Rogers - ${story.data.title}    `}
+	title={`Neil Rogers Docs - Radio Stories - ${story.data.title}    `}
 	description={story.data.description}
 	url={`https://neilrogers.dev/radio-stories/${story.slug}`}
 >
 	<main>
-		<h1>😂 Radio Stories</h1>
-		<h3>{story.data.title}</h3>
-
+		<h1>{story.data.title}</h1>
+		<p><em>by {story.data.author} - {story.data.date}</em></p>
 		<Content />
-		<h4>by {story.data.author} - {story.data.date}</h4>
 	</main>
 </Layout>

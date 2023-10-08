@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import herald from "../../assets/miami_herald_neil.jpg";
 ---
@@ -16,7 +17,7 @@ import herald from "../../assets/miami_herald_neil.jpg";
 			channel we created as a tribute to Neil Rogers.
 		</p>
 		<figure>
-			<img src={herald} alt="Miami Herald story on Neil Rogers project" />
+			<Image src={herald} alt="Miami Herald story on Neil Rogers project" />
 			<figcaption>Talk host Neil Rogers is dead, but his radio archive lives on</figcaption>
 		</figure>
 		<p>
@@ -26,7 +27,7 @@ import herald from "../../assets/miami_herald_neil.jpg";
 			Side note: If you know someone that works inside Yahoo!, read the Support section on our <a
 				href="/docs/">Docs</a
 			>
-			page.
+			 page.
 		</blockquote>
 		<p>
 			There were a few minor errors, which are probably to blame on my cell phone, which cut out
@@ -46,12 +47,13 @@ import herald from "../../assets/miami_herald_neil.jpg";
 				I also don't know if Nick Abbot ever played Neil bits on his show. I do know Neil was an
 				influence, which you can see on his <a href="https://en.wikipedia.org/wiki/Nick_Abbot"
 					>Wikipedia</a
-				> page or his <a href="https://twitter.com/NIAbbot/status/985125553308127233">Twitter</a> feed.
+				> page or his <a href="https://twitter.com/NIAbbot/status/985125553308127233">Twitter</a>
+				 feed.
 			</li>
 			<li>
 				Typo: “I moved to D.C. and I couldn't a radio signal in my office.” It should have read “I
-				moved to D.C. and I couldn't <b>get</b> a radio signal in my office.” Again, my cell phone was
-				breaking up during the interview.
+				moved to D.C. and I couldn't <b>get</b> a radio signal in my office.” Again, my cell phone
+				was breaking up during the interview.
 			</li>
 			<li>Neil was born in Rochester, NY not Canada.</li>
 			<li>The archives aren't mine. They belong to all the fans.</li>
@@ -94,8 +96,16 @@ import herald from "../../assets/miami_herald_neil.jpg";
 			</li>
 			<li><a href="https://twitter.com/NeilRogersRadio">@NeilRogersRadio</a> (Twitter)</li>
 			<li>
-				<a href="https://www.flickr.com/photos/neilrogersradio/">Neil Rogers Photo Gallery</a> (Flickr)
+				<a href="https://www.flickr.com/photos/neilrogersradio/">Neil Rogers Photo Gallery</a>
+				 (Flickr)
 			</li>
 		</ul>
+
+		<p>
+			The full-length original article is no longer online. You can see an archived copy <a
+				href="https://web.archive.org/web/20180416143623/http://www.gossipextra.com/2018/04/13/neil-rogers-lives-neilrogers-org-86068"
+				>here</a
+			>.
+		</p>
 	</main>
 </Layout>

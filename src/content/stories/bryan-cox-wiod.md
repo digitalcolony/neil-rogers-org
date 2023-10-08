@@ -33,7 +33,7 @@ And there, plain as day, I hear Maddog do his lead-in, and ask Bryan Cox if he's
 
 "I'm happy. I hate WIOD. Suck my d_ck, but I'm happy".
 
-## ![Bryan Cox](bryan-cox.jpg)
+## ![Bryan Cox](/src/assets/bryan-cox.jpg)
 
 [Bryan Cox is Happy - Neil's Nuggets 1996 - Track 1](https://youtu.be/CsTw28JUPcQ)
 

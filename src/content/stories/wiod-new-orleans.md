@@ -56,5 +56,3 @@ They’d shipped me garbage bags filled with stuff from WIOD; hand-held fans, ch
 I went inside, and into the pressbox where I stood around, by myself behind Sonny Hirsch calling the game as the Canes, favorite by 8 to win, got walloped and lost the National Championship in embarrassing fashion 34-13. The place was filled with dignitaries of the NCAA, New Orleans, UM and Alabama, and National Press. At one point Sonny noticed me in the room, took off his headset, gave me that HUGE smile of his and held out his gigantic hand the size of a ham and said “Myyy man ADAM. Tough game so far, eh boichick?” Then he winked, put back on his headset, and said “Thanks for the newspaper”, then continued calling the game. I felt like a million bucks.
 
 And despite being a Canes Alum, and disappointed in the loss, I took a certain pride out of delivering the newspapers to all those Canes fans on the morning after with a WIOD sticker plastered on the front page reading: ROLLED by TIDE, because I knew one of them was for Sonny.
-
-AK 12/4/2013

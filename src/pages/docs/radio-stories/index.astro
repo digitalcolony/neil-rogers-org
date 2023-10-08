@@ -1,11 +1,9 @@
 ---
 import { getCollection } from "astro:content";
-import Layout from "../../layouts/Layout.astro";
-import RadioStoriesList from "../../components/RadioStoriesList.astro";
+import Layout from "../../../layouts/Layout.astro";
+import RadioStoriesList from "../../../components/RadioStoriesList.astro";
 
 const allStories = await getCollection("stories");
-
-console.log(allStories);
 ---
 
 <Layout title="Radio Stories" description="add description here" url="/radio-stories/">

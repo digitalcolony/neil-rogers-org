@@ -13,7 +13,7 @@ He probably stands like 5'6. Always wearing tight jogging shorts, though his egg
 
 He was always very friendly, happy, smiley. He was just always there. And unlike many of the chronic miscreants, he was nice, waited in line to get his autograph and say hi to Neil, talking until we moved him along. It didn't matter that Neil had seen him 2 days earlier at a different remote; he talked and talked and talked as if Neil were his old friend he hadn't seen in eons. If you were behind him in line, you'd swear he was counting his words. Even after we'd have to walk him past Neil so someone else could get in there, he'd still be talking back over his exposed, tank-top wearing shoulder. Still smiling. Still nice. Still happy.
 
-Then... he'd stay. Until we left. Talking to anyone willing to talk to him... including The Guy with the Eyes and Al "Scooter" Rogers. Schnorring up free food.
+Then... he'd stay. Until we left. Talking to anyone willing to talk to him... including [The Guy with the Eyes](/docs/radio-stories/the-guy-with-the-eyes) and [Al "Scooter" Rogers](/docs/radio-stories/alfred-al-rogers). Schnorring up free food.
 
 But unlike the other 2 chronics I mentioned, we didn't fear him, we didn't worry about anyone's safety. He was just chronically there before, during, and after any event.
 

@@ -1,17 +1,26 @@
 ---
-import type { CollectionEntry } from "astro:content";
-
 const { stories } = Astro.props;
+// sort stories by title
+stories.sort((a, b) => {
+	if (a.data.title < b.data.title) {
+		return -1;
+	}
+	if (a.data.title > b.data.title) {
+		return 1;
+	}
+	return 0;
+});
 ---
 
 <h3>Radio Stories</h3>
+<p>These Miami radio stories were copied from a Neil Rogers Facebook group (2013-2014).</p>
 
 <ul>
 	{
 		stories &&
 			stories.map((story) => (
 				<li>
-					<a href={`/radio-stories/${story.slug}`}>{story.data.title}</a>
+					<a href={`/docs/radio-stories/${story.slug}`}>{story.data.title}</a>
 				</li>
 			))
 	}

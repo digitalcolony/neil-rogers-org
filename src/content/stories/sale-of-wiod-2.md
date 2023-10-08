@@ -5,6 +5,8 @@ description: The Sale of WIOD – Part 2
 title: The Sale of WIOD – Part 2
 ---
 
+[Part 1](http://localhost:4321/docs/radio-stories/sale-of-wiod-1)
+
 Monday Afternoon Bedtime Story: The Sale of WIOD – Part 2
 
 "Woeful Interstate Of Doom"

@@ -43,3 +43,5 @@ Neil, Rick and Suds stay. Phil is staying with COX. Newsroom is being dismantled
 And the meeting ends, and we walk back to the station, much slower, heads lower.
 
 And over the next few weeks, we boxed up 50 years worth of stuff, and prepared to have our parent company cut the cord, and hand us to an adoptive parent.. A strange, crazy, weird, dangerously unaware parent.
+
+[The Sale of WIOD Part 2](http://localhost:4321/docs/radio-stories/sale-of-wiod-2)

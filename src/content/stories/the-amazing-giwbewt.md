@@ -1,7 +1,7 @@
 ---
 author: AK
 date: 07/26/2013
-description: Overview of WIOD chronic - "The Amazing Giwbewt"
+description: Overview of WIOD chronic Gilbert"
 title: Chronic Review - "The Amazing Giwbewt"
 ---
 
@@ -19,11 +19,11 @@ Because Jorge was the first line of defense, and knowing Jorge as I did, my gues
 
 By the time I got there, Jorge had a pretty detailed distaste for Gilbert because he was such a pain in the ass, and for the kind of show neil was doing by then, didn't really fit in...and because Jorge just kept hanging up on him as soon as he heard his voice, or because Jorge told him to "stop calling, don't ever call again", Gilbert had this deep hatred of Jorge. At some point I think Gilbert even tried to call the PD and get Jorge fired. But this is stuff Jorge would have to answer.
 
-So ok, then I arrive at WIOD, and work promotions. And Gilbert is always there.. ALWAYS. So at every live appearance, you could count on 5 things: Neil, The Guy with the Eyes, The Fanny Pack Guy, Al Rogers, and Gilbert.
+So ok, then I arrive at WIOD, and work promotions. And Gilbert is always there.. ALWAYS. So at every live appearance, you could count on 5 things: Neil, [The Guy with the Eyes](/docs/radio-stories/the-guy-with-the-eyes), [The Fanny Pack Guy](/docs/radio-stories/the-fanny-pack-guy), [Al Rogers](/docs/radio-stories/alfred-al-rogers), and Gilbert.
 
 I thought Gilbert was funny, weird, a kook. But not in any way as frightening as the other chronics. He was simply, just Gilbert.
 
-He listened non-stop to talk radio... ALL of it. And could recite things said 30 years ago from stations that didnt exist anymore by people who died 28 years ago. It didnt matter that you never heard of them or that he'd lived in NY when he'd listened.. he would talk to you like you knew them. "Hey, wemembew when Fwed said dat? Wemembew?" Uh, no?
+He listened non-stop to talk radio... ALL of it. And could recite things said 30 years ago from stations that didn't exist anymore by people who died 28 years ago. It didn't matter that you never heard of them or that he'd lived in NY when he'd listened.. he would talk to you like you knew them. "Hey, wemembew when Fwed said dat? Wemembew?" Uh, no?
 
 By the time I started doing producing, especially after joining Rick and Suds, I had to frequently call Gilbert at home on the phone. Rick and Suds would come up with some idea they wanted to have Gilbert in on, and I'd have to make contact. And occasionally, I'd have to leave a number to have him call me back. So Gilbert had my phone number. Sometimes it led to great stories for on the air, and great bits of info to use for future bits, but often it lead to both insane hilarity at home, or insane headaches, or insane tedium.
 

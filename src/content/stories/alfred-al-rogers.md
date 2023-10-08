@@ -9,7 +9,8 @@ Thursday Midday Story: Chronic Review - Alfred "Al" Rogers
 
 Many of you've seen him in here.. I have him blocked, (so I won't be able to see any of his responses).. but I recommend most of you do the same.
 
-See, unlike The Guy With The Eyes (TGWTE) or the Fanny Pack Guy (TFPG), no one really understood his modus operandi until it was far too late.
+See, unlike [The Guy With The Eyes (TGWTE)](/docs/radio-stories/the-guy-with-the-eyes) or the
+[Fanny Pack Guy (TFPG)](/docs/radio-stories/the-fanny-pack-guy), no one really understood his modus operandi until it was far too late.
 
 With TGWTE, you knew he was angry, perturbed, semi-hostile, and loved every minute of it from the moment you saw him. And FPG was what he was.. just a happy go lucky Neil fanatic.
 

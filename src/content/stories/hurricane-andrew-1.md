@@ -71,4 +71,4 @@ All I can do is shake my head and smile.
 
 "Ok..keep us posted" and I hand the phone back to Manny, he goes on the air and does his report, as I put my feet up and half relax as best as you can. At this point, there's so much going on it's like watching an action movie. People running in and out, people making calls one after another to different places all trying to get someone on the air with Chuck or Henry or Elaine Ettoire or who's even in the room behind the microphone. And as it got darker, and as it got later, and as the radar started showing the storm was getting stronger and stronger with each passing hour, we settled into a rhythm.
 
-Next: Part 2 – The Morning of Hurricane Andrew
+Next: [Part 2 – The Morning of Hurricane Andrew](/docs/radio-stories/hurricane-andrew-2)

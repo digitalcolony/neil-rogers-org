@@ -5,6 +5,8 @@ description: Hurricane Andrew radio stories part 3.
 title: Hurricane Andrew Part 3
 ---
 
+[Part 1](/docs/radio-stories/hurricane-andrew-1) - [Part 2](/docs/radio-stories/hurricane-andrew-2)
+
 Friday Midday Bedtime Story: HURRICANE ANDREW (part 3. After the storm, and the Bryan Norcross myth)
 
 In the day that followed, with the return of Neil, Rick and Suds and Hank, things remained steadily focused. Now it was on recovery. We'd set up a hurricane hotline (now every TV station does it the first sign of a cloud coming off the African coast) to take calls from people to get information like where ice, and water was being trucked in or had run out, or that they needed help, where gas stations or food markets were open or closed or to report looting or price gouging. And everyone on staff who wasn't on air pitched in. Even Bob Soper's wife Susan came in every day to answer phones. They'd get information and make the appropriate calls to whomever should have that information, like FPL, or the police or whatever. They also kept a growing list they could run in to the folks on the air. So when callers would call in and say "I need baby formula!" the host could ask "Where you at?", look at the list and a see if they could find somewhere close to them that might be open. The dry erase board that usually only had Camillas House/Center One totals became the board of # people without power list.

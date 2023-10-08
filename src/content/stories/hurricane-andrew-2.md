@@ -5,6 +5,8 @@ description: Hurricane Andrew radio stories part 2.
 title: Hurricane Andrew Part 2
 ---
 
+[Part 1](/docs/radio-stories/hurricane-andrew-1)
+
 Thursday Midday Bedtime Story: HURRICANE ANDREW (part 2. During the Storm)
 
 Somewhere around 7pm Boy Gary came back to the station for a last look and pep talk to the troops. He was dressed more casually than I'd ever seen him. It was the only time I think I ever saw him without suspenders on. The wind was whipping pretty good by then a tiny corner window that apparently didn't have a shutter on it in the sales department had broken, and wind was streaming in so violently that the locked glass doors to the sales department at the end of the hallway on the second floor were bowing. I was seriously afraid that at any moment the glass would bend to the point of shattering, sending shards like daggers down the main hallway of the studios. And Gary Bruce, currently no longer tied to the tracks in front of a freight train, jumped into action by going downstairs, grabbing an 8x4 piece of plywood, a hammer and a box of nails and boarded that doorway up in a most unprofessional way. There was no finesse to where those nails went; he pounded them into the walls and frame any which way. And when he ran out of nails, he got screws and a drill. Good for him. Although most of us probably would have wished that when the storm was over, and the entire sales team was back in their area, he'd put the board back and screw them in there (except maybe you, @RickAlpern ).
@@ -27,4 +29,4 @@ At some point late in the afternoon, I saw Dan Stewart who showed me the inside 
 
 At around 11pm I got a ride to the bank garage, got my 1987 Honda CRX, and went to my parents house in Pembroke Pines and slept there. There wasn't much damage.. Some trees down in neighborhoods.. That's about it. I slept for a good 7 hours, then drove back to WIOD. The real storm, Andrew's Aftermath was about to begin.
 
-NEXT TIME: Part 3 – After the storm and the Bryan Norcross myth
+NEXT TIME: [Part 3 – After the storm and the Bryan Norcross myth](/docs/radio-stories/hurricane-andrew-3)

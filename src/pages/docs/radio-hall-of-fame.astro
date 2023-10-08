@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import hof from "../../assets/neil-rogers-hof.jpg";
 import award from "../../assets/neil-2016-award.jpg";
@@ -16,7 +17,7 @@ import award from "../../assets/neil-2016-award.jpg";
 			In 2016 Neil Rogers was inducted into the <a
 				href="https://www.radiohalloffame.com/neil-rogers">National Radio Hall of Fame</a
 			>. The <a href="https://www.youtube.com/watch?v=yZp_9jOA6Ys">acceptance speech</a>
-			was delivered by his long time producer Jorge Rodriguez.
+			 was delivered by his long time producer Jorge Rodriguez.
 		</p>
 
 		<blockquote>
@@ -115,12 +116,12 @@ import award from "../../assets/neil-2016-award.jpg";
 		</blockquote>
 
 		<figure>
-			<img src={hof} alt="Neil Rogers 2016 Radio Hall of Fame" />
+			<Image src={hof} alt="Neil Rogers 2016 Radio Hall of Fame" />
 			<figcaption>Neil Rogers 2016 Radio Hall of Fame</figcaption>
 		</figure>
 
 		<figure>
-			<img src={award} alt="Neil Rogers Radio Hall of Fame Award" />
+			<Image src={award} alt="Neil Rogers Radio Hall of Fame Award" />
 			<figcaption>Neil Rogers Radio Hall of Fame Award</figcaption>
 		</figure>
 	</main>

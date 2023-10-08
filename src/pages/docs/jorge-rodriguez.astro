@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import hof from "../../assets/jorge-and-neil-hof.jpg";
 import jrshow from "../../assets/jorge-show-logo.gif";
@@ -19,7 +20,7 @@ import jrshow from "../../assets/jorge-show-logo.gif";
 			SoFloRadio channel.
 		</p>
 		<figure>
-			<img src={hof} alt="Jorge Rodriguez and Neil Rogers" />
+			<Image src={hof} alt="Jorge Rodriguez and Neil Rogers" />
 			<figcaption>Jorge Rodriguez and Neil Rogers</figcaption>
 		</figure>
 		<p>
@@ -36,7 +37,7 @@ import jrshow from "../../assets/jorge-show-logo.gif";
 			> on our YouTube channel.
 		</p>
 		<figure>
-			<img src={jrshow} alt="The Jorge Rodriguez Show" />
+			<Image src={jrshow} alt="The Jorge Rodriguez Show" />
 			<figcaption>When Neil was on summer break, Jorge rebranded the show's website. 😂</figcaption>
 		</figure>
 		<p>
@@ -45,9 +46,9 @@ import jrshow from "../../assets/jorge-show-logo.gif";
 		</p>
 		<p>
 			Shortly after Neil died in 2010, his web guy <a href="/docs/eric-harold/">Eric Harold</a> died
-			at the age of 48. It was Eric's death that was the spark that ignited the race to recover as much
-			audio as we could from the Neil Rogers Show. <a href="/docs/john-baker/">John Baker</a> was a tremendous
-			help in making that happen. Almost 2,000 shows and <a
+			at the age of 48. It was Eric's death that was the spark that ignited the race to recover as
+			much audio as we could from the Neil Rogers Show. <a href="/docs/john-baker/">John Baker</a>
+			was a tremendous help in making that happen. Almost 2,000 shows and <a
 				href="https://www.flickr.com/photos/neilrogersradio/">1,000 photos</a
 			> were added to the archive. John passed in 2017. Then Suds Coleman died in 2019. Now Jorge is
 			gone.
