@@ -1,14 +1,19 @@
 ---
-import { getCollection, getEntryBySlug } from "astro:content";
-import { Image } from "astro:assets";
-
 import Layout from "../../../layouts/Layout.astro";
-const { slug } = Astro.params;
-
-const story = await getEntryBySlug("stories", slug as string);
+import { getCollection } from "astro:content";
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+	const stories = await getCollection("stories");
+	return stories.map((story) => ({
+		params: { slug: story.slug },
+		props: { story },
+	}));
+}
+// 2. For your template, you can get the entry directly from the prop
+const { story } = Astro.props;
 
 if (!story) {
-	return Astro.redirect("/404");
+	//return Astro.redirect("/404");
 }
 
 // convert MM/DD/YYYY to Month DD, YYYY
@@ -18,8 +23,7 @@ story.data.date = date.toLocaleDateString("en-US", {
 	month: "long",
 	day: "numeric",
 });
-
-const { Content, headings } = await story.render();
+const { Content } = await story.render();
 ---
 
 <Layout
@@ -31,5 +35,7 @@ const { Content, headings } = await story.render();
 		<h1>{story.data.title}</h1>
 		<p><em>by {story.data.author} - {story.data.date}</em></p>
 		<Content />
+		<br />
+		<p>&larr; <a href="/docs/radio-stories/">Radio Stories</a></p>
 	</main>
 </Layout>
