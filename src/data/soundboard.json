@@ -643,6 +643,12 @@
             "mp3": "/sounds/Constipated.mp3"
         },
         {
+            "name": "Doy (Fast)",
+            "artist": "",
+            "duration": "0:03",
+            "mp3": "/sounds/Doy-Fast.mp3"
+        },
+        {
             "name": "I Don't Give A Shit",
             "artist": "Christopher Darden",
             "duration": "0:02",
