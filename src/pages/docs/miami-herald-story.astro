@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import herald from "../../assets/miami_herald_neil.jpg";
 ---
@@ -17,7 +17,11 @@ import herald from "../../assets/miami_herald_neil.jpg";
 			channel we created as a tribute to Neil Rogers.
 		</p>
 		<figure>
-			<Image src={herald} alt="Miami Herald story on Neil Rogers project" />
+			<Picture
+				src={herald}
+				formats={["avif", "webp"]}
+				alt="Miami Herald story on Neil Rogers project"
+			/>
 			<figcaption>Talk host Neil Rogers is dead, but his radio archive lives on</figcaption>
 		</figure>
 		<p>

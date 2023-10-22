@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Image } from 'astro:assets';
+import { Picture } from "astro:assets";
 import neil_1959 from "../assets/neil-restored-1959.jpg";
 import wspb from "../assets/wspb-1450.jpg";
 import neil_wkat from "../assets/neil-rogers-wkat.jpg";
@@ -37,7 +37,11 @@ import zeta from "../assets/zeta4-650.jpg";
 		</p>
 
 		<figure>
-			<Image src={neil_1959} alt="Neil Rogers - 1959 National Merit Scholarship" />
+			<Picture
+				src={neil_1959}
+				formats={["avif", "webp"]}
+				alt="Neil Rogers - 1959 National Merit Scholarship"
+			/>
 			<figcaption>Neil Rogers - 1959 National Merit Scholarship</figcaption>
 		</figure>
 
@@ -91,17 +95,15 @@ import zeta from "../assets/zeta4-650.jpg";
 		</p>
 
 		<blockquote>
-			<em>
-				In 1973, Rogers moved to Sarasota, where quite by accident he did his first talk radio show.
-				The station hired a retiree from Pittsburgh to do a talk show, but on his first day, the
-				fellow couldn't figure out to work the phone and his guest didn’t show up. The second day,
-				the retiree's blood pressure soared and his nose bled. Rogers, who was spinning records at
-				the station, came to the rescue.
-			</em>
+			In 1973, Rogers moved to Sarasota, where quite by accident he did his first talk radio show.
+			The station hired a retiree from Pittsburgh to do a talk show, but on his first day, the
+			fellow couldn't figure out to work the phone and his guest didn’t show up. The second day, the
+			retiree's blood pressure soared and his nose bled. Rogers, who was spinning records at the
+			station, came to the rescue.
 		</blockquote>
 
 		<figure>
-			<Image src={wspb} alt="Neil Rogers at WSPB 1450" />
+			<Picture src={wspb} formats={["avif", "webp"]} alt="Neil Rogers at WSPB 1450" />
 			<figcaption>Neil Rogers at WSPB 1450</figcaption>
 		</figure>
 
@@ -126,13 +128,13 @@ import zeta from "../assets/zeta4-650.jpg";
 		</p>
 
 		<figure>
-			<Image src={neil_wkat} alt="Neil Rogers at WKAT" />
+			<Picture src={neil_wkat} formats={["avif", "webp"]} alt="Neil Rogers at WKAT" />
 			<figcaption>Neil Rogers at WKAT</figcaption>
 		</figure>
 		<p>On December 17, 1976 Neil came out as gay on the air.</p>
 
 		<figure>
-			<Image src={neil_comes_out} alt="Neil Rogers Comes Out as Gay" />
+			<Picture src={neil_comes_out} formats={["avif", "webp"]} alt="Neil Rogers Comes Out as Gay" />
 			<figcaption>Source: Lakeland Ledger December 19, 1976</figcaption>
 		</figure>
 
@@ -141,7 +143,7 @@ import zeta from "../assets/zeta4-650.jpg";
 		<p>Neil owned a health food store called Neil Rogers Nutrition in San Souci.</p>
 
 		<figure>
-			<Image src={neil_nutrition} alt="Neil Rogers Nutrition store" />
+			<Picture src={neil_nutrition} formats={["avif", "webp"]} alt="Neil Rogers Nutrition store" />
 			<figcaption>Neil Rogers Nutrition</figcaption>
 		</figure>
 		<p>
@@ -161,7 +163,7 @@ import zeta from "../assets/zeta4-650.jpg";
 		<p>Neil did play-by-play for Miami Hurricanes baseball (1978-1982 on radio and 1983 on TV).</p>
 
 		<figure>
-			<Image src={wnws} alt="Miami Hurricans and Neil Rogers" />
+			<Picture src={wnws} formats={["avif", "webp"]} alt="Miami Hurricans and Neil Rogers" />
 			<figcaption>Miami Hurricanes and Neil Rogers</figcaption>
 		</figure>
 
@@ -195,7 +197,7 @@ import zeta from "../assets/zeta4-650.jpg";
 		</p>
 
 		<figure>
-			<Image src={neil_1985} alt="94 News and Neil Rogers" />
+			<Picture src={neil_1985} formats={["avif", "webp"]} alt="94 News and Neil Rogers" />
 			<figcaption>94 News - Neil Rogers</figcaption>
 		</figure>
 
@@ -204,7 +206,7 @@ import zeta from "../assets/zeta4-650.jpg";
 		<p>On October 12, 1987, Neil moves to FM Radio when he debuts mornings on Zeta 4.</p>
 
 		<figure>
-			<Image src={zeta} alt="Neil Rogers on Zet 4 FM" />
+			<Picture src={zeta} formats={["avif", "webp"]} alt="Neil Rogers on Zet 4 FM" />
 			<figcaption>Neil Rogers at Zeta 4</figcaption>
 		</figure>
 
@@ -218,7 +220,7 @@ import zeta from "../assets/zeta4-650.jpg";
 		<p>Neil Rogers suffered a stroke on April 2, 1990 and was back on the air 3 weeks later.</p>
 
 		<figure>
-			<Image src={wiod} alt="Neil Rogers on WIOD" />
+			<Picture src={wiod} alt="Neil Rogers on WIOD" />
 			<figcaption>Neil Rogers at WIOD</figcaption>
 		</figure>
 		<p>
@@ -227,7 +229,7 @@ import zeta from "../assets/zeta4-650.jpg";
 		</p>
 
 		<figure>
-			<Image src={wsun} alt="Neil Rogers on WSUN - Douchebag" />
+			<Picture src={wsun} alt="Neil Rogers on WSUN - Douchebag" />
 			<figcaption>WSUN Douchebag - Neil Rogers</figcaption>
 		</figure>
 
@@ -253,7 +255,7 @@ import zeta from "../assets/zeta4-650.jpg";
 		</p>
 
 		<figure>
-			<Image src={wqam} alt="Neil Rogers on WQAM Miami" />
+			<Picture src={wqam} formats={["avif", "webp"]} alt="Neil Rogers on WQAM Miami" />
 			<figcaption>Neil Rogers at WQAM</figcaption>
 		</figure>
 
@@ -267,7 +269,7 @@ import zeta from "../assets/zeta4-650.jpg";
 		</p>
 
 		<figure>
-			<Image src={night} alt="Neil Rogers at Night TV on WAMI" />
+			<Picture src={night} formats={["avif", "webp"]} alt="Neil Rogers at Night TV on WAMI" />
 			<figcaption>Neil at Night TV</figcaption>
 		</figure>
 
@@ -285,6 +287,8 @@ import zeta from "../assets/zeta4-650.jpg";
 		<p>On February 9th 2003, Neil suffered a mild stroke.</p>
 		<p>
 			Neil's last public appearance was on May 17, 2008 at Gulfstream Park and Casino in Hallandale.
+
+
 			<em>
 				(Source: <a href="https://web.archive.org/web/20080513061836/http://www.neilrogers.com/">
 					archived copy of NeilRogers.com site</a
@@ -309,7 +313,11 @@ import zeta from "../assets/zeta4-650.jpg";
 		</p>
 
 		<figure>
-			<Image src={neil_rogers_show} alt="Neil Rogers with Jorge Rodriguez" />
+			<Picture
+				src={neil_rogers_show}
+				formats={["avif", "webp"]}
+				alt="Neil Rogers with Jorge Rodriguez"
+			/>
 			<figcaption>Neil Rogers Show with Jorge Rodriguez</figcaption>
 		</figure>
 
@@ -333,7 +341,7 @@ import zeta from "../assets/zeta4-650.jpg";
 		</p>
 		<p>
 			The HBO Documentary <a href="https://www.hbo.com/documentaries/537-votes">537 Votes</a>
-			released in October 2020 featured numerous audio clips from the Neil Rogers Show.
+			 released in October 2020 featured numerous audio clips from the Neil Rogers Show.
 		</p>
 		<p>
 			In May 2022, the new owner of 1470 WWNN Pompano Beach FL began broadcasting archived Neil
@@ -352,7 +360,7 @@ import zeta from "../assets/zeta4-650.jpg";
 			<em>
 				Photos used in this timeline plus hundreds more can be viewed and downloaded on the
 				<a href="https://www.flickr.com/photos/neilrogersradio">Neil Rogers Flickr</a>
-				account.
+				 account.
 			</em>
 		</p>
 	</main>

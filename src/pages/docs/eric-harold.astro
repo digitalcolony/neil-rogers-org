@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import eric from "../../assets/eric-harold.jpg";
 import logo from "../../assets/neilrogers-website-logo.png";
@@ -37,7 +37,7 @@ import poll from "../../assets/neilrogers-2004-poll.png";
 		</p>
 
 		<figure>
-			<Image src={eric} alt="Eric Harold" style="width:70%;" />
+			<Picture src={eric} formats={["avif", "webp"]} alt="Eric Harold" style="width:70%;" />
 			<figcaption>Eric Harold</figcaption>
 		</figure>
 
@@ -50,7 +50,7 @@ import poll from "../../assets/neilrogers-2004-poll.png";
 			>
 		</p>
 		<figure>
-			<Image src={logo} alt="NeilRogers.com banner" />
+			<Picture src={logo} formats={["avif", "webp"]} alt="NeilRogers.com banner" />
 			<figcaption>NeilRogers.com banner</figcaption>
 		</figure>
 
@@ -59,7 +59,7 @@ import poll from "../../assets/neilrogers-2004-poll.png";
 			of the show were working.
 		</p>
 		<figure>
-			<Image src={poll} alt="NeilRogers.com poll" />
+			<Picture src={poll} formats={["avif", "webp"]} alt="NeilRogers.com poll" />
 			<figcaption>Neil Rogers Daily Poll from June 2004</figcaption>
 		</figure>
 

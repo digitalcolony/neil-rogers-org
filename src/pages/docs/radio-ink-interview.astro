@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import uncle from "../../assets/neil-wiod-restored.jpg";
 ---
@@ -81,7 +81,7 @@ import uncle from "../../assets/neil-wiod-restored.jpg";
 			— not counting downloads — so there is almost zero risk of audio loss.
 		</p>
 		<figure>
-			<Image src={uncle} alt="Neil Rogers" style="width:70%;" />
+			<Picture src={uncle} formats={["avif", "webp"]} alt="Neil Rogers" style="width:70%;" />
 			<figcaption>Neil Rogers</figcaption>
 		</figure>
 	</main>

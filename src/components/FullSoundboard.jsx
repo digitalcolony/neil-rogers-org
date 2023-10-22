@@ -28,35 +28,36 @@ function FilteredSoundList({ sounds }) {
 
 	return (
 		<div>
-			<ul>
-				<li>
-					<input
-						type="search"
-						value={query}
-						onChange={handleSearch}
-						className={soundboardStyles.filter}
-						placeholder="Search Sounds"
-					/>
-				</li>
-				<li>
-					<RadioButton label="Play" value={action === "play"} onChange={handlePlayChange} />
-				</li>
-				<li>
-					<RadioButton
-						label="Download"
-						value={action === "download"}
-						onChange={handleDownloadChange}
-					/>
-				</li>
-				<li>
-					<RadioButton
-						label="Copy Link to Clipboard"
-						value={action === "clipboard"}
-						onChange={handleClipboardChange}
-					/>
-				</li>
-			</ul>
-
+			<div>
+				<ul>
+					<li>
+						<input
+							type="search"
+							value={query}
+							onChange={handleSearch}
+							className={soundboardStyles.filter}
+							placeholder="Search Sounds"
+						/>
+					</li>
+					<li>
+						<RadioButton label="Play" value={action === "play"} onChange={handlePlayChange} />
+					</li>
+					<li>
+						<RadioButton
+							label="Download"
+							value={action === "download"}
+							onChange={handleDownloadChange}
+						/>
+					</li>
+					<li>
+						<RadioButton
+							label="Copy Link to Clipboard"
+							value={action === "clipboard"}
+							onChange={handleClipboardChange}
+						/>
+					</li>
+				</ul>
+			</div>
 			<div>
 				{filteredSounds.map((drop) => (
 					<Sound

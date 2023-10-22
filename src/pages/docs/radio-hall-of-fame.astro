@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import hof from "../../assets/neil-rogers-hof.jpg";
 import award from "../../assets/neil-2016-award.jpg";
@@ -116,12 +116,12 @@ import award from "../../assets/neil-2016-award.jpg";
 		</blockquote>
 
 		<figure>
-			<Image src={hof} alt="Neil Rogers 2016 Radio Hall of Fame" />
+			<Picture src={hof} formats={["avif", "webp"]} alt="Neil Rogers 2016 Radio Hall of Fame" />
 			<figcaption>Neil Rogers 2016 Radio Hall of Fame</figcaption>
 		</figure>
 
 		<figure>
-			<Image src={award} alt="Neil Rogers Radio Hall of Fame Award" />
+			<Picture src={award} formats={["avif", "webp"]} alt="Neil Rogers Radio Hall of Fame Award" />
 			<figcaption>Neil Rogers Radio Hall of Fame Award</figcaption>
 		</figure>
 	</main>

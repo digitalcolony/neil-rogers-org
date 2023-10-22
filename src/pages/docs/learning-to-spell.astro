@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import neil2008 from "../../assets/neil-2008.jpg";
 ---
@@ -27,7 +27,7 @@ import neil2008 from "../../assets/neil-2008.jpg";
 			<li>BRYAN COX not Brian Cox</li>
 		</ol>
 		<figure>
-			<Image src={neil2008} alt="Neil Rogers" style="width:70%;" />
+			<Picture src={neil2008} formats={["avif", "webp"]} alt="Neil Rogers" style="width:70%;" />
 			<figcaption>Neil Rogers, May 2008</figcaption>
 		</figure>
 	</main>

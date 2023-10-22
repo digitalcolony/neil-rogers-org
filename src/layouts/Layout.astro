@@ -2,7 +2,7 @@
 import Footer from "../components/Footer.astro";
 import Navigation from "../components/Navigation.astro";
 import "../styles/global.css";
-import { ViewTransitions } from 'astro:transitions';
+import { ViewTransitions } from "astro:transitions";
 
 export interface Props {
 	title: string;
@@ -13,10 +13,10 @@ export interface Props {
 const { title, description, url } = Astro.props;
 const canonicalUrl = `httos://neilrogers.org${url}`;
 
-Astro.response.headers.set('Cache-Control', 'max-age=3607');
+Astro.response.headers.set("Cache-Control", "max-age=3607");
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />

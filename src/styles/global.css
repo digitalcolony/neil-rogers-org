@@ -39,6 +39,7 @@ h1 {
 img {
 	width: 100%;
 	height: auto;
+	margin-top: 5px;
 	border-radius: 7px;
 	box-shadow: 4px 7px 4px #4c4e52;
 }
@@ -54,4 +55,13 @@ figcaption {
 li {
 	font-size: 1rem;
 	padding: 10px;
+}
+
+label {
+	font-size: 0.9rem;
+}
+
+blockquote {
+	font-size: 1.2rem;
+	font-style: oblique;
 }

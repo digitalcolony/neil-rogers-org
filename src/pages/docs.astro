@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import convert_tapes from "../assets/convert-tapes-650.jpg";
 import RadioStoriesList from "../components/RadioStoriesList.astro";
 
@@ -110,7 +110,7 @@ const allStories = await getCollection("stories");
 		</p>
 
 		<figure>
-			<Image src={convert_tapes} alt="converting a cassette to MP3" />
+			<Picture src={convert_tapes} formats={["avif", "webp"]} alt="converting a cassette to MP3" />
 			<figcaption>We can convert cassettes to MP3s</figcaption>
 		</figure>
 

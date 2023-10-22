@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import neil_rogers_pope from "../assets/neil-pope-restored.jpg";
 ---
 
@@ -90,7 +90,7 @@ import neil_rogers_pope from "../assets/neil-pope-restored.jpg";
 		</section>
 
 		<figure>
-			<Image src={neil_rogers_pope} alt="Neil Rogers as The Pope" />
+			<Picture src={neil_rogers_pope} formats={["avif", "webp"]} alt="Neil Rogers as The Pope" />
 			<figcaption>Neil Rogers as The Pope</figcaption>
 		</figure>
 

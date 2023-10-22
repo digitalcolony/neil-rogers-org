@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import neil_rogers_show from "../assets/neil-rogers-show.jpg";
 ---
 
@@ -64,7 +64,7 @@ import neil_rogers_show from "../assets/neil-rogers-show.jpg";
 		</ul>
 
 		<figure>
-			<Image src={neil_rogers_show} alt="Neil Rogers Show" />
+			<Picture src={neil_rogers_show} formats={["avif", "webp"]} alt="Neil Rogers Show" />
 			<figcaption>Neil Rogers Show</figcaption>
 		</figure>
 

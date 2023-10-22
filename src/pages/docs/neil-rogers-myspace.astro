@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import myspace from "../../assets/myspace-2007.png";
 ---
@@ -14,7 +14,7 @@ import myspace from "../../assets/myspace-2007.png";
 		<p><em>Recovered MySpace posts by Neil Rogers (January 2007)</em></p>
 
 		<figure>
-			<Image src={myspace} alt="MySpace" style="width: 90%;" />
+			<Picture src={myspace} formats={["avif", "webp"]} alt="MySpace" style="width: 90%;" />
 			<figcaption>MySpace</figcaption>
 		</figure>
 

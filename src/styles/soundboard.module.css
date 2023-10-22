@@ -1,21 +1,22 @@
 .filter {
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 1px 3px;
-  margin-left: 20px;
-  margin-right: 20px;
-  display: inline;
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 1px 3px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline;
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
+	padding: 0;
 }
 
 li {
-  float: left;
-  margin-right: 7px;
+	float: left;
+	margin-right: 5px;
 }
 input[type="radio"]:checked + span {
-  background: yellow;
-  color: black;
+	background: yellow;
+	color: black;
 }

@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import hof from "../../assets/jorge-and-neil-hof.jpg";
 import jrshow from "../../assets/jorge-show-logo.gif";
@@ -20,7 +20,7 @@ import jrshow from "../../assets/jorge-show-logo.gif";
 			SoFloRadio channel.
 		</p>
 		<figure>
-			<Image src={hof} alt="Jorge Rodriguez and Neil Rogers" />
+			<Picture src={hof} formats={["avif", "webp"]} alt="Jorge Rodriguez and Neil Rogers" />
 			<figcaption>Jorge Rodriguez and Neil Rogers</figcaption>
 		</figure>
 		<p>
@@ -37,7 +37,7 @@ import jrshow from "../../assets/jorge-show-logo.gif";
 			> on our YouTube channel.
 		</p>
 		<figure>
-			<Image src={jrshow} alt="The Jorge Rodriguez Show" />
+			<Picture src={jrshow} formats={["avif", "webp"]} alt="The Jorge Rodriguez Show" />
 			<figcaption>When Neil was on break, Jorge rebranded the show's website. 😂</figcaption>
 		</figure>
 		<p>
