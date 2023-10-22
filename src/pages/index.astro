@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Image } from 'astro:assets';
+import { Picture } from "astro:assets";
 import neil_mask from "../assets/neil-mask-radio.jpg";
 ---
 
@@ -31,7 +31,11 @@ import neil_mask from "../assets/neil-mask-radio.jpg";
 		</p>
 
 		<figure>
-			<Image src={neil_mask} alt="Neil Rogers with a mask of himself" />			
+			<Picture
+				src={neil_mask}
+				formats={["avif", "webp"]}
+				alt="Neil Rogers with a mask of himself"
+			/>
 			<figcaption>Neil Rogers</figcaption>
 		</figure>
 
@@ -43,7 +47,7 @@ import neil_mask from "../assets/neil-mask-radio.jpg";
 				<li>
 					<a href="https://www.flickr.com/photos/neilrogersradio">Flickr</a>,
 					<a href="https://archive.org/details/neil-rogers-photos">Archive</a>
-					(Archive of Neil Rogers' photos)
+					 (Archive of Neil Rogers' photos)
 				</li>
 				<li>
 					<a href="https://www.flickr.com/photos/133613327@N06/">Flickr</a> (by Neil Rogers History)

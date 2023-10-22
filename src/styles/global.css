@@ -39,6 +39,16 @@ h1 {
 img {
 	width: 100%;
 	height: auto;
+	border-radius: 7px;
+	box-shadow: 4px 7px 4px #4c4e52;
+}
+
+figcaption {
+	font-size: 1.2rem;
+	font-style: oblique;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 li {
