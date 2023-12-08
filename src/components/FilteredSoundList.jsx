@@ -65,7 +65,7 @@ export default function FilteredSoundList({ sounds }) {
 			<div
 				style={{
 					display: "block",
-					marginTop: "88px",
+					marginTop: "28px",
 				}}
 			>
 				{filteredSounds.map((drop) => (
