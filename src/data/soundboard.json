@@ -295,6 +295,12 @@
             "mp3": "/sounds/Enough-of-the-Sucking.mp3"
         },
         {
+            "name": "Enough of the Puking",
+            "artist": "The Cacamoon Lady",
+            "duration": "0:01",
+            "mp3": "/sounds/Enough-of-the-Puking.mp3"
+        },
+        {
             "name": "Ewww!",
             "artist": "",
             "duration": "0:01",
