@@ -901,6 +901,12 @@
             "mp3": "/sounds/It-takes-forever-to-get-the-taste....mp3"
         },
         {
+            "name": "It'll Make You Shit",
+            "artist": "",
+            "duration": "0:01",
+            "mp3": "/sounds/It'll-Make-You-Shit.mp3"
+        },
+        {
             "name": "It's A Good Time For The Great Taste",
             "artist": "Don \"Noodles\" Agony",
             "duration": "0:11",
