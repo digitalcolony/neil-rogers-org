@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import netlify from "@astrojs/netlify/static";
 
 import react from "@astrojs/react";
 
@@ -10,10 +11,17 @@ import metaTags from "astro-meta-tags";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://neilrogers.org",
-  integrations: [react(), sitemap({
-    changefreq: "weekly",
-    priority: 0.7,
-    lastmod: new Date()
-  }), metaTags()]
+	site: "https://neilrogers.org",
+	adapter: netlify({
+		cacheOnDemandPages: true,
+	}),
+	integrations: [
+		react(),
+		sitemap({
+			changefreq: "weekly",
+			priority: 0.7,
+			lastmod: new Date(),
+		}),
+		metaTags(),
+	],
 });
