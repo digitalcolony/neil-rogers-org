@@ -187,6 +187,12 @@
             "mp3": "/sounds/Can't-Stand-that-Slut.mp3"
         },
         {
+            "name": "Chuck it",
+            "artist": "Jim Mandich",
+            "duration": "0:02",
+            "mp3": "/sounds/Chuck-It-Or-Cock-It.mp3"
+        },
+        {
             "name": "Come on Neil",
             "artist": "",
             "duration": "0:01",
@@ -631,6 +637,12 @@
             "mp3": "/sounds/Hurricanes.mp3"
         },
         {
+            "name": "Hemorrhoid",
+            "artist": "Joey Reynolds",
+            "duration": "0:02",
+            "mp3": "/sounds/I-Am-That-Hemorrhoid.mp3"
+        },
+        {
             "name": "I Did That One Time",
             "artist": "Scotty Mac",
             "duration": "0:03",
@@ -977,6 +989,12 @@
             "artist": "Unknown",
             "duration": "0:02",
             "mp3": "/sounds/Johnny-Dark-Jingle.mp3"
+        },
+        {
+            "name": "Johnny Dark Asshole",
+            "artist": "",
+            "duration": "0:02",
+            "mp3": "/sounds/Johnny-Darks-An-Asshole.mp3"
         },
         {
             "name": "Jorge",
