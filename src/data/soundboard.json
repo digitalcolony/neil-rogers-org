@@ -1063,6 +1063,12 @@
             "mp3": "/sounds/Looking-For-Glory-Holes.mp3"
         },
         {
+            "name": "Mad As Hell",
+            "artist": "Howard Beale",
+            "duration": "0:04",
+            "mp3": "/sounds/Mad-As-Hell.mp3"
+        },
+        {
             "name": "Marching boots",
             "artist": "",
             "duration": "0:10",
