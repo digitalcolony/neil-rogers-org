@@ -164,7 +164,7 @@
         },
         {
             "name": "Cacamoon",
-            "artist": "The Cacamoon Lady",
+            "artist": "Happy Purim Lady",
             "duration": "0:01",
             "mp3": "/sounds/Cacamoon.mp3"
         },
@@ -260,7 +260,7 @@
         },
         {
             "name": "Don't take any bullshit",
-            "artist": "Purim Lady",
+            "artist": "Happy Purim Lady",
             "duration": "0:02",
             "mp3": "/sounds/Don't-take-any-bullshit.mp3"
         },
@@ -500,7 +500,7 @@
         },
         {
             "name": "Happy Purim",
-            "artist": "Thanks for Calling Lady",
+            "artist": "Happy Purim Lady",
             "duration": "0:01",
             "mp3": "/sounds/Happy-Purim.mp3"
         },
