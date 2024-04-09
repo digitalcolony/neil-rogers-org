@@ -271,6 +271,12 @@
             "mp3": "/sounds/Doy-Doy-Doy.mp3"
         },
         {
+            "name": "Drudge Packing",
+            "artist": "Jim Mandich",
+            "duration": "0:02",
+            "mp3": "/sounds/Drudge-Packing.mp3"
+        },
+        {
             "name": "Dumb Son Of A Bitch",
             "artist": "Jim Mandich",
             "duration": "0:01",
