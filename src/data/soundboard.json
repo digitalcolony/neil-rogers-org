@@ -1039,6 +1039,12 @@
             "mp3": "/sounds/Laugh-Brooke.mp3"
         },
         {
+            "name": "Laugh Ferrall",
+            "artist": "Scott Ferrall",
+            "duration": "0:04",
+            "mp3": "/sounds/Laugh-Ferrall.mp3"
+        },
+        {
             "name": "Laugh Gilbert",
             "artist": "Gilbert Solomon",
             "duration": "0:01",
