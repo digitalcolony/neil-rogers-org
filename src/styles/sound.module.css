@@ -1,4 +1,4 @@
-.myButton {
+/* .myButton {
 	-moz-box-shadow: 3px 4px 0px 0px #9fb4f2;
 	-webkit-box-shadow: 3px 4px 0px 0px #9fb4f2;
 	box-shadow: 3px 4px 0px 0px #9fb4f2;
@@ -44,6 +44,27 @@
 	background: -ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
 	background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	color: yellow;
+} */
+
+.myButton {
+	background-color: #7892c2; /* Primary button color */
+	border: none;
+	border-radius: 4px; /* Rounded corners */
+	color: #ffffff; /* Text color */
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+	font-size: 14px; /* Smaller font size */
+	font-weight: 600; /* Bold font weight */
+	padding: 6px 12px; /* Adequate padding */
+	text-decoration: none;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+	transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+	margin: 3px; /* Adds space around the button */
+}
+
+.myButton:hover {
+	background-color: #476e9e; /* Darker shade on hover */
 	color: yellow;
 }
 .myButton:active {
