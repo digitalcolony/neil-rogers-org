@@ -12,16 +12,21 @@ const sounds = JSONData.files;
 	description="Soundboard for Neil Rogers, Jennifer Rehm, Jim Mandich, Larry King and more!"
 	url="/soundboard/"
 >
-	<main>
+	<div class="card">
 		<h1>🔊The Neil Rogers Soundboard</h1>
-
-		<FilteredSoundList sounds={sounds} client:load />
-
 		<p>
-			You can also download these drops on <a
-				href="https://archive.org/details/neil-rogers-show-soundboard">Archive</a
-			> or
-			<a href="https://github.com/NeilRogersRadio/sounds/tree/master/drops">GitHub</a>.
+			Welcome to the Neil Rogers Soundboard. Here you can play drops from Neil Rogers, Jennifer
+			Rehm, Jim Mandich, Larry King, and more.
 		</p>
-	</main>
+	</div>
+	<h1>🔊The Neil Rogers Soundboard</h1>
+
+	<FilteredSoundList sounds={sounds} client:load />
+
+	<p>
+		You can also download these drops on <a
+			href="https://archive.org/details/neil-rogers-show-soundboard">Archive</a
+		> or
+		<a href="https://github.com/NeilRogersRadio/sounds/tree/master/drops">GitHub</a>.
+	</p>
 </Layout>

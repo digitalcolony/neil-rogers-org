@@ -13,193 +13,177 @@ const allStories = await getCollection("stories");
 	description="News and updates related to the Neil Rogers audio restoration project."
 	url="/docs/"
 >
-	<main>
+	<div class="card">
 		<h1>📄Docs</h1>
+		<p>
+			News and updates related to the Neil Rogers audio restoration project. We have information
+			about the show, tributes to people who were important to Neil, radio stories, and media
+			coverage.
+		</p>
+	</div>
 
-		<h3>Show Info</h3>
-		<ul>
+	<h3>Show Info</h3>
+	<ul>
+		<li>
+			<a
+				href="https://docs.google.com/spreadsheets/d/1czK9DiOqCK_P8lYS5Im8a_u9IZnKW39lBAuq3FXdmRM/edit?usp=sharing"
+				target="_blank"
+				rel="noreferrer">Neil Rogers Google Sheet</a
+			> - Our Spreadsheet has data regarding show dates, times when Neil had a guest host, best of show
+			info, timeline dates, and more.
+		</li>
+	</ul>
+
+	<h3>Tributes</h3>
+	<ul>
+		<li>
+			<a href="/docs/eric-harold/">Tribute to Eric Harold</a> - Eric was Neil's web guy throughout the
+			WQAM years.
+		</li>
+		<li>
+			<a href="/docs/john-baker/">Tribute to John Baker</a> - John was the greatest Neil historian ever
+			and was essential in helping us recover so much of Neil's memory.
+		</li>
+		<li>
+			<a href="/docs/jorge-rodriguez/">Tribute to Jorge Rodriguez</a> - Jorge was the longtime producer
+			and guest host for the Neil Rogers Show.
+		</li>
+	</ul>
+
+	<h3>Media</h3>
+	<ul>
+		<li>
+			<a href="/docs/miami-herald-story/">
+				Miami Herald Covers the Neil Rogers Audio Recovery Project
+			</a>
+		</li>
+		<li>
+			<a href="/docs/radio-hall-of-fame/"> Neil Rogers 2016 Radio Hall of Fame Induction</a>
+		</li>
+		<li>
+			<a href="/docs/radio-ink-interview/"> Interview with Radio Ink (January 2014)</a>
+		</li>
+		<li>
+			<a
+				href="https://www.sun-sentinel.com/news/fl-xpm-2014-01-04-fl-neil-rogers-radio-legacy-20140103-story.html"
+			>
+				A Neil Rogers renaissance (January 2014: Sun Sentinel)
+			</a>
+		</li>
+	</ul>
+
+	<h3>Radio Stories</h3>
+	<RadioStoriesList stories={allStories} />
+
+	<h3>Other</h3>
+	<ul>
+		<li>
+			<a href="/docs/neil-rogers-myspace/">Neil Rogers on MySpace</a> - We have recovered his posts to
+			MySpace from January 2007.
+		</li>
+		<li>
+			<a href="https://github.com/NeilRogersRadio/radio-stories">Radio Stories</a> - Radio stories from
+			WIOD.
+		</li>
+		<li>
+			<em>Cranker's Courier</em> - In the mid 1980s a young man, while still in high school, began sending
+			out a newsletter to various talk hosts. He was one of the most prolific crank callers in the Miami
+			market, and managed to befriend some of the board ops. He was able to get inside information about
+			the talk stations. Neil dubbed him Fruit Cake, and the moniker stuck.
+			<a href="https://archive.org/details/crankers-courier">Archive</a>,
+			<a href="https://1drv.ms/u/s!AgQrITkx1J-8pPcHiQJAWd_dwKJKGw?e=GyryKE"> OneDrive PDF Folder</a>
+		</li>
+		<li>
+			<a href="/docs/learning-to-spell/">Learning to Spell With Neil Rogers</a> - Common spelling mistakes
+			associated with the Neil Rogers Show.
+		</li>
+	</ul>
+
+	<hr />
+	<h3>Support</h3>
+	<p>There are several ways you can support the Neil Rogers Audio Restoration Project.</p>
+
+	<h4>#1 Donate Audio</h4>
+	<p>
+		Do you have any audio of the Neil Rogers Show or other South Florida talk radio shows that you
+		would like to share? Check our archives to see if we have a show from that date. If the show is
+		before 1999 and it already exists in our archive, we may still able to use your audio. Most of
+		the shows before 1999 are partial. Some are good quality and some aren’t. We can date the show
+		and add to the archive.
+	</p>
+
+	<figure>
+		<Picture src={convert_tapes} formats={["avif", "webp"]} alt="converting a cassette to MP3" />
+		<figcaption>We can convert cassettes to MP3s</figcaption>
+	</figure>
+
+	<p>
+		Email <b>audio@neilrogers.org</b>. Thank you!
+	</p>
+
+	<h4>#2 Listen and Write Show Notes</h4>
+	<p>
+		Our goal is to not only collect as much audio as possible but to index all the shows and make
+		the topics searchable. Many of the shows from 2001-2009 do not have notes. Our goal is to have
+		notes for every recovered show. This will make it easier for Neil fans to find the shows they
+		are looking for.
+	</p>
+
+	<div>
+		<ol>
 			<li>
+				Find a show without notes either on YouTube or our
 				<a
 					href="https://docs.google.com/spreadsheets/d/1czK9DiOqCK_P8lYS5Im8a_u9IZnKW39lBAuq3FXdmRM/edit?usp=sharing"
-					target="_blank"
-					rel="noreferrer">Neil Rogers Google Sheet</a
-				> - Our Spreadsheet has data regarding show dates, times when Neil had a guest host, best of
-				show info, timeline dates, and more.
-			</li>
-		</ul>
-
-		<h3>Tributes</h3>
-		<ul>
-			<li>
-				<a href="/docs/eric-harold/">Tribute to Eric Harold</a> - Eric was Neil's web guy throughout
-				the WQAM years.
-			</li>
-			<li>
-				<a href="/docs/john-baker/">Tribute to John Baker</a> - John was the greatest Neil historian
-				ever and was essential in helping us recover so much of Neil's memory.
-			</li>
-			<li>
-				<a href="/docs/jorge-rodriguez/">Tribute to Jorge Rodriguez</a> - Jorge was the longtime
-				producer and guest host for the Neil Rogers Show.
-			</li>
-		</ul>
-
-		<h3>Media</h3>
-		<ul>
-			<li>
-				<a href="/docs/miami-herald-story/">
-					Miami Herald Covers the Neil Rogers Audio Recovery Project
-				</a>
-			</li>
-			<li>
-				<a href="/docs/radio-hall-of-fame/"> Neil Rogers 2016 Radio Hall of Fame Induction</a>
-			</li>
-			<li>
-				<a href="/docs/radio-ink-interview/"> Interview with Radio Ink (January 2014)</a>
-			</li>
-			<li>
-				<a
-					href="https://www.sun-sentinel.com/news/fl-xpm-2014-01-04-fl-neil-rogers-radio-legacy-20140103-story.html"
 				>
-					A Neil Rogers renaissance (January 2014: Sun Sentinel)
-				</a>
+					Google Drive Spreadsheet
+				</a>.
 			</li>
-		</ul>
-
-		<h3>Radio Stories</h3>
-		<RadioStoriesList stories={allStories} />
-
-		<h3>Other</h3>
-		<ul>
+			<li>Listen to show and take notes.</li>
 			<li>
-				<a href="/docs/neil-rogers-myspace/">Neil Rogers on MySpace</a> - We have recovered his
-				posts to MySpace from January 2007.
+				Post the show notes either as a comment on the video or email them to audio@neilrogers.org.
 			</li>
 			<li>
-				<a href="https://github.com/NeilRogersRadio/radio-stories">Radio Stories</a> - Radio stories
-				from WIOD.
+				Those notes will either be pinned (as top comment) and/or added to the show description.
 			</li>
-			<li>
-				<em>Cranker's Courier</em> - In the mid 1980s a young man, while still in high school, began
-				sending out a newsletter to various talk hosts. He was one of the most prolific crank
-				callers in the Miami market, and managed to befriend some of the board ops. He was able to
-				get inside information about the talk stations. Neil dubbed him Fruit Cake, and the moniker
-				stuck.
-				<a href="https://archive.org/details/crankers-courier">Archive</a>,
-				<a href="https://1drv.ms/u/s!AgQrITkx1J-8pPcHiQJAWd_dwKJKGw?e=GyryKE">
-					OneDrive PDF Folder</a
-				>
-			</li>
-			<li>
-				<a href="/docs/learning-to-spell/">Learning to Spell With Neil Rogers</a> - Common spelling
-				mistakes associated with the Neil Rogers Show.
-			</li>
-		</ul>
+		</ol>
+	</div>
 
-		<hr />
-		<h3>Support</h3>
-		<p>There are several ways you can support the Neil Rogers Audio Restoration Project.</p>
+	<h4>#3 Share and Like</h4>
+	<p>
+		Spread the word to others about Uncle Neil by sharing links to everything we have saved. Give a
+		like to the shows. The more fans that discover Neil is alive and well in the archives, the more
+		likely we will find the fans that have more audio to add to our collection.
+	</p>
 
-		<h4>#1 Donate Audio</h4>
-		<p>
-			Do you have any audio of the Neil Rogers Show or other South Florida talk radio shows that you
-			would like to share? Check our archives to see if we have a show from that date. If the show
-			is before 1999 and it already exists in our archive, we may still able to use your audio. Most
-			of the shows before 1999 are partial. Some are good quality and some aren’t. We can date the
-			show and add to the archive.
-		</p>
+	<h4>#4 Do You Know Someone That Works For Yahoo!?</h4>
+	<p>
+		In 1999 Yahoo! acquired Broadcast.com, which archived the Neil Rogers Show in the early days. We
+		need many of the shows from December 30, 1997, to January 19, 1999. They will be in Real Audio
+		format.
+	</p>
+	<p>
+		Below is a list of URLs that might be clues as to what servers or backup archives these audio
+		files might be found. <b>Please help us recover these shows!</b>
+	</p>
 
-		<figure>
-			<Picture src={convert_tapes} formats={["avif", "webp"]} alt="converting a cassette to MP3" />
-			<figcaption>We can convert cassettes to MP3s</figcaption>
-		</figure>
+	<div>
+		<p>www.broadcast.com/radio/archives/wqam/rogers/</p>
+		<p>www.yahoo.com/radio/archives/wqam/rogers/</p>
+		<p>radio.yahoo.com//archives/wqam/rogers/</p>
+		<p>launch.yahoo.com/launchcast/archives/wqam/rogers/</p>
+		<p>new.music.yahoo.com/launchcast/archives/wqam/rogers/</p>
+		<p>music.yahoo.com/launchcast/archives/wqam/rogers/</p>
+		<p>playlist.broadcast.com</p>
+	</div>
 
-		<p>
-			Email <b>audio@neilrogers.org</b>. Thank you!
-		</p>
+	<p>
+		Yahoo! will also have shows from 2000 to May 2002, which we need for our archives. I am
+		absolutely convinced these shows exist somewhere on a backup of a Yahoo! server that the public
+		does not have access to.
+	</p>
 
-		<h4>#2 Listen and Write Show Notes</h4>
-		<p>
-			Our goal is to not only collect as much audio as possible but to index all the shows and make
-			the topics searchable. Many of the shows from 2001-2009 do not have notes. Our goal is to have
-			notes for every recovered show. This will make it easier for Neil fans to find the shows they
-			are looking for.
-		</p>
-
-		<div>
-			<ol>
-				<li>
-					Find a show without notes either on YouTube or our
-					<a
-						href="https://docs.google.com/spreadsheets/d/1czK9DiOqCK_P8lYS5Im8a_u9IZnKW39lBAuq3FXdmRM/edit?usp=sharing"
-					>
-						Google Drive Spreadsheet
-					</a>.
-				</li>
-				<li>Listen to show and take notes.</li>
-				<li>
-					Post the show notes either as a comment on the video or email them to
-					audio@neilrogers.org.
-				</li>
-				<li>
-					Those notes will either be pinned (as top comment) and/or added to the show description.
-				</li>
-			</ol>
-		</div>
-
-		<h4>#3 Share and Like</h4>
-		<p>
-			Spread the word to others about Uncle Neil by sharing links to everything we have saved. Give
-			a like to the shows. The more fans that discover Neil is alive and well in the archives, the
-			more likely we will find the fans that have more audio to add to our collection.
-		</p>
-
-		<h4>#4 Do You Know Someone That Works For Yahoo!?</h4>
-		<p>
-			In 1999 Yahoo! acquired Broadcast.com, which archived the Neil Rogers Show in the early days.
-			We need many of the shows from December 30, 1997, to January 19, 1999. They will be in Real
-			Audio format.
-		</p>
-		<p>
-			Below is a list of URLs that might be clues as to what servers or backup archives these audio
-			files might be found. <b>Please help us recover these shows!</b>
-		</p>
-
-		<div class="yahoo">
-			<p>www.broadcast.com/radio/archives/wqam/rogers/</p>
-			<p>www.yahoo.com/radio/archives/wqam/rogers/</p>
-			<p>radio.yahoo.com//archives/wqam/rogers/</p>
-			<p>launch.yahoo.com/launchcast/archives/wqam/rogers/</p>
-			<p>new.music.yahoo.com/launchcast/archives/wqam/rogers/</p>
-			<p>music.yahoo.com/launchcast/archives/wqam/rogers/</p>
-			<p>playlist.broadcast.com</p>
-		</div>
-
-		<p>
-			Yahoo! will also have shows from 2000 to May 2002, which we need for our archives. I am
-			absolutely convinced these shows exist somewhere on a backup of a Yahoo! server that the
-			public does not have access to.
-		</p>
-
-		<hr />
-		<h3>Privacy Policy</h3>
-		<p>NeilRogers.org does not use any cookies or collect any user data.</p>
-	</main>
+	<hr />
+	<h3>Privacy Policy</h3>
+	<p>NeilRogers.org does not use any cookies or collect any user data.</p>
 </Layout>
-
-<style>
-	.yahoo {
-		font-family: monospace, monospace;
-		font-size: 1.2em;
-		list-style-type: none;
-		word-break: break-all;
-	}
-	@media screen and (max-width: 500px) {
-		.yahoo {
-			font-family: monospace, monospace;
-			font-size: 0.8em;
-			list-style-type: none;
-			word-break: break-word;
-		}
-	}
-</style>

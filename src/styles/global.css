@@ -1,79 +1,213 @@
 :root {
-	--accent: 124, 58, 237;
-	--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
-}
-html {
-	font-family: system-ui, sans-serif;
-	background-color: #f6f6f6;
-}
-html.dark {
-	background-color: #434346;
-	color: #fff;
-}
-a {
-	color: #1e48bd;
-	text-decoration: none;
-}
-.dark a {
-	color: #ffbf00;
-	text-decoration: none;
+	--bg-color: #f0f0f0;
+	--text-color: #333;
+	--accent-color: #ff6b6b;
+	--secondary-color: #4ecdc4;
+	--nav-color: #2c3e50;
+	--nav-text-color: #f0f0f0;
+	--active-nav-color: #ff6b6b;
+	--card-text-color: #333;
+	--max-width: 1200px;
+	--content-width: 800px;
+	--image-border-color: #333;
+	--image-shadow-color: rgba(0, 0, 0, 0.3);
+	--card-bg-color: #f8d6b3;
 }
 
-code {
-	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Courier New,
-		monospace;
-}
-main,
-nav,
-footer {
-	margin: auto;
-	padding: 1.5rem;
-	max-width: 80ch;
+[data-theme="dark"] {
+	--bg-color: #1a1a1a;
+	--text-color: #e0e0e0;
+	--accent-color: #ff8787;
+	--secondary-color: #66d9e8;
+	--nav-color: #2c3e50;
+	--nav-text-color: #ffffff;
+	--active-nav-color: #ff8787;
+	--card-text-color: #1a1a1a;
+	--image-border-color: #e0e0e0;
+	--image-shadow-color: rgba(255, 255, 255, 0.1);
+	--card-bg-color: #f8d6b3;
 }
 
-h1 {
-	font-size: 3rem;
-	font-weight: 800;
+body {
+	font-family: "Roboto Mono", monospace;
 	margin: 0;
-}
-img {
-	width: 100%;
-	height: auto;
-	margin-top: 5px;
-	border-radius: 7px;
-	box-shadow: 4px 7px 4px #4c4e52;
+	padding: 0;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	transition: background-color 0.3s, color 0.3s;
 }
 
-figcaption {
-	font-size: 1.2rem;
-	font-style: oblique;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+.container {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 0 2rem;
 }
 
-li {
-	font-size: 1rem;
-	padding: 10px;
-}
-
-label {
-	font-size: 0.9rem;
-}
-
-blockquote {
-	font-size: 1.2rem;
-	font-style: oblique;
-}
-
-body > .fixed {
-	position: -webkit-sticky; /* For Safari */
+header {
+	background-color: var(--nav-color);
+	padding: 1rem 0;
 	position: sticky;
 	top: 0;
-	left: 0;
-	width: 100%;
 	z-index: 1000;
-	background-color: white;
-	border-bottom: 1px solid #ccc;
-	display: block; /* Ensure it's treated as a block-level element */
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.site-title {
+	font-family: "Rubik", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--accent-color);
+	margin-right: 2rem;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 1rem;
+}
+
+nav ul li a,
+nav ul li span.active {
+	color: var(--nav-text-color);
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0.5rem 1rem;
+	border: 2px solid transparent;
+	transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li span.active {
+	color: var(--active-nav-color);
+	border-color: var(--active-nav-color);
+}
+
+nav ul li span.active {
+	cursor: default;
+}
+
+#hamburger-menu {
+	display: none;
+	font-size: 1.5rem;
+	color: var(--nav-text-color);
+	cursor: pointer;
+	margin-right: 1rem;
+}
+
+main {
+	padding: 2rem 0;
+}
+
+.content {
+	max-width: var(--content-width);
+	margin: 0 auto;
+}
+
+.card {
+	background-color: var(--card-bg-color);
+	border: 3px solid var(--text-color);
+	padding: 2rem;
+	margin-bottom: 2rem;
+	box-shadow: 10px 10px 0 var(--text-color);
+	color: var(--card-text-color);
+}
+
+#theme-toggle {
+	background: none;
+	border: none;
+	color: var(--nav-text-color);
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.neo-image {
+	border: 8px solid var(--image-border-color);
+	box-shadow: 15px 15px 0 var(--image-shadow-color);
+	transform: rotate(-2deg);
+	transition: transform 0.3s ease;
+	max-width: 100%;
+	height: auto;
+	margin: 2rem 0;
+}
+
+.neo-image:hover {
+	transform: rotate(0deg) scale(1.02);
+}
+
+.image-container {
+	position: relative;
+	display: inline-block;
+	margin: 2rem 0;
+}
+
+.image-caption {
+	position: absolute;
+	bottom: -30px;
+	left: 20px;
+	background-color: var(--accent-color);
+	color: var(--bg-color);
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+	transform: rotate(-2deg);
+	z-index: 1;
+}
+
+@media (max-width: 768px) {
+	nav {
+		flex-wrap: wrap;
+	}
+
+	nav ul {
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background-color: var(--nav-color);
+	}
+
+	nav ul.show {
+		display: flex;
+	}
+
+	nav ul li {
+		margin: 0.5rem 1rem;
+	}
+
+	#hamburger-menu {
+		display: block;
+		order: 2;
+	}
+
+	#theme-toggle {
+		order: 3;
+	}
+
+	.site-title {
+		flex-grow: 1;
+		order: 1;
+	}
+
+	.neo-image {
+		border-width: 6px;
+		box-shadow: 10px 10px 0 var(--image-shadow-color);
+	}
+
+	.image-caption {
+		font-size: 0.9rem;
+		padding: 0.3rem 0.8rem;
+	}
 }

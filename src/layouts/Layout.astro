@@ -3,6 +3,7 @@ import Footer from "../components/Footer.astro";
 import Navigation from "../components/Navigation.astro";
 import "../styles/global.css";
 import { ViewTransitions } from "astro:transitions";
+import { AstroFont } from "astro-font";
 
 export interface Props {
 	title: string;
@@ -51,11 +52,44 @@ Astro.response.headers.set("Cache-Control", "max-age=3607");
 		<title>{title}</title>
 
 		<ViewTransitions />
+
+		<AstroFont
+			config={[
+				{
+					src: [],
+					name: "Rubik",
+					// Google Fonts URL
+					googleFontsURL:
+						"https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Rubik:wght@400;700&display=swap",
+					preload: true,
+					display: "swap",
+					selector: "body",
+					fallback: "sans-serif",
+				},
+				{
+					src: [],
+					name: "Roboto Mono",
+					// Google Fonts URL
+					googleFontsURL:
+						"https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap",
+					preload: true,
+					display: "swap",
+					selector: "body",
+					fallback: "monospace",
+				},
+			]}
+		/>
 	</head>
 
 	<body>
 		<Navigation url={url} />
-		<slot />
+		<main>
+			<div class="container">
+				<div class="content">
+					<slot />
+				</div>
+			</div>
+		</main>
 		<Footer />
 	</body>
 </html>

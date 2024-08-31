@@ -1,0 +1,79 @@
+:root {
+	--accent: 124, 58, 237;
+	--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+}
+html {
+	font-family: system-ui, sans-serif;
+	background-color: #f6f6f6;
+}
+html.dark {
+	background-color: #434346;
+	color: #fff;
+}
+a {
+	color: #1e48bd;
+	text-decoration: none;
+}
+.dark a {
+	color: #ffbf00;
+	text-decoration: none;
+}
+
+code {
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Courier New,
+		monospace;
+}
+main,
+nav,
+footer {
+	margin: auto;
+	padding: 1.5rem;
+	max-width: 80ch;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 800;
+	margin: 0;
+}
+img {
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+	border-radius: 7px;
+	box-shadow: 4px 7px 4px #4c4e52;
+}
+
+figcaption {
+	font-size: 1.2rem;
+	font-style: oblique;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+li {
+	font-size: 1rem;
+	padding: 10px;
+}
+
+label {
+	font-size: 0.9rem;
+}
+
+blockquote {
+	font-size: 1.2rem;
+	font-style: oblique;
+}
+
+body > .fixed {
+	position: -webkit-sticky; /* For Safari */
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	display: block; /* Ensure it's treated as a block-level element */
+}
