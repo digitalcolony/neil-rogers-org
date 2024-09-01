@@ -1,5 +1,6 @@
 :root {
 	--bg-color: #f0f0f0;
+	--bg-color: #fdfd96; /* light yellow #fdfd96 */
 	--text-color: #333;
 	--accent-color: #ff6b6b;
 	--secondary-color: #4ecdc4;
@@ -11,11 +12,20 @@
 	--content-width: 800px;
 	--image-border-color: #333;
 	--image-shadow-color: rgba(0, 0, 0, 0.3);
-	--card-bg-color: #f8d6b3;
+	--card-bg-color: #f8d6b3; /* light orange */
+	--card-bg-color: #ff9999; /* light red */
+	--link-color: #0000ff;
+	--link-hover-color: #ff6b6b;
+	--button-bg-color: #f0f0f0; /* Example background color */
+	--button-text-color: #000000; /* Example text color */
+	--button-hover-bg-color: #cccccc; /* Example hover background color */
+	--button-hover-text-color: #000000; /* Example hover text color */
 }
 
 [data-theme="dark"] {
 	--bg-color: #1a1a1a;
+	--bg-color: #bf40bf; /* bright purple */
+	--bg-color: #5d3fd3;
 	--text-color: #e0e0e0;
 	--accent-color: #ff8787;
 	--secondary-color: #66d9e8;
@@ -26,6 +36,9 @@
 	--image-border-color: #e0e0e0;
 	--image-shadow-color: rgba(255, 255, 255, 0.1);
 	--card-bg-color: #f8d6b3;
+
+	--link-color: #66d9e8;
+	--link-hover-color: #ff8787;
 }
 
 body {
@@ -37,13 +50,55 @@ body {
 	transition: background-color 0.3s, color 0.3s;
 }
 
+a {
+	color: var(--link-color);
+	text-decoration: none;
+	border-bottom: 2px solid var(--link-color);
+	transition: all 0.3s ease;
+}
+
+a:hover,
+a:focus {
+	color: var(--link-hover-color);
+	border-bottom-color: var(--link-hover-color);
+}
+
 .container {
 	max-width: var(--max-width);
 	margin: 0 auto;
 	padding: 0 2rem;
 }
+.external-link-button {
+	display: inline-flex;
+	align-items: center;
+	padding: 1rem 2rem;
+	background-color: var(--secondary-color); /* Brighter color */
+	color: var(--button-text-color); /* Black */
+	border: 4px solid var(--text-color); /* Dark text color */
+	border-radius: 8px; /* Adds a slight roundness to the button */
+	text-decoration: none;
+	font-family: "Rubik", sans-serif; /* A brighter, more modern font */
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+	box-shadow: 8px 8px 0 var(--text-color); /* Adds depth */
+	text-transform: uppercase; /* Neo-brutalist feature */
+}
+
+.external-link-button:hover {
+	background-color: var(--accent-color); /* Change to a brighter color on hover */
+	color: var(--button-hover-text-color); /* Black */
+}
+
+.external-link-button .icon {
+	margin-left: 0.5rem;
+	font-size: 1.5rem; /* Slightly larger for emphasis */
+	transform: translateY(-2px); /* Aligns icon better with text */
+	color: var(--text-color); /* Darker color for the icon */
+}
 
 header {
+	margin: 0 auto;
 	background-color: var(--nav-color);
 	padding: 1rem 0;
 	position: sticky;
@@ -55,6 +110,9 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	max-width: var(--content-width);
+	margin: 0 auto;
+	padding: 0 2rem;
 }
 
 .site-title {
@@ -63,6 +121,7 @@ nav {
 	font-weight: 700;
 	color: var(--accent-color);
 	margin-right: 2rem;
+	display: none;
 }
 
 nav ul {
@@ -87,14 +146,20 @@ nav ul li span.active {
 	transition: all 0.3s ease;
 }
 
-nav ul li a:hover,
 nav ul li span.active {
 	color: var(--active-nav-color);
 	border-color: var(--active-nav-color);
+	cursor: default;
 }
 
-nav ul li span.active {
-	cursor: default;
+nav ul li a {
+	border-bottom: none;
+	color: var(--nav-text-color);
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	color: var(--active-nav-color);
 }
 
 #hamburger-menu {
@@ -107,6 +172,15 @@ nav ul li span.active {
 
 main {
 	padding: 2rem 0;
+}
+
+h1 {
+	margin-top: 0.5rem;
+}
+
+h2,
+h3 {
+	margin-top: 3rem;
 }
 
 .content {
@@ -145,10 +219,16 @@ main {
 	transform: rotate(0deg) scale(1.02);
 }
 
+.parent-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .image-container {
 	position: relative;
 	display: inline-block;
-	margin: 2rem 0;
+	margin: 3rem 0;
 }
 
 .image-caption {
@@ -163,7 +243,19 @@ main {
 	z-index: 1;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li {
+	margin-bottom: 1rem;
+}
+
 @media (max-width: 768px) {
+	.site-title {
+		display: block;
+	}
 	nav {
 		flex-wrap: wrap;
 	}

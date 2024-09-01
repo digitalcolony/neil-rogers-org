@@ -29,15 +29,17 @@ import neil_rogers_pope from "../assets/neil-pope-restored.jpg";
 				have been blocked for copyright issues based on a song that NEIL played during a broadcast.
 				Copyright blocking changes over time and is based upon your country of origin.
 			</p>
-			<p>
+			<div class="parent-container">
 				<a
 					href="https://www.youtube.com/c/NeilRogersRadio"
+					class="external-link-button"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<i>YouTube &#x2197;</i>
+					Visit YouTube
+					<span class="icon">↗</span>
 				</a>
-			</p>
+			</div>
 		</aside>
 
 		<aside>
@@ -55,22 +57,34 @@ import neil_rogers_pope from "../assets/neil-pope-restored.jpg";
 				>). There you can stream, download, or torrent. We even have a folder for unedited shows
 				that still have the original commercials.
 			</p>
-			<p>
-				<a href="https://archive.org/details/@neil_rogers_radio">
-					<i>Archive &#x2197;</i>
+			<div class="parent-container">
+				<a
+					href="https://archive.org/details/@neil_rogers_radio"
+					class="external-link-button"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Visit Archive
+					<span class="icon">↗</span>
 				</a>
-			</p>
+			</div>
 		</aside>
 	</section>
 	<section>
 		<aside>
 			<h3>OneDrive</h3>
 			<p>All the shows and photos are also available for download on OneDrive.</p>
-			<p>
-				<a href="https://t.co/dWGtbjuJlV?amp=1" target="_blank" rel="noopener noreferrer">
-					<i>OneDrive &#x2197;</i></a
+			<div class="parent-container">
+				<a
+					href="https://t.co/dWGtbjuJlV?amp=1"
+					class="external-link-button"
+					target="_blank"
+					rel="noopener noreferrer"
 				>
-			</p>
+					Visit OneDrive
+					<span class="icon">↗</span>
+				</a>
+			</div>
 		</aside>
 		<aside>
 			<h3>Google Drive</h3>
@@ -79,26 +93,30 @@ import neil_rogers_pope from "../assets/neil-pope-restored.jpg";
 				includes dates and some show notes.
 			</p>
 
-			<p>
+			<div class="parent-container">
 				<a
 					href="https://docs.google.com/spreadsheets/d/1czK9DiOqCK_P8lYS5Im8a_u9IZnKW39lBAuq3FXdmRM/edit?usp=sharing"
+					class="external-link-button"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<i>Spreadsheet &#x2197;</i>
+					Open Sheet
+					<span class="icon">↗</span>
 				</a>
-			</p>
+			</div>
 		</aside>
 	</section>
 
-	<div class="image-container">
-		<Picture
-			src={neil_rogers_pope}
-			formats={["avif", "webp"]}
-			alt="Neil Rogers as The Pope"
-			class="neo-image"
-		/>
-		<div class="image-caption">Neil Rogers as The Pope</div>
+	<div class="parent-container">
+		<div class="image-container">
+			<Picture
+				src={neil_rogers_pope}
+				formats={["avif", "webp"]}
+				alt="Neil Rogers as The Pope"
+				class="neo-image"
+			/>
+			<div class="image-caption">Neil Rogers as The Pope</div>
+		</div>
 	</div>
 
 	<section>

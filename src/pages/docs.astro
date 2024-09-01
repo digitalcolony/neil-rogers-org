@@ -99,7 +99,6 @@ const allStories = await getCollection("stories");
 		</li>
 	</ul>
 
-	<hr />
 	<h3>Support</h3>
 	<p>There are several ways you can support the Neil Rogers Audio Restoration Project.</p>
 
@@ -111,11 +110,17 @@ const allStories = await getCollection("stories");
 		the shows before 1999 are partial. Some are good quality and some aren’t. We can date the show
 		and add to the archive.
 	</p>
-
-	<figure>
-		<Picture src={convert_tapes} formats={["avif", "webp"]} alt="converting a cassette to MP3" />
-		<figcaption>We can convert cassettes to MP3s</figcaption>
-	</figure>
+	<div class="parent-container">
+		<div class="image-container">
+			<Picture
+				src={convert_tapes}
+				formats={["avif", "webp"]}
+				alt="converting a cassette to MP3"
+				class="neo-image"
+			/>
+			<div class="image-caption">We can convert cassettes to MP3s</div>
+		</div>
+	</div>
 
 	<p>
 		Email <b>audio@neilrogers.org</b>. Thank you!
@@ -136,8 +141,8 @@ const allStories = await getCollection("stories");
 				<a
 					href="https://docs.google.com/spreadsheets/d/1czK9DiOqCK_P8lYS5Im8a_u9IZnKW39lBAuq3FXdmRM/edit?usp=sharing"
 				>
-					Google Drive Spreadsheet
-				</a>.
+					Google Drive Spreadsheet</a
+				>.
 			</li>
 			<li>Listen to show and take notes.</li>
 			<li>
@@ -167,7 +172,7 @@ const allStories = await getCollection("stories");
 		files might be found. <b>Please help us recover these shows!</b>
 	</p>
 
-	<div>
+	<div class="card">
 		<p>www.broadcast.com/radio/archives/wqam/rogers/</p>
 		<p>www.yahoo.com/radio/archives/wqam/rogers/</p>
 		<p>radio.yahoo.com//archives/wqam/rogers/</p>
@@ -183,7 +188,6 @@ const allStories = await getCollection("stories");
 		does not have access to.
 	</p>
 
-	<hr />
 	<h3>Privacy Policy</h3>
 	<p>NeilRogers.org does not use any cookies or collect any user data.</p>
 </Layout>

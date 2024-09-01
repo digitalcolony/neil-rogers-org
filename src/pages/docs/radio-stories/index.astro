@@ -11,9 +11,7 @@ const allStories = await getCollection("stories");
 	description="South Florida radio stories from the 1990s"
 	url="/radio-stories/"
 >
-	<main>
-		<h1>Radio Stories</h1>
+	<h1>Radio Stories</h1>
 
-		<RadioStoriesList stories={allStories} />
-	</main>
+	<RadioStoriesList stories={allStories} />
 </Layout>

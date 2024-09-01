@@ -17,17 +17,8 @@ li {
 	float: left;
 	margin-right: 5px;
 }
-input[type="radio"]:checked + span {
-	background: yellow;
-	color: black;
-}
 
-.fixed-search {
-	position: fixed; /* Keep the div in place while scrolling */
-	top: 0; /* Align the div to the top of the viewport */
-	left: 0; /* Align the div to the left of the viewport */
-	width: 100%; /* Make the div span the full width */
-	z-index: 1000; /* Ensure the div stays on top of other content */
-	background-color: white; /* Set a background color */
-	border-bottom: 1px solid #ccc; /* Optional: adds a border for visual separation */
+input[type="search"] {
+	font-family: "Roboto Mono", monospace;
+	font-size: 1rem;
 }

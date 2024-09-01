@@ -31,11 +31,12 @@ const { Content } = await story.render();
 	description={story.data.description}
 	url={`https://neilrogers.dev/radio-stories/${story.slug}`}
 >
-	<main>
+	<div class="card">
 		<h1>{story.data.title}</h1>
 		<p><em>by {story.data.author} - {story.data.date}</em></p>
-		<Content />
-		<br />
-		<p>&larr; <a href="/docs/radio-stories/">Radio Stories</a></p>
-	</main>
+	</div>
+
+	<Content />
+	<br />
+	<p>&larr; <a href="/docs/radio-stories/">Radio Stories</a></p>
 </Layout>
