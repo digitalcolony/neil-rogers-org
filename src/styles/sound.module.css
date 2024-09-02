@@ -7,22 +7,11 @@
 	--hover-text-color: #ff0000; /* Example hover text color */
 }
 
-/* Dark mode styles */
-[data-theme="dark"] {
-	--button-bg-color: #348292; /* Dark mode background color */
-	--border-color: #ffffff; /* Dark mode border color */
-	--text-color: #ffffff; /* Dark mode text color */
-	--shadow-color: #ffffff; /* Dark mode shadow color */
-	--hover-bg-color: #555555; /* Dark mode hover background color */
-	--hover-text-color: #bbff00;
-	/* Dark mode hover text color */
-}
-
 .myButton {
 	background-color: var(--button-bg-color); /* Primary button color */
 	border: 3px solid var(--border-color); /* Bold border */
 	border-radius: 0; /* No rounded corners for a stark look */
-	color: var(--text-color); /* Text color */
+	color: black; /* Text color */
 	cursor: pointer;
 	font-family: "Roboto Mono", monospace; /* Monospaced font */
 	font-size: 1rem; /* Adjusted font size */
