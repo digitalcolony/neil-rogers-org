@@ -1,6 +1,6 @@
 :root {
-	--bg-color: #f0f0f0;
 	--bg-color: #fdfd96; /* light yellow #fdfd96 */
+	--bg-color: #ffecc6; /* light orange */
 	--text-color: #333;
 	--accent-color: #ff6b6b;
 	--secondary-color: #4ecdc4;
@@ -22,7 +22,8 @@
 	--button-hover-text-color: #000000; /* Example hover text color */
 }
 
-[data-theme="dark"] {
+[data-theme="dark"],
+html.dark {
 	--bg-color: #1a1a1a;
 	--bg-color: #bf40bf; /* bright purple */
 	--bg-color: #5d3fd3;

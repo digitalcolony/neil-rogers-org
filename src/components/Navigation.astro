@@ -46,23 +46,7 @@ const { url } = Astro.props;
 				</li>
 			</ul>
 			<div id="hamburger-menu">☰</div>
-			<button id="theme-toggle">☀️</button>
+			<ThemeIcon />
 		</nav>
 	</div>
 </header>
-
-<script>
-	const themeToggle = document.getElementById("theme-toggle");
-	const body = document.body;
-	const hamburgerMenu = document.getElementById("hamburger-menu");
-	const navUl = document.querySelector("nav ul");
-
-	themeToggle.addEventListener("click", () => {
-		body.dataset.theme = body.dataset.theme === "dark" ? "light" : "dark";
-		themeToggle.textContent = body.dataset.theme === "dark" ? "🌙" : "☀️";
-	});
-
-	hamburgerMenu.addEventListener("click", () => {
-		navUl.classList.toggle("show");
-	});
-</script>
