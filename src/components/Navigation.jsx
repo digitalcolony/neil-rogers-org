@@ -1,0 +1,37 @@
+<header>
+	<div class="container">
+		<nav>
+			<div class="site-title">Neil Rogers Show</div>
+			<ul>
+				<li>{url === "" ? <span class="active">Home</span> : <a href="/">Home</a>}</li>
+				<li>
+					{url === "/listen/" ? (
+						<span class="active">Podcast</span>
+					) : (
+						<a href="/listen/">Podcast</a>
+					)}
+				</li>
+				<li>
+					{url === "/audio/" ? <span class="active">Audio</span> : <a href="/audio/">Audio</a>}
+				</li>
+				<li>
+					{url === "/timeline/" ? (
+						<span class="active">Timeline</span>
+					) : (
+						<a href="/timeline/">Timeline</a>
+					)}
+				</li>
+				<li>{url === "/docs/" ? <span class="active">Docs</span> : <a href="/docs/">Docs</a>}</li>
+				<li>
+					{url === "/soundboard/" ? (
+						<span class="active">Soundboard</span>
+					) : (
+						<a href="/soundboard">Soundboard</a>
+					)}
+				</li>
+			</ul>
+			<div id="hamburger-menu">☰</div>
+			<ThemeIcon />
+		</nav>
+	</div>
+</header>;

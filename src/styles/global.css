@@ -256,11 +256,9 @@ li {
 @media (max-width: 768px) {
 	.site-title {
 		display: block;
+		flex-grow: 1;
+		order: 1;
 	}
-	nav {
-		flex-wrap: wrap;
-	}
-
 	nav ul {
 		display: none;
 		flex-direction: column;
@@ -283,15 +281,7 @@ li {
 	#hamburger-menu {
 		display: block;
 		order: 2;
-	}
-
-	#theme-toggle {
-		order: 3;
-	}
-
-	.site-title {
-		flex-grow: 1;
-		order: 1;
+		cursor: pointer;
 	}
 
 	.neo-image {
