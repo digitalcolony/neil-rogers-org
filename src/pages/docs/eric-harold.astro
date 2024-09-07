@@ -1,5 +1,6 @@
 ---
 import { Picture } from "astro:assets";
+import DocsBreadcrumbs from "../../components/DocsBreadcrumbs.astro";
 import Layout from "../../layouts/Layout.astro";
 import eric from "../../assets/eric-harold.jpg";
 import logo from "../../assets/neilrogers-website-logo.png";
@@ -11,10 +12,16 @@ import poll from "../../assets/neilrogers-2004-poll.png";
 	description="Eric Harold was the web guy for the Neil Rogers Show"
 	url="/docs/eric-harold/"
 >
-	<h1>Tribute to Eric Harold</h1>
-	<p><em>by Michael Allen Smith - February 22, 2016</em></p>
+	<div class="card">
+		<h1>Tribute to Eric Harold</h1>
+		<p>The original Neil webmaster.</p>
+		<p><em>by Michael Allen Smith - February 22, 2016</em></p>
+	</div>
+
+	<DocsBreadcrumbs title="Tribute to Eric Harold" />
+
 	<p>
-		Eric Harold was Neil’s web guy. He coded, hosted and maintained the NeilRogers.com website.
+		Eric Harold was Neil's web guy. He coded, hosted and maintained the NeilRogers.com website.
 		Throughout the WQAM years and even before — Eric made sure that the fans of the Neil Rogers Show
 		could listen to the show live or download shows via the archives.
 	</p>

@@ -10,7 +10,7 @@ const { url } = Astro.props;
 <header>
 	<div class="container">
 		<nav>
-			<div class="site-title">Neil Rogers Show</div>
+			<div class="site-title" onclick="window.location.href='/'">Neil Rogers Show</div>
 			<ul>
 				<li>{url === "" ? <span class="active">Home</span> : <a href="/">Home</a>}</li>
 				<li>

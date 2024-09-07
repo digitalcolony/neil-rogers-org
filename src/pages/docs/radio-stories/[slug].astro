@@ -1,6 +1,7 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import DocsBreadcrumbs from "../../../components/DocsBreadcrumbs.astro";
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
 	const stories = await getCollection("stories");
@@ -33,10 +34,11 @@ const { Content } = await story.render();
 >
 	<div class="card">
 		<h1>{story.data.title}</h1>
+		<p>{story.data.description}</p>
 		<p><em>by {story.data.author} - {story.data.date}</em></p>
 	</div>
 
+	<DocsBreadcrumbs title={story.data.title} isRadioStories={true} />
 	<Content />
 	<br />
-	<p>&larr; <a href="/docs/radio-stories/">Radio Stories</a></p>
 </Layout>

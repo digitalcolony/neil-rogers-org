@@ -2,6 +2,7 @@
 import { Picture } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import myspace from "../../assets/myspace-2007.png";
+import DocsBreadcrumbs from "../../components/DocsBreadcrumbs.astro";
 ---
 
 <Layout
@@ -13,6 +14,8 @@ import myspace from "../../assets/myspace-2007.png";
 		<h1>Neil Rogers on MySpace</h1>
 		<p><em>Recovered MySpace posts by Neil Rogers (January 2007)</em></p>
 	</div>
+
+	<DocsBreadcrumbs title="Neil Rogers MySpace Posts" />
 
 	<div class="image-container">
 		<Picture

@@ -1,0 +1,18 @@
+---
+export interface Props {
+	title: string;
+	isRadioStories?: boolean;
+}
+
+const { title, isRadioStories } = Astro.props;
+---
+
+<div class="breadcrumbs">
+	<a href="/">Home</a>
+	<span class="separator">&gt;</span>
+	<a href="/docs">Docs</a>
+	<span class="separator">&gt;</span>
+	{isRadioStories ? <a href="/docs/radio-stories">Radio Stories</a> : null}
+	{isRadioStories ? <span class="separator">&gt;</span> : null}
+	<span>{title}</span>
+</div>

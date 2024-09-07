@@ -3,6 +3,7 @@ import { Picture } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import news from "../../assets/john-baker-news.png";
 import logo from "../../assets/john-baker-logo.jpg";
+import DocsBreadcrumbs from "../../components/DocsBreadcrumbs.astro";
 ---
 
 <Layout
@@ -12,8 +13,11 @@ import logo from "../../assets/john-baker-logo.jpg";
 >
 	<div class="card">
 		<h1>Tribute to John Baker</h1>
+		<p>Neil historian and audio archivist.</p>
 		<p><em>by Michael Allen Smith - October 26, 2017</em></p>
 	</div>
+
+	<DocsBreadcrumbs title="Tribute to John Baker" />
 
 	<p>
 		Yesterday morning I received word that my friend John Baker had died. I do not know the cause of

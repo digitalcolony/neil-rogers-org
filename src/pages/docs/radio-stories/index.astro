@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 import RadioStoriesList from "../../../components/RadioStoriesList.astro";
+import DocsBreadcrumbs from "../../../components/DocsBreadcrumbs.astro";
 
 const allStories = await getCollection("stories");
 ---
@@ -11,7 +12,13 @@ const allStories = await getCollection("stories");
 	description="South Florida radio stories from the 1990s"
 	url="/radio-stories/"
 >
-	<h1>Radio Stories</h1>
+	<div class="card">
+		<h1>Radio Stories</h1>
+
+		<p>These Miami radio stories were copied from a Neil Rogers Facebook group (2013-2014).</p>
+	</div>
+
+	<DocsBreadcrumbs title="Radio Stories" />
 
 	<RadioStoriesList stories={allStories} />
 </Layout>
