@@ -35,6 +35,13 @@
 	--sources-link-underline-color: var(--link-color);
 	--sources-link-hover-bg-color: var(--accent-color);
 	--sources-link-hover-text-color: var(--bg-color);
+	--schedule-border-color: var(--text-color);
+	--schedule-bg-color: #ffffff;
+	--schedule-shadow-color: rgba(0, 0, 0, 0.2);
+	--schedule-header-bg-color: var(--accent-color);
+	--schedule-header-text-color: var(--bg-color);
+	--schedule-text-color: var(--text-color);
+	--schedule-time-color: var(--secondary-color);
 }
 
 [data-theme="dark"],
@@ -70,6 +77,13 @@ html.dark {
 	--sources-link-underline-color: var(--link-color);
 	--sources-link-hover-bg-color: var(--accent-color);
 	--sources-link-hover-text-color: var(--bg-color);
+	--schedule-border-color: var(--secondary-color);
+	--schedule-bg-color: #2c3e50;
+	--schedule-shadow-color: rgba(255, 255, 255, 0.1);
+	--schedule-header-bg-color: var(--accent-color);
+	--schedule-header-text-color: var(--bg-color);
+	--schedule-text-color: #e0e0e0;
+	--schedule-time-color: var(--secondary-color);
 }
 
 body {
@@ -517,4 +531,59 @@ blockquote cite {
 .sources-list a:focus {
 	background-color: var(--sources-link-hover-bg-color);
 	color: var(--sources-link-hover-text-color);
+}
+
+.schedule-container {
+	font-family: "Roboto Mono", monospace;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin: 2rem 0;
+}
+
+.schedule-column {
+	flex: 1 1 calc(50% - 0.5rem);
+	min-width: 250px;
+}
+
+.schedule-day {
+	margin-bottom: 1rem;
+	border: 3px solid var(--schedule-border-color);
+	background-color: var(--schedule-bg-color);
+	box-shadow: 5px 5px 0 var(--schedule-shadow-color);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.schedule-day:hover {
+	transform: translateY(-5px);
+	box-shadow: 8px 8px 0 var(--schedule-shadow-color);
+}
+
+.schedule-day-header {
+	background-color: var(--schedule-header-bg-color);
+	color: var(--schedule-header-text-color);
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.schedule-day-content {
+	padding: 1rem;
+	color: var(--schedule-text-color);
+}
+
+.schedule-item {
+	margin-bottom: 0.5rem;
+}
+
+.schedule-time {
+	font-weight: bold;
+	color: var(--schedule-time-color);
+}
+
+@media (max-width: 768px) {
+	.schedule-column {
+		flex: 1 1 100%;
+	}
 }

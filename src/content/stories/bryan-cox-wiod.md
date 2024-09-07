@@ -35,7 +35,7 @@ And there, plain as day, I hear Maddog do his lead-in, and ask Bryan Cox if he's
 
 ## ![Bryan Cox](/src/assets/bryan-cox.jpg)
 
-[Bryan Cox is Happy - Neil's Nuggets 1996 - Track 1](https://youtu.be/CsTw28JUPcQ)
+_Bryan Cox is Happy - Neil's Nuggets 1996 - Track 1_
 
 And Maddog ignores it because he know's he's live on the air, and continues the interview. I don't know if Bryan knew we were live or not; not sure he would have cared.
 

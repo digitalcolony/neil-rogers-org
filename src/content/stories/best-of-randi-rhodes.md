@@ -37,9 +37,9 @@ I declined to be involved.
 
 And they were relentless. Trying to guilt me into it. Taking shots at me on and off the air about my being her part-time producer. “Marvin is helping Rick and Suds. Jorge is doing Neil’s” theyd say.
 
-“They’re editing bits together and show audio. It takes them a week or so to do. This aint that.” I'd say.
+“They’re editing bits together and show audio. It takes them a week or so to do. This ain't that.” I'd say.
 
-And now theyre scheduling and event at a nightclub so Randi can sing “Backstabbers” with a band so they can film it. She’s playing the song on the air and singing along with it. I assume it’s me she’s singing about, tho she says it’s this guy, or that guy, or this chick or that. After a week of prep and rehearsals, she did it live. I didn’t attend.
+And now they're scheduling and event at a nightclub so Randi can sing “Backstabbers” with a band so they can film it. She’s playing the song on the air and singing along with it. I assume it’s me she’s singing about, tho she says it’s this guy, or that guy, or this chick or that. After a week of prep and rehearsals, she did it live. I didn’t attend.
 
 Finally, I just couldn’t take the harassment any longer. I agreed to help as much as I could. That made them really happy, and I was happy I’d made them happy.
 
