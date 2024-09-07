@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation.astro";
 import "../styles/global.css";
 import { ViewTransitions } from "astro:transitions";
 import { AstroFont } from "astro-font";
+import { setupMenu } from "../scripts/menu.js";
 
 export interface Props {
 	title: string;
@@ -91,33 +92,10 @@ Astro.response.headers.set("Cache-Control", "max-age=3607");
 			</div>
 		</main>
 		<Footer />
+		<script>
+			import { setupMenu } from "../scripts/menu.js";
 
-		<script is:inline>
-			document.addEventListener("DOMContentLoaded", (event) => {
-				const hamburgerMenu = document.getElementById("hamburger-menu");
-				const navList = document.querySelector("nav ul");
-
-				hamburgerMenu.addEventListener("click", () => {
-					console.log("clicked");
-					navList.classList.toggle("show");
-				});
-
-				// Close the menu when a link is clicked
-				document.querySelectorAll("nav ul li a").forEach((link) => {
-					link.addEventListener("click", () => {
-						navList.classList.remove("show");
-					});
-				});
-
-				// Close the menu when clicking outside of it
-				document.addEventListener("click", (event) => {
-					const isClickInsideNav =
-						navList.contains(event.target) || hamburgerMenu.contains(event.target);
-					if (!isClickInsideNav && navList.classList.contains("show")) {
-						navList.classList.remove("show");
-					}
-				});
-			});
+			document.addEventListener("astro:page-load", setupMenu);
 		</script>
 	</body>
 </html>
