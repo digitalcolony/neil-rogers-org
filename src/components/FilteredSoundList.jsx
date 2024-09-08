@@ -56,7 +56,7 @@ export default function FilteredSoundList({ sounds }) {
 
 	return (
 		<>
-			<div>
+			<div className={soundboardStyles.sbmenu}>
 				<ul>
 					<li>
 						<input

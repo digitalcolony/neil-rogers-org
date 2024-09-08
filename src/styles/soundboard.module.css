@@ -1,4 +1,4 @@
-.filter {
+/* .filter {
 	border: 1px solid;
 	padding: 10px;
 	box-shadow: 1px 3px;
@@ -19,6 +19,31 @@ li {
 }
 
 input[type="search"] {
+	font-family: "Roboto Mono", monospace;
+	font-size: 1rem;
+} */
+
+.sbmenu .filter {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 1px 3px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline;
+	width: 200px;
+}
+
+.sbmenu ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sbmenu li {
+	float: left;
+	margin-right: 5px;
+}
+
+.sbmenu input[type="search"] {
 	font-family: "Roboto Mono", monospace;
 	font-size: 1rem;
 }

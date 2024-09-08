@@ -1,6 +1,6 @@
 :root {
-	/* Color variables */
-	--bg-color: #ffecc6;
+	--bg-color: #fdfd96; /* light yellow #fdfd96 */
+	--bg-color: #ffecc6; /* light orange */
 	--text-color: #333;
 	--accent-color: #ff6b6b;
 	--secondary-color: #4ecdc4;
@@ -8,28 +8,23 @@
 	--nav-text-color: #f0f0f0;
 	--active-nav-color: #ff6b6b;
 	--card-text-color: #333;
-	--card-bg-color: #ff9999;
-	--link-color: #0000ff;
-	--link-hover-color: #ff6b6b;
-	--button-bg-color: #f0f0f0;
-	--button-text-color: #000000;
-	--button-hover-bg-color: #cccccc;
-	--button-hover-text-color: #000000;
-
-	/* Layout variables */
 	--max-width: 1200px;
 	--content-width: 800px;
-
-	/* Component-specific variables */
 	--image-border-color: #333;
 	--image-shadow-color: rgba(0, 0, 0, 0.3);
+	--card-bg-color: #f8d6b3; /* light orange */
+	--card-bg-color: #ff9999; /* light red */
+	--link-color: #0000ff;
+	--link-hover-color: #ff6b6b;
+	--button-bg-color: #f0f0f0; /* Example background color */
+	--button-text-color: #000000; /* Example text color */
+	--button-hover-bg-color: #cccccc; /* Example hover background color */
+	--button-hover-text-color: #000000; /* Example hover text color */
 	--list-bg-color: var(--secondary-color);
 	--list-text-color: var(--text-color);
 	--list-border-color: var(--text-color);
 	--list-shadow-color: rgba(0, 0, 0, 0.2);
 	--list-bullet-color: var(--accent-color);
-
-	/* Sources section variables */
 	--sources-bg-color: #f0f0f0;
 	--sources-border-color: var(--text-color);
 	--sources-label-bg-color: var(--accent-color);
@@ -40,8 +35,6 @@
 	--sources-link-underline-color: var(--link-color);
 	--sources-link-hover-bg-color: var(--accent-color);
 	--sources-link-hover-text-color: var(--bg-color);
-
-	/* Schedule variables */
 	--schedule-border-color: var(--text-color);
 	--schedule-bg-color: #ffffff;
 	--schedule-shadow-color: rgba(0, 0, 0, 0.2);
@@ -49,8 +42,6 @@
 	--schedule-header-text-color: var(--bg-color);
 	--schedule-text-color: var(--text-color);
 	--schedule-time-color: var(--secondary-color);
-
-	/* Footer variables */
 	--footer-bg-color: #f5f5f5;
 	--footer-text-color: #333;
 	--footer-border-color: #ddd;
@@ -60,9 +51,10 @@
 	--footer-secondary-text-color: #777;
 }
 
-/* Dark theme */
 [data-theme="dark"],
 html.dark {
+	--bg-color: #1a1a1a;
+	--bg-color: #bf40bf; /* bright purple */
 	--bg-color: #5d3fd3;
 	--text-color: #e0e0e0;
 	--accent-color: #ff8787;
@@ -71,40 +63,43 @@ html.dark {
 	--nav-text-color: #ffffff;
 	--active-nav-color: #ff8787;
 	--card-text-color: #1a1a1a;
-	--card-bg-color: #f8d6b3;
-	--card-link-color: #2f00ff;
-	--link-color: #66d9e8;
-	--link-hover-color: #ff8787;
-
-	/* Dark theme specific overrides */
 	--image-border-color: #e0e0e0;
 	--image-shadow-color: rgba(255, 255, 255, 0.1);
-	--list-bg-color: #2c3e50;
-	--list-text-color: #e0e0e0;
+	--card-bg-color: #f8d6b3;
+
+	--link-color: #66d9e8;
+	--link-hover-color: #ff8787;
+	--list-bg-color: #2c3e50; /* Darker background for better contrast */
+	--list-text-color: #e0e0e0; /* Light text color for readability */
 	--list-border-color: var(--secondary-color);
 	--list-shadow-color: rgba(255, 255, 255, 0.1);
-
-	/* Dark theme sources section */
+	--list-bullet-color: var(--accent-color);
 	--sources-bg-color: #2c3e50;
 	--sources-border-color: var(--secondary-color);
+	--sources-label-bg-color: var(--accent-color);
+	--sources-label-text-color: var(--bg-color);
 	--sources-text-color: #e0e0e0;
 	--sources-number-color: var(--secondary-color);
-
-	/* Dark theme schedule */
+	--sources-link-color: var(--link-color);
+	--sources-link-underline-color: var(--link-color);
+	--sources-link-hover-bg-color: var(--accent-color);
+	--sources-link-hover-text-color: var(--bg-color);
+	--schedule-border-color: var(--secondary-color);
 	--schedule-bg-color: #2c3e50;
 	--schedule-shadow-color: rgba(255, 255, 255, 0.1);
+	--schedule-header-bg-color: var(--accent-color);
+	--schedule-header-text-color: var(--bg-color);
 	--schedule-text-color: #e0e0e0;
-
-	/* Dark theme footer */
+	--schedule-time-color: var(--secondary-color);
 	--footer-bg-color: #1a1a1a;
 	--footer-text-color: #e0e0e0;
 	--footer-border-color: #333;
 	--footer-accent-color: var(--secondary-color);
 	--footer-link-color: #bbb;
+	--footer-link-hover-color: var(--accent-color);
 	--footer-secondary-text-color: #999;
 }
 
-/* Global styles */
 body {
 	font-family: "Roboto Mono", monospace;
 	margin: 0;
@@ -132,38 +127,35 @@ a:focus {
 	margin: 0 auto;
 	padding: 0 2rem;
 }
-
-/* Button styles */
 .external-link-button {
 	display: inline-flex;
 	align-items: center;
 	padding: 1rem 2rem;
-	background-color: var(--secondary-color);
-	color: var(--button-text-color);
-	border: 4px solid var(--text-color);
-	border-radius: 8px;
+	background-color: var(--secondary-color); /* Brighter color */
+	color: var(--button-text-color); /* Black */
+	border: 4px solid var(--text-color); /* Dark text color */
+	border-radius: 8px; /* Adds a slight roundness to the button */
 	text-decoration: none;
-	font-family: "Rubik", sans-serif;
+	font-family: "Rubik", sans-serif; /* A brighter, more modern font */
 	font-size: 1.2rem;
 	cursor: pointer;
 	transition: background-color 0.3s, color 0.3s;
-	box-shadow: 8px 8px 0 var(--text-color);
-	text-transform: uppercase;
+	box-shadow: 8px 8px 0 var(--text-color); /* Adds depth */
+	text-transform: uppercase; /* Neo-brutalist feature */
 }
 
 .external-link-button:hover {
-	background-color: var(--accent-color);
-	color: var(--button-hover-text-color);
+	background-color: var(--accent-color); /* Change to a brighter color on hover */
+	color: var(--button-hover-text-color); /* Black */
 }
 
 .external-link-button .icon {
 	margin-left: 0.5rem;
-	font-size: 1.5rem;
-	transform: translateY(-2px);
-	color: var(--text-color);
+	font-size: 1.5rem; /* Slightly larger for emphasis */
+	transform: translateY(-2px); /* Aligns icon better with text */
+	color: var(--text-color); /* Darker color for the icon */
 }
 
-/* Header and navigation */
 header {
 	margin: 0 auto;
 	background-color: var(--nav-color);
@@ -237,7 +229,6 @@ nav ul li a:focus {
 	margin-right: 1rem;
 }
 
-/* Main content */
 main {
 	padding: 2rem 0;
 }
@@ -256,7 +247,6 @@ h3 {
 	margin: 0 auto;
 }
 
-/* Card styles */
 .card {
 	background-color: var(--card-bg-color);
 	border: 3px solid var(--text-color);
@@ -266,23 +256,6 @@ h3 {
 	color: var(--card-text-color);
 }
 
-.card a {
-	color: var(
-		--card-link-color,
-		var(--link-color)
-	); /* Use the new variable, fallback to default link color */
-	text-decoration: none;
-	border-bottom: 2px solid currentColor;
-	transition: all 0.3s ease;
-}
-
-.card a:hover,
-.card a:focus {
-	color: var(--link-hover-color);
-	border-bottom-color: var(--link-hover-color);
-}
-
-/* Theme toggle */
 #theme-toggle {
 	background: none;
 	border: none;
@@ -291,7 +264,6 @@ h3 {
 	cursor: pointer;
 }
 
-/* Image styles */
 .neo-image {
 	border: 8px solid var(--image-border-color);
 	box-shadow: 15px 15px 0 var(--image-shadow-color);
@@ -330,18 +302,15 @@ h3 {
 	z-index: 1;
 }
 
-/* List styles */
 ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
-
-ul li {
+li {
 	margin-bottom: 1rem;
 }
 
-/* Blockquote styles */
 blockquote {
 	font-family: "Rubik", sans-serif;
 	font-size: 1.2rem;
@@ -357,23 +326,24 @@ blockquote {
 	transform: rotate(-1deg);
 }
 
-blockquote::before,
-blockquote::after {
+blockquote::before {
 	content: '"';
 	font-size: 4rem;
 	position: absolute;
+	top: -1rem;
+	left: 1rem;
 	color: var(--text-color);
 	font-family: "Georgia", serif;
 }
 
-blockquote::before {
-	top: -1rem;
-	left: 1rem;
-}
-
 blockquote::after {
+	content: '"';
+	font-size: 4rem;
+	position: absolute;
 	bottom: -3rem;
 	right: 1rem;
+	color: var(--text-color);
+	font-family: "Georgia", serif;
 }
 
 blockquote p {
@@ -390,7 +360,6 @@ blockquote cite {
 	color: var(--text-color);
 }
 
-/* Breadcrumbs */
 .breadcrumbs {
 	font-family: "Space Mono", monospace;
 	font-size: 1rem;
@@ -420,7 +389,52 @@ blockquote cite {
 	color: var(--accent-color);
 }
 
-/* Neo-brutalist list */
+@media (max-width: 850px) {
+	.site-title {
+		display: block;
+		flex-grow: 1;
+		order: 1;
+		cursor: pointer;
+
+		text-decoration: none !important;
+	}
+
+	nav ul {
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background-color: var(--nav-color);
+	}
+
+	nav ul.show {
+		display: flex;
+	}
+
+	nav ul li {
+		margin: 0.5rem 1rem;
+	}
+
+	#hamburger-menu {
+		display: block;
+		order: 2;
+		cursor: pointer;
+	}
+
+	.neo-image {
+		border-width: 6px;
+		box-shadow: 10px 10px 0 var(--image-shadow-color);
+	}
+
+	.image-caption {
+		font-size: 0.9rem;
+		padding: 0.3rem 0.8rem;
+	}
+}
+
 .neo-list {
 	list-style: none;
 	padding: 0;
@@ -463,7 +477,18 @@ blockquote cite {
 	transform: translateY(-50%);
 }
 
-/* Sources list */
+@media (min-width: 768px) {
+	.neo-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.neo-list li {
+		width: calc(50% - 1rem);
+	}
+}
+
 .sources-list {
 	font-family: "Roboto Mono", monospace;
 	background-color: var(--sources-bg-color);
@@ -472,6 +497,7 @@ blockquote cite {
 	margin-top: 2rem;
 	position: relative;
 }
+
 .sources-list::before {
 	content: "SOURCES";
 	position: absolute;
@@ -521,7 +547,6 @@ blockquote cite {
 	color: var(--sources-link-hover-text-color);
 }
 
-/* Schedule styles */
 .schedule-container {
 	font-family: "Roboto Mono", monospace;
 	display: flex;
@@ -571,7 +596,11 @@ blockquote cite {
 	color: var(--schedule-time-color);
 }
 
-/* Footer styles */
+@media (max-width: 768px) {
+	.schedule-column {
+		flex: 1 1 100%;
+	}
+}
 
 .neo-footer {
 	font-family: "Roboto Mono", monospace;
@@ -644,104 +673,11 @@ blockquote cite {
 	padding: 0 1rem; /* Add padding to ensure content doesn't touch the edges */
 }
 
-/* Interview container for mobile-friendly stacking */
-.interview-container {
-	display: block;
-	margin: 2rem 0;
-}
-
-/* Styling for individual question and answer blocks */
-.interview-block {
-	margin-bottom: 2rem;
-	padding: 1.5rem;
-	background-color: var(--bg-color);
-	border: 3px solid var(--text-color);
-	box-shadow: 5px 5px 0 var(--text-color);
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Bold styling for interview questions */
-.interview-question {
-	font-family: "Rubik", sans-serif;
-	font-weight: bold;
-	font-size: 1.3rem;
-	color: var(--accent-color);
-	text-transform: uppercase;
-	margin-bottom: 1rem;
-}
-
-/* Monospaced font for answers to match neo-brutalist style */
-.interview-answer {
-	font-family: "Roboto Mono", monospace;
-	font-size: 1.1rem;
-	color: var(--text-color);
-	background-color: var(--list-bg-color);
-	padding: 1rem;
-	border: 2px solid var(--list-border-color);
-	box-shadow: 5px 5px 0 var(--list-shadow-color);
-}
-
-/* Hover effect to give a pop on interaction */
-.interview-block:hover {
-	transform: translateY(-5px);
-	box-shadow: 8px 8px 0 var(--accent-color);
-}
-
-/* Responsive styles */
-@media (max-width: 850px) {
-	.site-title {
-		display: block;
-		flex-grow: 1;
-		order: 1;
-		cursor: pointer;
-		text-decoration: none !important;
-	}
-
-	nav ul {
-		display: none;
-		flex-direction: column;
-		width: 100%;
-		position: absolute;
-		top: 100%;
-		left: 0;
-		right: 0;
-		background-color: var(--nav-color);
-	}
-
-	nav ul.show {
-		display: flex;
-	}
-
-	nav ul li {
-		margin: 0.5rem 1rem;
-	}
-
-	#hamburger-menu {
-		display: block;
-		order: 2;
-		cursor: pointer;
-	}
-
-	.neo-image {
-		border-width: 6px;
-		box-shadow: 10px 10px 0 var(--image-shadow-color);
-	}
-
-	.image-caption {
-		font-size: 0.9rem;
-		padding: 0.3rem 0.8rem;
-	}
-
-	.schedule-column {
-		flex: 1 1 100%;
-	}
-
+@media (max-width: 768px) {
 	.footer-content {
-		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
-		gap: 1rem;
-		margin-left: 0.5rem;
+		gap: 2rem;
 	}
 
 	.footer-column {
@@ -749,41 +685,10 @@ blockquote cite {
 		max-width: 300px;
 	}
 
+	/* Ensure consistent margins for all footer sections on small screens */
 	.footer-section {
-		gap: 1rem;
-
-		margin-right: 0.5rem;
-	}
-
-	.interview-block {
-		margin-bottom: 1.5rem;
-		padding: 1rem;
-		box-shadow: 3px 3px 0 var(--text-color);
-	}
-
-	.interview-question {
-		font-size: 1.2rem;
-	}
-
-	.interview-answer {
-		font-size: 1rem;
-	}
-}
-
-@media (min-width: 768px) {
-	.neo-list {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-
-	.neo-list li {
-		width: calc(50% - 1rem);
-	}
-}
-
-@media (max-width: 400px) {
-	.footer-content {
-		flex-direction: column;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		display: none;
 	}
 }
