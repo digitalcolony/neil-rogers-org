@@ -9,6 +9,7 @@
 	--active-nav-color: #ff6b6b;
 	--card-text-color: #333;
 	--card-bg-color: #ff9999;
+	--card-link-hover-color: #fcf9f9;
 	--link-color: #0000ff;
 	--link-hover-color: #ff6b6b;
 	--button-bg-color: #f0f0f0;
@@ -73,6 +74,7 @@ html.dark {
 	--card-text-color: #1a1a1a;
 	--card-bg-color: #f8d6b3;
 	--card-link-color: #2f00ff;
+	--card-link-hover-color: #5b099e;
 	--link-color: #66d9e8;
 	--link-hover-color: #ff8787;
 
@@ -278,8 +280,8 @@ h3 {
 
 .card a:hover,
 .card a:focus {
-	color: var(--link-hover-color);
-	border-bottom-color: var(--link-hover-color);
+	color: var(--card-link-hover-color);
+	border-bottom-color: var(--card-link-hover-color);
 }
 
 /* Theme toggle */
