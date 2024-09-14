@@ -4,6 +4,7 @@
 	--text-color: #333;
 	--accent-color: #ff6b6b;
 	--secondary-color: #4ecdc4;
+	--secondary-color: #f0f0f0;
 	--nav-color: #2c3e50;
 	--nav-text-color: #f0f0f0;
 	--active-nav-color: #ff6b6b;
@@ -191,6 +192,10 @@ nav {
 	color: var(--accent-color);
 	margin-right: 2rem;
 	display: none;
+}
+
+.emoji {
+	margin-right: 0.5rem;
 }
 
 nav ul {
