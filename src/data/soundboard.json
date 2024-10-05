@@ -49,6 +49,12 @@
             "mp3": "/sounds/Absolutely-Correct-Sir.mp3"
         },
         {
+            "name": "All the Crap",
+            "artist": "Moe Howard",
+            "duration": "0:04",
+            "mp3": "/sounds/All-the-Crap.mp3"
+        },
+        {
             "name": "Another break already?",
             "artist": "Drew Michaels",
             "duration": "0:02",
