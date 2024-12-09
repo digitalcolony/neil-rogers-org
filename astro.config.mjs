@@ -7,9 +7,6 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
-import metaTags from "astro-meta-tags";
-
-// https://astro.build/config
 export default defineConfig({
 	site: "https://neilrogers.org",
 	adapter: netlify({
@@ -22,6 +19,5 @@ export default defineConfig({
 			priority: 0.7,
 			lastmod: new Date(),
 		}),
-		metaTags(),
 	],
 });
