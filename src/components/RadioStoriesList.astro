@@ -1,5 +1,8 @@
 ---
-const { stories } = Astro.props;
+import { getCollection, type CollectionEntry } from "astro:content";
+
+const stories: CollectionEntry<"stories">[] = await getCollection("stories");
+
 // sort stories by title
 stories.sort((a, b) => {
 	if (a.data.title < b.data.title) {

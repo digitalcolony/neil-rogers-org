@@ -11,14 +11,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^6.0.0",
-    "@astrojs/react": "^4.0.0",
+    "@astrojs/netlify": "^6.0.1",
+    "@astrojs/react": "^4.1.2",
     "@astrojs/sitemap": "^3.2.1",
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.14",
-    "astro": "^5.0.3",
+    "astro": "^5.1.1",
     "astro-font": "^0.1.81",
     "react": "^18.2.0",
+    "react-compiler-runtime": "^19.0.0-beta-b2e8e9c-20241220",
     "react-dom": "^18.2.0"
   }
 }
