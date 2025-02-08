@@ -859,6 +859,12 @@
             "mp3": "/sounds/I'm-Dying-Over-Here-(Child).mp3"
         },
         {
+            "name": "I'm Infectious",
+            "artist": "Moe Howard",
+            "duration": "0:01",
+            "mp3": "/sounds/I'm-Infectious.mp3"
+        },
+        {
             "name": "I'm Listening",
             "artist": "Moe Howard",
             "duration": "0:01",
@@ -893,6 +899,12 @@
             "artist": "Bridgetender",
             "duration": "0:24",
             "mp3": "/sounds/Idiotic-jerk-long.mp3"
+        },
+        {
+            "name": "If There's a Butt",
+            "artist": "Moe Howard",
+            "duration": "0:02",
+            "mp3": "/sounds/If-There's-A-Butt.mp3"
         },
         {
             "name": "If You Blow Too Much",
