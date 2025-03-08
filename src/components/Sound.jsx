@@ -12,7 +12,12 @@ const Sound = ({ artist, src, name, action }) => {
 				sound.play();
 				break;
 			case "clipboard":
-				navigator.clipboard.writeText(`https://neilrogers.org${src}`);
+				let clipboardText = name;
+				if (artist) {
+					clipboardText += `\n${artist}`;
+				}
+				clipboardText += `\nhttps://neilrogers.org${src}`;
+				navigator.clipboard.writeText(clipboardText);
 				setButtonText("Saved to Clipboard!");
 				setTimeout(() => setButtonText(name), 1000);
 				break;
