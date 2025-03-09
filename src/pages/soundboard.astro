@@ -5,6 +5,7 @@ import FullSoundboard from "../components/FullSoundboard";
 import FilteredSoundList from "../components/FilteredSoundList";
 
 const sounds = JSONData.files;
+const numberOfSounds = sounds.length;
 ---
 
 <Layout
@@ -15,8 +16,8 @@ const sounds = JSONData.files;
 	<div class="card">
 		<h1><span class="emoji">🔊</span>The Neil Rogers Soundboard</h1>
 		<p>
-			Welcome to the Neil Rogers Soundboard. Here you can play drops from Neil Rogers, Jennifer
-			Rehm, Jim Mandich, Larry King, and more.
+			Welcome to the Neil Rogers Soundboard. Here you can play {numberOfSounds} drops from Neil Rogers,
+			Jennifer Rehm, Jim Mandich, Larry King, and more.
 		</p>
 	</div>
 
