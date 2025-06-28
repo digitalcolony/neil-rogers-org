@@ -1,9 +1,6 @@
 import { defineConfig } from "astro/config";
 import netlify from "@astrojs/netlify";
-
 import react from "@astrojs/react";
-
-// https://astro.build/config
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
@@ -12,6 +9,8 @@ export default defineConfig({
 	adapter: netlify({
 		cacheOnDemandPages: true,
 	}),
+	responsiveStyles: true,
+	layout: "constrained",
 	integrations: [
 		react(),
 		sitemap({
