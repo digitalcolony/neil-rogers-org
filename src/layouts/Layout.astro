@@ -94,8 +94,21 @@ Astro.response.headers.set("Cache-Control", "max-age=3607");
 		<Footer />
 		<script>
 			import { setupMenu } from "../scripts/menu.js";
+			import { PWAInstaller } from "../utils/pwa-installer.js";
 
-			document.addEventListener("astro:page-load", setupMenu);
+			document.addEventListener("astro:page-load", () => {
+				setupMenu();
+
+				// Initialize PWA
+				if (typeof window !== "undefined") {
+					PWAInstaller.registerServiceWorker();
+
+					// Cache priority audio files after page load
+					setTimeout(() => {
+						PWAInstaller.cacheFirstAudioFiles();
+					}, 2000);
+				}
+			});
 		</script>
 	</body>
 </html>

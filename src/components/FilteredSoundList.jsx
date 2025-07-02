@@ -2,6 +2,9 @@ import React, { useState, useRef, useEffect } from "react";
 import Sound from "../components/Sound";
 import * as soundboardStyles from "../styles/soundboard.module.css";
 import RadioButton from "../components/RadioButton";
+import { PWAManager } from "./PWAManager";
+import { OfflineIndicator } from "./OfflineIndicator";
+import { InstallPrompt } from "./InstallPrompt";
 
 export default function FilteredSoundList({ sounds }) {
 	const searchInputRef = useRef(null);
@@ -55,7 +58,9 @@ export default function FilteredSoundList({ sounds }) {
 	});
 
 	return (
-		<>
+		<PWAManager>
+			<OfflineIndicator />
+			<InstallPrompt />
 			<div className={soundboardStyles.sbmenu}>
 				<ul>
 					<li>
@@ -111,6 +116,6 @@ export default function FilteredSoundList({ sounds }) {
 					/>
 				))}
 			</div>
-		</>
+		</PWAManager>
 	);
 }

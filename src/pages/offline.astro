@@ -1,0 +1,89 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+	title="Offline - Neil Rogers Show"
+	description="You're currently offline. Limited content available."
+	url="/offline/"
+>
+	<div class="card">
+		<h1><span class="emoji">📵</span>You're Offline</h1>
+		<p>You're currently offline, but don't worry! Some content is still available.</p>
+	</div>
+
+	<div class="offline-info">
+		<h2>What's Available Offline:</h2>
+		<ul>
+			<li>✅ Previously visited pages</li>
+			<li>✅ Cached soundboard drops (up to 20)</li>
+			<li>✅ Essential images and site navigation</li>
+		</ul>
+
+		<h2>What Requires Internet:</h2>
+		<ul>
+			<li>❌ New page content</li>
+			<li>❌ All 350+ soundboard drops</li>
+			<li>❌ Downloads and sharing features</li>
+		</ul>
+
+		<div class="reconnect-info">
+			<h3>To Get Full Access:</h3>
+			<p>Check your internet connection and refresh the page when you're back online.</p>
+			<button onclick="window.location.reload()" class="retry-button"> 🔄 Try Again </button>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.offline-info {
+		margin-top: 2rem;
+		padding: 1.5rem;
+		background: #f8f9fa;
+		border-radius: 8px;
+		border-left: 4px solid #6c757d;
+	}
+
+	.offline-info h2 {
+		color: #495057;
+		margin-top: 1.5rem;
+	}
+
+	.offline-info h2:first-child {
+		margin-top: 0;
+	}
+
+	.offline-info ul {
+		margin: 0.5rem 0;
+		padding-left: 1.5rem;
+	}
+
+	.offline-info li {
+		margin: 0.5rem 0;
+		font-size: 0.95rem;
+	}
+
+	.reconnect-info {
+		margin-top: 2rem;
+		padding: 1rem;
+		background: white;
+		border-radius: 6px;
+		text-align: center;
+	}
+
+	.retry-button {
+		background: #007bff;
+		color: white;
+		border: none;
+		padding: 0.75rem 1.5rem;
+		border-radius: 6px;
+		font-size: 1rem;
+		cursor: pointer;
+		margin-top: 1rem;
+		transition: background-color 0.3s ease;
+	}
+
+	.retry-button:hover {
+		background: #0056b3;
+	}
+</style>

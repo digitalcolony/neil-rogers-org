@@ -1,0 +1,66 @@
+.indicator {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1000;
+	background: rgba(0, 0, 0, 0.9);
+	color: white;
+	padding: 8px 16px;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: 500;
+	backdrop-filter: blur(10px);
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.online {
+	background: rgba(34, 197, 94, 0.9);
+}
+
+.offline {
+	background: rgba(239, 68, 68, 0.9);
+}
+
+.status {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: currentColor;
+	animation: pulse 2s infinite;
+}
+
+.offline .dot {
+	animation: none;
+}
+
+.message {
+	font-size: 12px;
+	opacity: 0.9;
+	margin-top: 4px;
+}
+
+@keyframes pulse {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+}
+
+@media (max-width: 768px) {
+	.indicator {
+		top: 10px;
+		right: 10px;
+		font-size: 12px;
+		padding: 6px 12px;
+	}
+}

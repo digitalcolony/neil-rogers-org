@@ -34,3 +34,29 @@
 	left: 2px;
 	box-shadow: 2px 2px 0 var(--shadow-color); /* Adjust shadow on active */
 }
+
+.cached {
+	background-color: #dcfce7; /* Light green background for cached items */
+	border-color: #22c55e; /* Green border */
+}
+
+.cached:hover {
+	background-color: #bbf7d0;
+	color: #15803d;
+}
+
+.unavailable {
+	background-color: #fef2f2; /* Light red background for unavailable items */
+	border-color: #ef4444; /* Red border */
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.unavailable:hover {
+	background-color: #fef2f2; /* Keep same background on hover */
+	color: #dc2626; /* Red text */
+}
+
+.unavailable:disabled {
+	cursor: not-allowed;
+}

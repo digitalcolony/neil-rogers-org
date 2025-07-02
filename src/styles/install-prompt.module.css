@@ -1,0 +1,109 @@
+.installPrompt {
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	color: white;
+	border-radius: 12px;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+	max-width: 400px;
+	width: 90%;
+	animation: slideUp 0.5s ease-out;
+}
+
+.content {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.icon {
+	font-size: 2rem;
+	flex-shrink: 0;
+}
+
+.text {
+	flex: 1;
+}
+
+.text h3 {
+	margin: 0 0 8px 0;
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+.text p {
+	margin: 0;
+	font-size: 0.9rem;
+	opacity: 0.9;
+}
+
+.actions {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	flex-shrink: 0;
+}
+
+.installButton {
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	color: white;
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	min-width: 80px;
+}
+
+.installButton:hover:not(:disabled) {
+	background: rgba(255, 255, 255, 0.3);
+	transform: translateY(-1px);
+}
+
+.installButton:disabled {
+	opacity: 0.7;
+	cursor: not-allowed;
+}
+
+.dismissButton {
+	background: transparent;
+	border: none;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 4px 8px;
+	font-size: 0.8rem;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+.dismissButton:hover {
+	color: white;
+}
+
+@keyframes slideUp {
+	from {
+		transform: translate(-50%, 100%);
+		opacity: 0;
+	}
+	to {
+		transform: translate(-50%, 0);
+		opacity: 1;
+	}
+}
+
+@media (max-width: 480px) {
+	.content {
+		flex-direction: column;
+		text-align: center;
+		gap: 12px;
+	}
+
+	.actions {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
