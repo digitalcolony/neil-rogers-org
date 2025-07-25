@@ -346,7 +346,7 @@
             "name": "Fart 2",
             "artist": "Neil Rogers",
             "duration": "0:00",
-            "mp3": "/sounds/Fart 2.mp3"
+            "mp3": "/sounds/Fart_2.mp3"
         },
         {
             "name": "Firefighters Hoses In Hand",
@@ -1714,7 +1714,7 @@
             "name": "They Don't Come Any Better (Gilbert)",
             "artist": "Gilbert Solomon",
             "duration": "0:11",
-            "mp3": "/sounds/They Don't Come Any Better (Gilbert).mp3"
+            "mp3": "/sounds/They-Don't-Come-Any-Better-Gilbert.mp3"
         },
         {
             "name": "They Don't Come Any Better Than Larry King",
@@ -1906,7 +1906,7 @@
             "name": "Worst Talk Radio I Ever Heard",
             "artist": "Larry King",
             "duration": "0:03",
-            "mp3": "/sounds/Worst-Talk Radio-I-Ever-Heard.mp3"
+            "mp3": "/sounds/Worst-Talk-Radio-I-Ever-Heard.mp3"
         },
         {
             "name": "Y O",
