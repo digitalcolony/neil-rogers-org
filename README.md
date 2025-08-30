@@ -100,6 +100,35 @@ The Neil Rogers Show was a legendary radio talk show that entertained listeners 
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build locally
 
+## Local build & preview (Netlify image transforms)
+
+When building the site with the Netlify adapter, some images are rewritten to Netlify's image transform endpoint (e.g. `/.netlify/images?url=...`). A plain static server won't resolve those transform URLs, so to preview the `dist` output locally we provide a small local-only helper that rewrites those requests to the corresponding files in `dist`.
+
+- Why: Astro + the Netlify adapter can emit image URLs that depend on Netlify's runtime. The helper server rewrites `/.netlify/images?url=...` requests to the actual files emitted into `dist/_astro` so images load when previewing locally.
+
+- How to use (local only):
+
+```bash
+# build the site
+npm run build
+
+# serve the dist with the helper
+npm run serve:dist
+```
+
+The `serve:dist` script runs `node ./scripts/serve-dist-netlify-images.cjs` which serves files from `dist` and rewrites Netlify transform requests to local files.
+
+- Safety notes:
+
+  - This helper is strictly for local preview. It should not be used in CI or in production on Netlify.
+  - Do not add the helper to production or build scripts (`build`, `start`, or Netlify lifecycle hooks).
+  - If you added dependencies to fix local build issues, review them separately before pushing to remote — those dependency changes do affect Netlify builds when committed.
+  - Recommended guard (implemented in the helper): the script exits immediately if it detects a CI or Netlify environment (checks `process.env.CI` or `process.env.NETLIFY`).
+
+- Troubleshooting:
+  - If images are still 404 when previewing `dist`, confirm `dist/_astro` contains the hashed image files and that the helper is running without errors.
+  - You can also use a plain `http-server` for static content; however, it will not resolve Netlify transform endpoints created by the adapter.
+
 ## 🌐 Deployment
 
 This project is configured for Netlify deployment with:
