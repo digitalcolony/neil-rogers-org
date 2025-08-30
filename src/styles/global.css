@@ -337,6 +337,21 @@ h3 {
 	z-index: 1;
 }
 
+/* Keep links inside image captions visually consistent: preserve caption color but keep the underline */
+.image-caption a {
+	color: inherit; /* use the caption's text color */
+	text-decoration: underline; /* keep an underline for clarity */
+	border-bottom: none; /* remove the link bottom-border used globally */
+}
+
+.image-caption a:hover,
+.image-caption a:focus,
+.image-caption a:active,
+.image-caption a:visited {
+	color: inherit; /* don't change color on hover/visited/active */
+	text-decoration: underline; /* ensure underline persists */
+}
+
 /* List styles */
 ul {
 	list-style: none;
