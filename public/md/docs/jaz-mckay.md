@@ -1,0 +1,209 @@
+---
+title: "Neil Rogers - My Neil Rogers Story"
+meta:
+  "og:description": "Jaz McKay tells the story of how he got into radio and his time with Neil Rogers."
+  "og:title": "Neil Rogers - My Neil Rogers Story"
+  description: "Jaz McKay tells the story of how he got into radio and his time with Neil Rogers."
+---
+
+# My Neil Rogers Story
+
+_by [Jaz McKay](https://x.com/DeplorableJaz) - April 5, 2025_
+
+[Home](https://neilrogers.org/) > [Docs](https://neilrogers.org/docs) > My Neil Rogers Story
+
+As the only weekend part-timer with any talent and ability at Cox Media Group’s, 610 - WIOD in the early to mid 1990’s I was the go to guy to fill in for most of the full time talk show hosts. I had filled in for Chuck Meyer, Rick & Suds and Randi Rhodes numerous times. When it was the holiday season, I worked every single day of the week for three to four weeks in a row. I was called the “Hardest working man in Miami talk radio.” But there was one person at WIOD who never had a fill in host, the legendary Neil Rogers. Neil was such a massive superstar of Miami radio that the only person, who could fill in for Neil, was actually Neil.
+
+Substitute hosts had been used earlier, at other stations, but it was far from successful, Neil’s loyal listeners wouldn’t put up with it. The station would be flooded with calls, both to the front desk and on the air. The fill in guys were ripped to shreds by the callers, nobody ever got out alive.
+
+![Jaz McKay radio host WIOD](https://neilrogers.org/.netlify/images?url=_astro%2Fjaz-mckay-radio-wiod.CZcL46rw.jpg&#38;fm=jpg&#38;w=441&#38;h=343)
+
+Jaz McKay on WIOD
+
+Neil’s listeners were hardcore; I always called them the devoted "Neilephites." They were a tribe of loyal followers who’d trek through the rough and rugged radio wilderness to follow their irreverent societal prophet anywhere he led them, the ones who would shout, “Neil, God!” at the top of their lungs over the phone. Neil’s fans were known for their fierce dedication to him because of his biting humor and unfiltered no holds barred, kick in the ass of the faux-grandiosity inherent in the upper crust of the cultural elites of South Florida. Neil had the highest ratings of any radio host in Miami; he consistently pulled double digits in all demographics. In fact it wasn’t unusual for Neil to carry an entire station.
+
+Then there’s the calls Neil took, he didn’t even want to know the subject or reason for your call, just the caller’s name and the city they were calling from. He took calls on any subject what-so-ever, nothing was off limits. The calls came from a wide variety South Floridians, lunatics, morons and masochists who would risk Neil’s wrath to try and entertain him. That was really the role of the caller’s on the Neil Rogers show, to entertain the host. If you were good Neil would heap tons of praise and say, “Great call, I love it,” however if you failed he’d ridicule you for the next hour with profane innuendos and obscene sound effects from his vast array of drop-ins. In fact if your call was exceptionally entertaining his long time producer, Jorge Rodriguez might pull a snippet out and add it to the collection of Neil’s sound effects and voice drops. Neil’s show was unique in that it wasn’t just stream of consciousness; it was a wide roaring river of biting wit, unfiltered opinions, and relentless humor that swept listeners along for the ride and if Neil wasn’t there in person, it better be Neil on tape or there would be a revolt.
+
+If for any reason he couldn’t be there, whether he was off on a cruise, in Vegas gambling or just out with a cold, his midday shift between 10 and 2 was covered by Jorge who would always host the “Best of the Neil Rogers Show.” And the “Best of...” shows always consisted of him introducing various clips of Neil from past programs, and believe it or not the audience ate it up. They got to hear the best callers, Neil’s most epic rants, and their favorite comedy bits; his shows usually weren’t dated because Neil rarely talked about “issues of the day,” political or otherwise. His show was almost exclusively social commentary. Also, Jorge was a real producer, not just a button pusher, he meticulously went over hours of tapes of the Neil Rogers Show to select bits and pieces that weren’t dated or in any way dull, Jorge actually produced, what the name implied, “A Best of Show,” not just a random program from a month ago played in its entirety.
+
+As I said, Neil’s show was not the usual topic or issue driven talk radio show. Neil’s nickname was “Nasty Neil,” for obvious reasons and his show could be about … anything, anything on his mind at the moment, maybe he’d talk about his experience at dinner the night before, sports, or the latest gossip about some celebrity or politician. He loved cutting people down to size too. He especially hated pertinacious people in positions of power or prestige. His favorite targets were the media types in Miami, TV news anchors or reporters and newspaper columnists were all targets but what he relished the most was offering his, somewhat, shall we say ‘biting commentary’ regarding his fellow radio broadcasters. Other hosts from the three other talk radio stations, both local and syndicated, were his favorite targets, also on some occasions a disc jockey on a top 40 or rock station would get under his skin, if so look out. Or maybe he’d pay some media dude a compliment, it was rare but it happened. Neil was an equal opportunity offender, but he really appreciated talent and most importantly, honesty. Rather than rip you apart, if he liked you or what you did he’d let his listeners know.
+
+Neil Rogers had been a midday powerhouse at WINZ-AM 940 since 1976, stepping into the slot vacated by Larry King, who’d bolted for a national gig. By 1978, Neil owned the 10 a.m. to 2 p.m. shift, turning it into Miami’s top-rated talk show with his razor-sharp wit. Fast forward to 1987, the folks at Gannett Publishing, who owned WINZ, decided to shake things up. They transplanted Neil to the morning drive show at WZTA 94.9, better known as Zeta 4, a rock station struggling to find its footing. Starting in 1987, Neil took over the 6 to 10 a.m. slot; his ratings magic didn’t miss a beat, hauling Zeta 4 to #1 in the morning, a feat that left the station’s rock roots in the dust because his show was 100% talk, no music. Neil propped up the whole station on his shoulders for as long as he could, but once the clock hit 10 a.m., the ratings took a nosedive, plummeting to dismal depths. Midday through early evenings showed up with a 0.5 to a 1 share, I mean it was embarrassing, it sucked bad.
+
+After Neil Rogers left Zeta 4 in the fall of 1988, he finally moved to WIOD, where he was back in the midday time slot from 10 am to 2 pm, a shift he was more suited for. WIOD was a news-talk powerhouse and it gave Neil a broader platform to flex his talk radio muscle including years of double digit ratings, something unheard of in a city the size of Miami.
+
+At WIOD the programming department built the entire radio station around Neil. While the morning show with Chuck Meyer was a standard Full Service talk format, very structured, news twice an hour, traffic and weather on the tens, one feature per hour with a quick interview. It was very fast passed and geared to a “give us 20 minutes and we’ll give you the world” type of programming. It was a no nonsense, news and information show, but at ten o’clock everything changed, you had Neil Rogers hanging up on people, followed by Rick & Suds, a very funny and likable team that consisted of Rick Riley and "Suds" Coleman, formerly the morning show at WAXY, they moved over to afternoons on WIOD the same time as Neil. There was a great sports talk show with former Miami Dolphin, Jim “Mad Dog” Mandich and then at night you had Randi Rhodes a fiery, progressive talk radio host who carved out a big name in South Florida before going national. After Randi, it was a replay of the Don & Mike show, piped in from WJFK in Washington DC.
+
+At the time WIOD was one of the originators of what became the “Hot Talk” format. No longer was talk radio boring. Gone was the investment and financial talk; gone were the lame interviews with some city councilmen about a bond issue or a new crosswalk going in on Main Street, talk radio was changing, it was evolving, it had become exciting, edgy and in your face, this wasn’t your grandpa’s talk radio.
+
+You have to remember, this is the era of Howard Stern, The Greaseman and Mancow Muller. “Shock Radio” was the big craze, but it was usually restricted to morning drive on a youth oriented rock station, it was never an entire station format, but in the late 1980’s it was and it ruled the Miami market from the studios of 610 - WIOD.
+
+So, I was a perfect fit for WIOD and I was hired there for a Saturday and Sunday shift in the fall of 1993. The program director, Gary Bruce had brought me back to Miami from Lansing, Michigan where I was doing a morning show at the first Classic Rock station in America, 92.7 WMMQ. My morning show was huge and I was really successful at least until I got my ass fired for some, shall we say, internal conflicts with management over my behavior off the air.
+
+That’s always been my downfall, despite the depths of rude & obnoxious radio I was capable of producing, (I’m talking some truly “Hard R Rated or Adult Stuff” like a stripper, filling in for my vacationing newsman, reading the “News in the Nude”, any number of sexually explicit songs or pre-recorded comedy bits, or Bong Hit Mondays, where callers were invited to call in to “Wake and Bake with Jaz McKay” by taking a bong hit live on the air with us.) I was never fired for anything I said or did on the air, it was always some stupid thing I did off the air, usually under the influence of drugs or alcohol. Those things might include accidentally faxing some pornographic pictures to the wrong person, getting in a bar fight and breaking some dudes jaw, getting nabbed by the cops or posting a joke on social media that goes horribly wrong (Ooops). It was always off-mic mischief, never the show itself. Call me a maestro of chaos off-air, a whirlwind of bad decisions, but a rock-solid pro when the red light glowed, except, of course, for those occasional dalliances with the aforementioned substances I frequently abused that might’ve left me a bit too loose on the dial.
+
+As I said, doing weekends at WIOD was the perfect place for me in the early 90’s, I had been at the station about three months or so when I got that call from Neil’s producer, Jorge Rodriquez. As I remember it, it was a Tuesday morning and I’d been out very late the night before, getting hammered as I did most every night back in the bad old days. I started the night before with Monday Night Football at The Goalpost Grill in Pembroke Pines, and ended up at Crazy Jims, a nudie bar in Hallandale. Copious amounts of Miller High-Life, bourbon and a few rounds of Goldschläger were involved and I was still a little drunk when my phone rang.
+
+“Hello…” I said, my voice cracking as I tried to pull the cobwebs out of my mouth.
+
+“Jaz, its Jorge, can you fill in for Neil today, he’s sick?”
+
+“Wait, what? Nobody fills in for Neil. Don’t you always run a Best of…?”
+
+“Yeah well, you’re the first in a long time if you wanna do it, he asked me to call you.”
+
+I looked at the clock radio next to my bed, it was 8:40 am, Neil went on at 10AM and as I said I was pretty damned hung-over, in reality I was actually still pretty drunk.
+
+“Look, I know it’s short notice,” Jorge said, “and if you can’t do it I understand but, Neil asked me to call you and remember, nobody has ever filled in for Neil on WIOD and if you say no he may never ask you again and think of it this way, Neil’s show is the most listened to radio show in all of South Florida, not to mention the simulcast on WSUN in Tampa. You’ll have millions of listeners Jaz.”
+
+“I’ll fucking be there Jorge.” I said.
+
+No chance I’d let that golden ticket slip from my grasp, Jorge nailed it, this wasn’t just a shot at the biggest radio audience in the entire great, phallic shaped state of Florida, but to be asked by the Godfather of Miami Talk Radio himself to break years of precedence and actually fill that chair at WIOD from 10am till 2pm was a damn freaking privilege. And not only that, but consider the fact that I’d only been at the station for just three months. Yeah, Neil and I had known each other for a few years, going back to when I was doing mornings at the EZ Communications, Urban Condemnatory powerhouse, WHQT - Hot 105. Back then when my producer Jim and I would produce a recorded comedy bit too racy for our station, we’d give it to Neil. A few times we produced bits exclusively for his show and he always praised our efforts but as far as the listeners of WIOD were concerned I was still “the new guy on the weekend.” But what better way to break out of that mold than to throw the dice and crack the code of the Neil Rogers show by opening the microphone at 10:05 to say, “Neil’s out sick today so you’re stuck with me, Jaz McKay for the next four hours, aren’t you lucky?”
+
+I opted to skip the shower entirely, just splashed some water on my face, brushed my teeth, and yanked my hair into a ponytail while the coffee maker gurgled in the kitchen. My place was up in Miami Gardens, and the station sat out in North Bay Village, perched on an island smack in the heart of Biscayne Bay. It was a solid 30 to 45 minute haul if traffic didn’t screw me over. Time wasn’t on my side, so I floored it out of there around 9:15.
+
+Back in those days, I was piloting a boat of a car, a battle-scarred 1985 Cadillac Fleetwood Brougham. This beast, a true road titan, boasted traditional luxury stature with a 121.5-inch wheelbase and an overall length stretching beyond 18 feet. That beauty reigned as the undisputed king of Cadillac’s in the '80s, the last of the Detroit Land Yachts before General Motors leaned harder into downsizing. That monster could haul ass.
+
+I didn’t set any speed records in that behemoth, but I made it just in time, barely by the skin of my teeth in fact, around 9:55. I drove through the gate the Isle of Dreams parking lot, that’s what it was called, you see when 610 WIOD first signed on the air in the late 1920’s, it was owned by the Isle of Dreams Broadcasting Company, earning its call letters that sang out "Wonderful Isle Of Dreams."
+
+I’ve worked at plenty of radio stations, but I’ll tell you this, none were ever nestled in such a beautiful location as WIOD. Most are housed in slate and sterile office buildings or in strip malls, but WIOD had a front-row seat to a jaw-dropping view of Miami Beach in the distance. That scene was so striking photographers turned it into postcards for sale in the hotels and resorts off in the distance. Once, as a part of a part of a Hot 105 on air promotion, I snagged a ride on the Goodyear blimp in that same vicinity. That was an adventure that ranks among the wildest thrills of my life.
+
+The bay buzzed with sailboats slicing through the waves and windsurfers skimming with fearless flair, while over on the beach, kites dotted the sky and folks savored South Florida’s sun-soaked charm in leisurely bliss. Words fall short of capturing it; that beauty was one of a kind.
+
+I guided that Colossus Cadillac Cruiser through the parking lot, easing it into a tight spot near the back door. As I stepped out, headphones in hand, the station’s security guard, a real nice old gentleman named Marty caught sight of me and tossed a friendly wave my way.
+
+“Hey Jaz, how’s it goin’?” he shouted with a big smile.
+
+“Doing good Marty, I’m covering for Neil today, I guess he’s out sick.”
+
+“Neil Rogers? Nobody steps in for Neil, they just play his greatest hits!”
+
+“Not this time,” I shot back. “Not this time.”
+
+I tapped in the door code and entered the building, the sales offices and management were on the first floor and the air studios were located upstairs, so I sprinted up the back stairwell and made my way through the door from the stairwell and down the hallway past the production studios, and our Contemporary Hit Radio station, WFLC &ndash; Hits 97 just as the midday jock, Anna Maria, was headed in the studio door.
+
+“Hey Jaz McKay, what are you doing here on a Tuesday?” she asked.
+
+“I got a call from Jorge, I replied, fast-walking down the corridor, “I’ve got to fill in for Neil, he’s sick,”.
+
+“Filling in for Neil? Nobody fills in for Neil; they just run a best-of show!” Anna Maria shouted back.
+
+“Not today,” I said. “Today it’s me.”
+
+Coming to the entrance to the WIOD studios, I opened the heavy door that led into the soundlock area, a vestibule between the hallway and the on-air studio and the control room. Inside, I looked up to see the red light on over the studio door. Through the window, I spotted Chuck Meyer, the WIOD morning show host, his voice muffled as he wrapped up his show.
+
+Just then Jorge stuck his head out of master control and said, “Jaz, thanks for doing this on such short notice. I just want you to know the Neil Rogers Show is only hosted by Neil Rogers; nobody has filled in for him in a very long time, not to put any pressure on you but, well, good luck.”
+
+“Don’t worry brother, I got this.” I said back, not truly believing the words myself.
+
+“Okay then, break a leg,” he said pulling back into the control room, the big door slowly closing behind him. I stood there, trying to catch my breath and that’s when it hit me: what was I going to talk about? Holy crap, I hadn’t even thought about it. I didn’t do issue-oriented talk radio back then, but I usually had a few solid ideas. Yet, at that moment, with about five or six minutes to go, I was completely blank. It was a whirlwind of relief and panic. Just then, the on-air light went off and I pushed open the door.
+
+Chuck, an older more conservative, traditional radio show host, was taking off his headphones and winding up the cord, he looked up in surprise when he saw me shuffle in.
+
+“Jaz, what are you doing here?” he said.
+
+“I got a call from Jorge, Neil’s out today and I’m filling in for him.” I shot back as I moved around the studio grabbing my big rolling cart racks of sound effects and drop-in’s moving them behind the control board.
+
+“Wait a minute,” Chuck said looking down at the floor and then up at me while pointing his finger, “Neil’s sick and you’re filling in? Neil doesn’t have fill-in hosts, nobody can fill in for Neil, and they always run a best of show. Are you sure someone’s not pulling your leg?”
+
+“What do you thinks’ going to happen?” I asked, “Right at ten o’clock Neil’s gonna come bursting in the door saying ‘April Fools?’ Look, Neil’s out sick and I’m filling in today, okay? Get used to it. Everybody’s acting like we’ve opened the gates into Bizarro World just because Neil’s asked me to substitute for him. Relax, Chuck, we're not rewriting the laws of the universe here!"
+
+“Okay, I just hope he’s not setting you up to take a fall.” Chuck said as he gathered up the remainder of his belongings and walked out shaking his head.
+
+I slid into the chair behind the studio control board, my hands shaky as I fumbled with my carts, drop-ins, music beds, and sound effects I’d need for the first segment. Sweat beaded on my forehead and my heart was pounding like a jackhammer. What if Chuck’s right? What if this is some twisted setup to chop me down to size? I mean, this is Neil Rogers we’re talking about, the guy who’s been my radio idol since I first heard him on WINZ back in 1986.
+
+Before Neil, I was just a clueless, “happy-talk morning jock”, spinning Top 40 hits and cracking corny jokes. But Neil? He lit a fire under me, turned me into the sharp-tongued, take-no-prisoners host I had developed into. And now I’m supposed to fill his shoes? I kept glancing at the door, half-expecting Neil to storm in, point at me, and yell, “Get outa’ my chair punk!” I was a nervous wreck, paranoid as hell that I’m about to crash and burn in front of his army of Neilephites.
+
+I’d only been at WIOD for a few months and while I’d made quite a splash, this was the Neil Rogers show we were talking about. I was one of four weekend part-timers, but I was the only one with 15 years of experience in the radio biz, the only one asked to sub for the other hosts, and yes, there was some resentment coming my way from a couple of them. Not to mention the fact that Randi Rhodes hated my guts, but there was a reason for that, which I’ll have to tell you about at some point. I couldn’t shake the feeling that filling in for the great Neil Rogers, might be a setup to watch me fall flat on my face, with Randi and the others snickering in the background.
+
+Neil had been both hot and cold toward me from the start. Management had pumped me up to Neil, the rest of the air staff, so a lot was expected from me from the very beginning. That very first show I did on WIOD, three months earlier, was a gut-wrenching experience. I knew that everyone from the staff was told to check me out, I knew that my mentor, Neil Rogers, was listening that day, and honestly, I was nervous as hell. No, I wasn’t nervous, I was scared to death, and feeling like every word I said was being dissected by the king of talk radio himself.
+
+I flashed back to the Monday after my first weekend shows. I tuned into Neil’s program, my stomach in knots, and then it happened, right there out of the box at the top of his show, Neil tore into me like a buzzsaw, “Did anybody here that disastrous Jaz McKay this past weekend. Oh my God where did Boy Gary find this guy, drunk in some cowboy bar in Davie? And have you seen this guy, with the long hair and a beard, he’s always in dirty blue jeans and a black leather jacket. What is he some kind of Hells Angel or something?”
+
+He went on calling me an uncouth, smelly redneck, a biker with a bad attitude, no business being on the radio in Miami etc. I was crushed, my hero’s words hitting like a sledgehammer to the gut. Then he opened the phone lines, his Neilephite army unleashed, callers ripping me apart, shredding my performance, my voice, my content, my everything, it was crushing, like a public execution on air. There I sat in the living room of my tiny one bedroom apartment in Miami Gardens that day three months ago, heart pounding, palms sweaty, until I couldn’t take it anymore, I grabbed the phone, dialed in, ready to face the fire.
+
+It was the very last segment at the end of Neil’s first hour when he picked up my call, “Well, look who’s on the phone folks, it’s Jaz McKay himself, so Jaz, how’s it going sir?”
+
+“Well, well, well Mr. Rogers, yeah it seems some of my biker brothers called and said you were talkin’ smack about me so I figured you wouldn’t mind sayin’ whatever you gotta’ say directly to me rather than me havin’ to hear about it from a third party,” I shot back, my voice tight with nerves and defiance.
+
+Neil responded in his usual condescending tone, “Jaz, calm down there, I don’t want you pissed off at me, I know you have connections, I wouldn’t want your ‘biker brothers’ to come after me,” his sarcasm slicing through the air like a razor-sharp blade, attempting to cut me down to size on live radio.
+
+“That’s another thing Neil, you suggested I might be a Hells Angel, this is South Florida buddy, this is Outlaw Motorcycle Club territory, and they ain’t friendly to H.A.’s. You trying to get me hurt before my next show this Saturday?” I laughingly snapped, throwing a bit of my own sarcasm back at him.
+
+“No, I don’t know all the biker protocol Jaz, I apologize. So, do you have anything else to add, because I have a hard break here?” he asked, with a his tone softening just a touch.
+
+“Yeah, I do, as a matter of fact, anybody out there calling in to Neil Rogers today, trash-talkin’ about me or my show, if you got the guts, call me this Saturday, I’ll be right there from 2 to 6 p.m. You got something to say to me, do it then! See Ya, Neil!” I barked, throwing down the gauntlet.
+
+“Well, okay, Jaz, SEE YA!” he said shouting my own signature ‘parting phrase’ that I always used to say goodbye to a caller. “There you go, folks, Jaz McKay, the newest addition to the WIOD staff, I’ll be right back with your calls after the news,” he said, cutting to break.
+
+When Neil came back at 11:06, the whole vibe shifted, like a storm clearing out of nowhere, Neil started saying great things about me, about how it took guts to call in and confront him and his listeners. He started praising my talent, my voice, my timing and my sense of humor, he said, “Jaz McKay is the best thing to happen at WIOD in a long time, a breath of fresh air, even though that air does reek of pot smoke.”
+
+The callers followed his lead, suddenly they couldn’t wait to hear my next show, saying I brought a raw energy they’d been missing, I went from a crushed cockroach to a phoenix rising from the ashes, ready to set the airwaves on fire that next Saturday afternoon. Neil’s words, the audience’s turnaround, they proved I’d earned my damn spot on WIOD, I wasn’t just some fluke who’d stumbled into South Florida’s talk radio jungle.
+
+From that point on my Saturday and Sunday shows started blowing up, becoming the kind of water cooler talk that had listeners buzzing all week, the Arbitron trend reports didn’t lie, I was spiking hard in the target demos, Men 25&ndash;54 and 35&ndash;64, hell, even the 12+ numbers were climbing faster than a Miami heat wave in June. Suddenly, I was the go-to guy, filling in for everybody, Rick, Suds, Randi, you name it, everybody except the untouchable Neil Rogers. But now, that was all about to change.
+
+So, there I sat, holding the microphone of the number one radio show in all of South Florida about to embark on a dangerous territory, oh yeah did I mention I used a handheld mic at WIOD? It was the classic Sennheiser MD 421, with a little desk stand, but I would hold it, the long cords on both the mic and my headphones, let me walk around the studio as if I was doing standup comedy again. Pacing the stage, riffing off the crowd, except now it was live radio, but I was still stirring the pot with callers and the metaphoric stage was considerably bigger.
+
+As I waited for the show to begin, watching the second hand on the studio clock revolve, I’ll admit that despite my bold exterior ego and appearance of confidence, my eternal insecurity was making me more apprehensive with every second that ticked by. I knew I was about to royally piss off tens of thousands of people who were expecting their beloved Neil Rogers, but instead, they’d get me, a deplorable redneck biker in faded blue jeans, a pair of beat up Tony Lama's, and a sleeveless black T-shirt with the Snaggletooth Motörhead logo. There I was, a guy running on almost no sleep, still reeling from a few hours ago when I was utterly blasted out of my mind, stuffing dollar bills into the garters of the naked pole-dancing babes at one of Miami’s finest, sleazy strip joints. I tried to relax, after all, it’s just radio and it ain’t rocket surgery, right?
+
+The local news followed the network feed and then ended with the weather report; “Partly cloudy and a chance of anxiety, with a high probability of panic, and scattered self-doubt rolling in by for the next four hours,” My gut churning like a Cat 5 hurricane, I braced for the shitstorm I was about to face with the Neilephites, knowing I was about to get drenched in their wrath.
+
+Neil Rogers’ intro music kicked in, followed by the WIOD “Big Voice Guy” with the intro. Every station back then had a Big Voice Guy, a production director with an amazing voice, not some sketchy dude on retainer in Newark or Poughkeepsie with a home studio, banging out hundreds of voice tracks a week, like every station does today.
+
+WIOD had one of the best, I can’t recall his name, but man, what a voice he had, that big booming baritone announced, “News Talk Radio 610 WIOD presents The Neil Rogers Show. To get in touch and talk to Neil, dial 751-WIOD in Dade, in Broward, 524-WIOD, outside the 305 area code, dial toll-free 1-800-944-WIOD, Bell South Mobility customers, make a free call by dialing Star WIOD. The opinions expressed by the guests, hosts, or callers are not necessarily the opinions of this station. Now here’s Neil Rogers on News Talk Radio 610 WIOD!”
+
+I punched in a few drop-ins, a frantic clip from some old movie with a guy yelling, “Oh dear God, it’s beginning!” then a classic Three Stooges bit, Moe barking, “Quiet down, you knuckleheads, I’m broadcasting!” I grabbed the mic, roaring my signature opening, “God Bless America! No, this is not Neil Rogers, it’s your old buddy, Jaz McKay and I'm in charge whether you like it or not!” then I slammed a button, unleashing a woman’s piercing scream, “No, no, not him, he’s trying to kill me!” followed by a raucous sound effect of a small studio audience cheering and clapping like I was hosting a circus. Listeners always thought I had six or seven rowdy folks in the studio with me, but nah, it was just clever sound effects, I did have a few hanger-on’s for my weekend gigs, my buddy’s Victor and Keith and my girlfriend Victoria, but today I was flying solo, just me with Jorge in the control room on the other side of the glass, watching the madness unfold.
+
+As the music faded behind me, I gripped that handheld Sennheiser and leaned in over the consol, laying out the wild circumstances of my morning, “So anyway, there I was, about an hour and a half ago, passed out cold in my bed, when my phone goes off like a nuclear bomb, the ringer's always on high, anyway it’s Jorge over there and he's telling me Neil’s under the weather and he’s requested I drag my sorry ass in, massive hangover and all, to perform on this show like the tap-dancing monkey I am. So here I am, instead of a Best of show, you get ME, can you believe it?”
+
+Jorge jumped in at that point to back me up, confirming I wasn’t spinning some wild yarn, I hadn’t clubbed Neil over the head, stashed him in the prize closet of the promotions department downstairs, he explained that Neil wasn’t feeling one hundred percent that morning, and he was tired of running “Best of shows” all the time_,_in fact, Neil himself had recommended I sit in for him, a nod that made my hung-over heart skip a beat.
+
+I pulled the microphone up to my mouth and said, “Grab your phone, or grab your ankles, whichever gets you off, and call me, you know the numbers, what did you think about that game last night? Those Buffalo Bills looked like absolute crap, I think we’ve got them coming up in about three weeks, the Fins are gonna crush those sorry snowbird bastards. Oh hey, and let me tell you about the epic night I had, I wanna thank Rick Santino, the manager at The Goalpost Grill in Pembroke Pines where we went to watch Monday Night Football, that guy always goes out of his way to take care of his favorite customer and that customer is ME, then I gotta give a shout-out to Amber, Disarray, Sapphire and all the lovely ladies over at Crazy Jims on Hallandale Beach Blvd, that’s where my buddies and I ended up after the Goal Post Grill and brother I didn't get home till about three o'clock this morning, so I ain’t firing on all cylinders right now but let's do this! So what’s on your mind, let’s go to the phones!”
+
+The computer screen showed we had a full bank of calls on hold so off I went, “First up is Kevin in Miami Beach, hey my brother what’s happening?”
+
+Thankfully, Kevin from Miami Beach was buzzing with excitement, “Jaz McKay, it’s great to hear you during the week, man, I listen every Saturday, Sunday, when I heard you filling in for Neil, I couldn’t believe it, I mean, I love Neil, but if he’s not feeling well, or going out of town, I’d much rather hear you fill in for him.” Kevin was a damn good first caller that day, he really set the table so I was feeling pretty solid at this point, the hangover haze lifting a bit, I thanked him, “Appreciate your checking in, brother, and you’re a real one man,” then moved on to the next caller, ready to keep the fire going.
+
+That was pretty much how the rest of the show rolled, most callers were solid and supportive, doing their job like champs, see, callers have a the most important role on the show. In talk radio callers have a job to do, whether they know it or not, they’re there to make the host sound good, that’s their role, that’s the whole point of taking calls, they’re part of the show, keeping it flowing, giving it rhythm, whether they’re telling wild stories, making an obscene noise and hanging up, telling jokes, reciting a poem, they can be funny, irreverent, pissed off, or just crazy as a loon. Even the ones itching to spout off at me for being a hardcore, proud American, flag waving redneck have a role to play. I held my own too; firing back at them with the same grit I brought to every mic I ever touched.
+
+Then as quickly as it started it was over. That four hours flew by faster than a Miami summertime thunderstorm, I was just about to cross the finish line when I saw the hotline was lighting up. Jorge answered it and looked through the glass at me and nodded as if he was telling the caller “Yes, hold on.” That’s when he put it on hold. The hotline, reserved for station employees only, I was immediately a little nervous, was the call for me? Anytime the hotline rings at the end of your show it’s usually the boss, and it’s never good news.
+
+Right then, the bumper music kicked in, signaling thirty seconds till the end of the show, I pulled the mic to my mouth, “Okay, all you sick, disgusting freaks, that’s it for me, you heard it straight from Neil’s pie hole, next time he’s out, I’ll be right here, so get used to it, Rick, Suds are up next, I’ll SEE YA!”
+
+I said talking up the ramp of the top of the hour music bed and into the legal ID then with a kind of smirk on his face Jorge keyed the talkback mic and told me to pick up the hotline.
+
+“Okay, who is it?” I asked.
+
+“Just pick it up,” Jorge replied, his tone cryptic.
+
+I reluctantly picked up the receiver in the studio and said hello, then I heard the voice on the other end, it all clicked.
+
+“Hey, Jaz,” the voice said, “it’s Neil, you must’ve been freaked out when Jorge called you this morning.”
+
+I nearly dropped the phone, “Yeah I was, how you feeling, Neil?”
+
+“I’m right as rain, I just wanted to see how you’d handle the pressure, you did good, you biker trash redneck,” he said, a snicker in his voice.
+
+“Well, thanks Neil, I guess,” I replied, laughing, relief washing over me.
+
+“If I need you again, I’ll have Jorge call with more lead time in the future, oh, and Jaz?”
+
+“Yeah?”
+
+“You really did a good job, now get outta here, go grab a beer at your favorite strip club.”
+
+“I think I will,” I said, grinning.
+
+“See Ya, Jaz!”
+
+“See Ya, Neil.”
+
+Following that initial experience, I had the distinct pleasure of stepping in for Neil on several occasions over the course of the next year. Whether it was covering for him during his vacations, taking over on his scheduled days off, or stepping up when he was under the weather, I was always ready to lend a hand whenever Neil needed me. Let’s be honest, I did it for selfish reasons, the money, the experience and for the huge audience, but it was also a real honor to support him and ensure everything ran smoothly in his absence. Each opportunity to fill in felt like a privilege, and I cherished the trust he placed in me during those times.
+
+Looking back, that day was a turning point, I’d gone from a hung-over mess, terrified of the Neilephites, to earning the man’s respect, his call wasn’t just a pat on the back, it was a green light to keep pushing, keep kicking the hornets’ nest. I walked out of WIOD that day, still a redneck biker in a Motörhead T-shirt, but now I was a redneck biker who’d held his own in Neil Rogers’ world, ready for whatever the airwaves threw at me next. That day at WIOD wasn’t just a win, it was a sacred moment, a nod from the King of South Florida radio that told me I belonged in that very elite club of talk radio hosts, who leave a mark, good or bad.
+
+When I heard Neil had passed away, back in 2010, it hit me like a freight train, not only had we lost a true radio legend, but the guy who’d shaped me more than anyone else in this crazy ass business. He was my mentor, my inspiration and the reason I’d ditched my Top 40 happy-talk shtick back in 1987 and found my real voice on the radio.
+
+I can still hear Neil’s razor-sharp wit, his snicker at an unexpected quip, the quiet pride I felt when he’d borrow my “See Ya” sign-off, but above all, I remember his unshakable confidence. He was the living embodiment of “never let ‘em see you sweat,” a trait that defined Neil Rogers, and is etched into my brain as the gold standard of what a talk radio host should be.
+
+Neil Rogers made me better at my craft, his lessons etched into every mic I’ve touched since, a guiding light through the chaos of the radio airwaves, reminding me to always rock the boat, no matter the severity of the storm. “Neil, God!”

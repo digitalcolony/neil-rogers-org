@@ -1,0 +1,121 @@
+# The Neil Rogers Show - Preserving the Legacy of the Radio God
+
+> Welcome to the Neil Rogers audio restoration project.
+
+## Pages
+
+- [Neil Rogers - Miami Herald Covers the Neil Rogers Audio Recovery Project](md/docs/miami-herald-story.md): Miami Herald Covers the Neil Rogers Audio Recovery Project in 2018.
+- [Learning to Spell with Neil Rogers](md/docs/learning-to-spell.md): Commonly misspelled names associated with the Neil Rogers Show
+- [Neil Rogers - Tribute to Jorge Rodriguez](md/docs/jorge-rodriguez.md): Jorge Rodriguez was the long time producer and guest host of the Neil Rogers Show.
+- [The Neil Rogers Show - Preserving the Legacy of the Radio God](md/index.md): Welcome to the Neil Rogers audio restoration project.
+- [Download The Neil Rogers Show](md/audio.md): Download audio from the Radio God Neil Rogers.
+- [Neil Rogers - Tribute to John Baker](md/docs/john-baker.md): John Baker was critical to helping restore audio and photos for the Neil Rogers project.
+- [Neil Rogers - Tribute to Eric Harold](md/docs/eric-harold.md): Eric Harold was the web guy for the Neil Rogers Show
+- [Neil Rogers Docs - Tributes, Media, Stories, and Show Info](md/docs.md): News and updates related to the Neil Rogers audio restoration project.
+- [Neil Rogers - My Neil Rogers Story](md/docs/jaz-mckay.md): Jaz McKay tells the story of how he got into radio and his time with Neil Rogers.
+- [Neil Rogers - MySpace posts by Neil Rogers](md/docs/neil-rogers-myspace.md): Recovered MySpace posts by Neil Rogers, a radio personality from Miami, Florida.
+- [Neil Rogers - Interview with Radio Ink (January 2014)](md/docs/radio-ink-interview.md): The unpublished interview of the Neil Rogers Audio Restoration Project
+- [Neil Rogers 2016 Radio Hall of Fame Induction](md/docs/radio-hall-of-fame.md): The acceptance speech delivered by Jorge Rodriguez for Neil Rogers at the Radio Hall of Fame.
+- [Neil Rogers - Radio Stories - Chronic Review - Alfred &#34;Al&#34; Rogers](md/docs/radio-stories/alfred-al-rogers.md): Overview of WIOD chronic - Alfred &#34;Al&#34; Rogers
+- [Radio Stories](md/docs/radio-stories.md): South Florida radio stories from the 1990s
+- [Neil Rogers - Radio Stories - Almost Killed Jorge](md/docs/radio-stories/almost-killed-jorge.md): A tale involving radio producer Jorge Rodriguez.
+- [Neil Rogers - Radio Stories - The Great Briefcase Robbery](md/docs/radio-stories/briefcase-robbery.md): The Rick Reilly briefcase story.
+- [Neil Rogers - Radio Stories - The "Best" of Randi Rhodes](md/docs/radio-stories/best-of-randi-rhodes.md): WIOD story about Randi Rhodes.
+- [Neil Rogers - Radio Stories - Brooke Daniels](md/docs/radio-stories/brooke-daniels.md): Brooke Daniels joins WIOD.
+- [Neil Rogers - Radio Stories - Bryan Cox - I Hate WIOD](md/docs/radio-stories/bryan-cox-wiod.md): Dolphin Bryan Cox doesn't like WIOD.
+- [Neil Rogers - Radio Stories - The Cat is Outta The Bag](md/docs/radio-stories/cat-is-outta-the-bag.md): The cat in the freezer tale.
+- [Neil Rogers - Radio Stories - Hurricane Andrew Part 1](md/docs/radio-stories/hurricane-andrew-1.md): Hurricane Andrew radio stories part 1.
+- [Neil Rogers - Radio Stories - Gilbert interviews Ricky Schroder](md/docs/radio-stories/gilbert-interviews-ricky-schroder.md): Gilbert is tasked to interview actor Ricky Schroder
+- [Neil Rogers - Radio Stories - Come out, come out, wherever I can see you](md/docs/radio-stories/come-out.md): WIOD radio story.
+- [Neil Rogers - Radio Stories - Hurricane Andrew Part 2](md/docs/radio-stories/hurricane-andrew-2.md): Hurricane Andrew radio stories part 2.
+- [Neil Rogers - Radio Stories - Joey Does Weekends](md/docs/radio-stories/joey-does-weekends.md): Joey Reynolds returns to WIOD for weekend shows
+- [Neil Rogers - Radio Stories - Hurricane Andrew Part 3](md/docs/radio-stories/hurricane-andrew-3.md): Hurricane Andrew radio stories part 3.
+- [Neil Rogers - Radio Stories - Inadequate Dave](md/docs/radio-stories/inadequate-dave.md): Inadequate Dave from the Rick &#38; Suds Show.
+- [Neil Rogers - Radio Stories - The Magic Cookies](md/docs/radio-stories/magic-cookies.md): WIOD radio story
+- [Neil Rogers - Radio Stories - Reineri on his own](md/docs/radio-stories/mike-reineri.md): Story about radio's Mike Reineri.
+- [Neil Rogers - Radio Stories - Neil's Arrest](md/docs/radio-stories/neils-arrest.md): Neil Rogers was arrested.
+- [Neil Rogers - Radio Stories - Phil Might Be Crazy](md/docs/radio-stories/phil-might-be-crazy.md): Phil Hendrie joins WIOD.
+- [Neil Rogers - Radio Stories - Randi's Best of Video](md/docs/radio-stories/randis-best-of-video.md): Behind the scenes for the production of the Randi Rhodes Best of Video.
+- [Neil Rogers - Radio Stories - Not talkin' about women](md/docs/radio-stories/not-talkin-about-women.md): Rick and Suds story.
+- [Neil Rogers - Radio Stories - Randi banned from Disney's New York](md/docs/radio-stories/randi-banned-from-disney.md): What did Randi do at Disney's New York?
+- [Neil Rogers - Radio Stories - Randi's Chair](md/docs/radio-stories/randis-chair.md): What happened to the Randi's chair?
+- [Neil Rogers - Radio Stories - The Sale of WIOD – Part 1](md/docs/radio-stories/sale-of-wiod-1.md): The Sale of WIOD – Part 1
+- [Neil Rogers - Radio Stories - The Sale of WIOD – Part 2](md/docs/radio-stories/sale-of-wiod-2.md): The Sale of WIOD – Part 2
+- [Neil Rogers - Radio Stories - Sandbagged, Barfbagged, Nichol-bagged](md/docs/radio-stories/sandbagged.md): WIOD radio story.
+- [Neil Rogers - Radio Stories - Randi's Departure](md/docs/radio-stories/randis-departure.md): Randi's Rhodes leaves WIOD.
+- [Neil Rogers - Radio Stories - Miami's Own, Scotty Mac](md/docs/radio-stories/scotty-mac.md): Scott Macollough aka Scotty Mac was the sports producer for WIOD.
+- [Neil Rogers - Radio Stories - Sundays Mornings (Defo and Garden Guy)](md/docs/radio-stories/sunday-mornings.md): Sunday morning radio story.
+- [Neil Rogers - Radio Stories - Chronic Review - The Fanny Pack Guy](md/docs/radio-stories/the-fanny-pack-guy.md): Overview of WIOD chronic - The Fanny Pack Guy
+- [Neil Rogers - Radio Stories - Chronic Review - The Guy with the Eyes](md/docs/radio-stories/the-guy-with-the-eyes.md): Overview of WIOD chronic - The Guy with the Eyes
+- [Neil Rogers - Radio Stories - Chronic Review - &#34;The Amazing Giwbewt&#34;](md/docs/radio-stories/the-amazing-giwbewt.md): Overview of WIOD chronic Gilbert&#34;
+- [Neil Rogers - Radio Stories - The WIOD Blimp](md/docs/radio-stories/the-wiod-blimp.md): What happened to the WIOD Blimp?
+- [Neil Rogers - Radio Stories - This Place is a ZOO!](md/docs/radio-stories/this-place-is-a-zoo.md): This Place is a ZOO!
+- [Neil Rogers - Radio Stories - WIOD Cart Wars](md/docs/radio-stories/wiod-cart-wars.md): How the carts worked at WIOD.
+- [Neil Rogers - Radio Stories - Fear and Delivering in New Orleans](md/docs/radio-stories/wiod-new-orleans.md): The WIOD road trip to New Orleans.
+- [Neil Rogers - Radio Stories - WIOD Disney Diaries](md/docs/radio-stories/wiod-disney.md): WIOD and Disney
+- [Neil Rogers - Radio Stories - Worst. Hunger Strike. EVER.](md/docs/radio-stories/worst-hunger-strike-ever.md): The Rick and Suds Show brings food to a hunger strike.
+- [Neil Rogers - Radio Stories - WIOD Van Troubles?](md/docs/radio-stories/wiod-van-troubles.md): Adventures with the WIOD van.
+- [The Voices in Your Head: Phil Hendrie and the Death of Talk Radio, Part 1](md/docs/voices-p1.md): Full text of Matt Forney's essay (published here with permission).
+- [The Voices in Your Head: Phil Hendrie and the Death of Talk Radio, Part 2](md/docs/voices-p2.md): Full text of Matt Forney's Part 2 essay (published here with permission).
+- [Neil Rogers Timeline - The History of the Radio God](md/timeline.md): A brief history of radio's Neil Rogers.
+- [Neil Rogers - Listen to the Neil Rogers Show Podcast](md/listen.md): Listen to the Neil Rogers Show Podcast
+- [The Neil Rogers Soundboard - Play drops from Neil, Jim Mandich, Larry King, and More!](md/soundboard.md): Soundboard for Neil Rogers, Jennifer Rehm, Jim Mandich, Larry King and more!
+
+## Pages
+
+- [Neil Rogers - Miami Herald Covers the Neil Rogers Audio Recovery Project](docs/miami-herald-story.md): Miami Herald Covers the Neil Rogers Audio Recovery Project in 2018.
+- [Learning to Spell with Neil Rogers](docs/learning-to-spell.md): Commonly misspelled names associated with the Neil Rogers Show
+- [Neil Rogers - Tribute to Jorge Rodriguez](docs/jorge-rodriguez.md): Jorge Rodriguez was the long time producer and guest host of the Neil Rogers Show.
+- [The Neil Rogers Show - Preserving the Legacy of the Radio God](index.md): Welcome to the Neil Rogers audio restoration project.
+- [Download The Neil Rogers Show](audio.md): Download audio from the Radio God Neil Rogers.
+- [Neil Rogers - Tribute to John Baker](docs/john-baker.md): John Baker was critical to helping restore audio and photos for the Neil Rogers project.
+- [Neil Rogers - Tribute to Eric Harold](docs/eric-harold.md): Eric Harold was the web guy for the Neil Rogers Show
+- [Neil Rogers Docs - Tributes, Media, Stories, and Show Info](docs.md): News and updates related to the Neil Rogers audio restoration project.
+- [Neil Rogers - My Neil Rogers Story](docs/jaz-mckay.md): Jaz McKay tells the story of how he got into radio and his time with Neil Rogers.
+- [Neil Rogers - MySpace posts by Neil Rogers](docs/neil-rogers-myspace.md): Recovered MySpace posts by Neil Rogers, a radio personality from Miami, Florida.
+- [Neil Rogers - Interview with Radio Ink (January 2014)](docs/radio-ink-interview.md): The unpublished interview of the Neil Rogers Audio Restoration Project
+- [Neil Rogers 2016 Radio Hall of Fame Induction](docs/radio-hall-of-fame.md): The acceptance speech delivered by Jorge Rodriguez for Neil Rogers at the Radio Hall of Fame.
+- [Neil Rogers - Radio Stories - Chronic Review - Alfred &#34;Al&#34; Rogers](docs/radio-stories/alfred-al-rogers.md): Overview of WIOD chronic - Alfred &#34;Al&#34; Rogers
+- [Radio Stories](docs/radio-stories.md): South Florida radio stories from the 1990s
+- [Neil Rogers - Radio Stories - Almost Killed Jorge](docs/radio-stories/almost-killed-jorge.md): A tale involving radio producer Jorge Rodriguez.
+- [Neil Rogers - Radio Stories - The Great Briefcase Robbery](docs/radio-stories/briefcase-robbery.md): The Rick Reilly briefcase story.
+- [Neil Rogers - Radio Stories - The “Best” of Randi Rhodes](docs/radio-stories/best-of-randi-rhodes.md): WIOD story about Randi Rhodes.
+- [Neil Rogers - Radio Stories - Brooke Daniels](docs/radio-stories/brooke-daniels.md): Brooke Daniels joins WIOD.
+- [Neil Rogers - Radio Stories - Bryan Cox - I Hate WIOD](docs/radio-stories/bryan-cox-wiod.md): Dolphin Bryan Cox doesn't like WIOD.
+- [Neil Rogers - Radio Stories - The Cat is Outta The Bag](docs/radio-stories/cat-is-outta-the-bag.md): The cat in the freezer tale.
+- [Neil Rogers - Radio Stories - Hurricane Andrew Part 1](docs/radio-stories/hurricane-andrew-1.md): Hurricane Andrew radio stories part 1.
+- [Neil Rogers - Radio Stories - Gilbert interviews Ricky Schroder](docs/radio-stories/gilbert-interviews-ricky-schroder.md): Gilbert is tasked to interview actor Ricky Schroder
+- [Neil Rogers - Radio Stories - Come out, come out, wherever I can see you](docs/radio-stories/come-out.md): WIOD radio story.
+- [Neil Rogers - Radio Stories - Hurricane Andrew Part 2](docs/radio-stories/hurricane-andrew-2.md): Hurricane Andrew radio stories part 2.
+- [Neil Rogers - Radio Stories - Joey Does Weekends](docs/radio-stories/joey-does-weekends.md): Joey Reynolds returns to WIOD for weekend shows
+- [Neil Rogers - Radio Stories - Hurricane Andrew Part 3](docs/radio-stories/hurricane-andrew-3.md): Hurricane Andrew radio stories part 3.
+- [Neil Rogers - Radio Stories - Inadequate Dave](docs/radio-stories/inadequate-dave.md): Inadequate Dave from the Rick &#38; Suds Show.
+- [Neil Rogers - Radio Stories - The Magic Cookies](docs/radio-stories/magic-cookies.md): WIOD radio story
+- [Neil Rogers - Radio Stories - Reineri on his own](docs/radio-stories/mike-reineri.md): Story about radio's Mike Reineri.
+- [Neil Rogers - Radio Stories - Neil's Arrest](docs/radio-stories/neils-arrest.md): Neil Rogers was arrested.
+- [Neil Rogers - Radio Stories - Phil Might Be Crazy](docs/radio-stories/phil-might-be-crazy.md): Phil Hendrie joins WIOD.
+- [Neil Rogers - Radio Stories - Randi's Best of Video](docs/radio-stories/randis-best-of-video.md): Behind the scenes for the production of the Randi Rhodes Best of Video.
+- [Neil Rogers - Radio Stories - Not talkin’ about women](docs/radio-stories/not-talkin-about-women.md): Rick and Suds story.
+- [Neil Rogers - Radio Stories - Randi banned from Disney's New York](docs/radio-stories/randi-banned-from-disney.md): What did Randi do at Disney's New York?
+- [Neil Rogers - Radio Stories - Randi's Chair](docs/radio-stories/randis-chair.md): What happened to the Randi's chair?
+- [Neil Rogers - Radio Stories - The Sale of WIOD – Part 1](docs/radio-stories/sale-of-wiod-1.md): The Sale of WIOD – Part 1
+- [Neil Rogers - Radio Stories - The Sale of WIOD – Part 2](docs/radio-stories/sale-of-wiod-2.md): The Sale of WIOD – Part 2
+- [Neil Rogers - Radio Stories - Sandbagged, Barfbagged, Nichol-bagged](docs/radio-stories/sandbagged.md): WIOD radio story.
+- [Neil Rogers - Radio Stories - Randi's Departure](docs/radio-stories/randis-departure.md): Randi's Rhodes leaves WIOD.
+- [Neil Rogers - Radio Stories - Miami's Own, Scotty Mac](docs/radio-stories/scotty-mac.md): Scott Macollough aka Scotty Mac was the sports producer for WIOD.
+- [Neil Rogers - Radio Stories - Sundays Mornings (Defo and Garden Guy)](docs/radio-stories/sunday-mornings.md): Sunday morning radio story.
+- [Neil Rogers - Radio Stories - Chronic Review - The Fanny Pack Guy](docs/radio-stories/the-fanny-pack-guy.md): Overview of WIOD chronic - The Fanny Pack Guy
+- [Neil Rogers - Radio Stories - Chronic Review - The Guy with the Eyes](docs/radio-stories/the-guy-with-the-eyes.md): Overview of WIOD chronic - The Guy with the Eyes
+- [Neil Rogers - Radio Stories - Chronic Review - &#34;The Amazing Giwbewt&#34;](docs/radio-stories/the-amazing-giwbewt.md): Overview of WIOD chronic Gilbert&#34;
+- [Neil Rogers - Radio Stories - The WIOD Blimp](docs/radio-stories/the-wiod-blimp.md): What happened to the WIOD Blimp?
+- [Neil Rogers - Radio Stories - This Place is a ZOO!](docs/radio-stories/this-place-is-a-zoo.md): This Place is a ZOO!
+- [Neil Rogers - Radio Stories - WIOD Cart Wars](docs/radio-stories/wiod-cart-wars.md): How the carts worked at WIOD.
+- [Neil Rogers - Radio Stories - Fear and Delivering in New Orleans](docs/radio-stories/wiod-new-orleans.md): The WIOD road trip to New Orleans.
+- [Neil Rogers - Radio Stories - WIOD Disney Diaries](docs/radio-stories/wiod-disney.md): WIOD and Disney
+- [Neil Rogers - Radio Stories - Worst. Hunger Strike. EVER.](docs/radio-stories/worst-hunger-strike-ever.md): The Rick and Suds Show brings food to a hunger strike.
+- [Neil Rogers - Radio Stories - WIOD Van Troubles?](docs/radio-stories/wiod-van-troubles.md): Adventures with the WIOD van.
+- [The Voices in Your Head: Phil Hendrie and the Death of Talk Radio, Part 1](docs/voices-p1.md): Full text of Matt Forney's essay (published here with permission).
+- [The Voices in Your Head: Phil Hendrie and the Death of Talk Radio, Part 2](docs/voices-p2.md): Full text of Matt Forney's Part 2 essay (published here with permission).
+- [Neil Rogers Timeline - The History of the Radio God](timeline.md): A brief history of radio's Neil Rogers.
+- [Neil Rogers - Listen to the Neil Rogers Show Podcast](listen.md): Listen to the Neil Rogers Show Podcast
+- [The Neil Rogers Soundboard - Play drops from Neil, Jim Mandich, Larry King, and More!](soundboard.md): Soundboard for Neil Rogers, Jennifer Rehm, Jim Mandich, Larry King and more!
