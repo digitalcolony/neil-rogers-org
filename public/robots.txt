@@ -1,2 +1,11 @@
-User-agent: * 
-Disallow: 
+User-agent: *
+Allow: /
+Allow: /md/
+
+# LLM-friendly content discovery
+Sitemap: https://neilrogers.org/sitemap_index.xml
+LLMs: https://neilrogers.org/llms.txt
+LLMs-full: https://neilrogers.org/llms-full.txt
+
+# Individual articles available at:
+# https://neilrogers.org/md/[article-name].md
