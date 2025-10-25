@@ -27,11 +27,12 @@ The Neil Rogers Show was a legendary radio talk show that entertained listeners 
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [Astro](https://astro.build/) 5.12.3
+- **Framework**: [Astro](https://astro.build/) 5.15.1
 - **UI Library**: [React](https://reactjs.org/) 18.2.0
+- **React Integration**: [@astrojs/react](https://docs.astro.build/en/guides/integrations-guide/react/) 4.4.0
 - **Styling**: CSS with Astro's built-in styling
 - **Font Loading**: [astro-font](https://github.com/rishi-raj-jain/astro-font) 0.1.81
-- **Deployment**: [Netlify](https://netlify.com) (via @astrojs/netlify 6.5.3)
+- **Deployment**: [Netlify](https://netlify.com) (via @astrojs/netlify 6.6.0)
 - **Build Tool**: Vite (included with Astro)
 
 ## 📁 Project Structure
