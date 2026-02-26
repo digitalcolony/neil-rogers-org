@@ -2113,6 +2113,26 @@
             "mp3": "/sounds/SOB-Huge.mp3"
         },
         {
+            "name": "Laugh Track",
+            "artist": "Jim Mandich",
+            "mp3": "/sounds/Laugh-Track.mp3"
+        },
+        {
+            "name": "Screw the Listeners",
+            "artist": "Jim Mandich",
+            "mp3": "/sounds/Screw-the-Listeners.mp3"
+        },
+        {
+            "name": "Tits on Blonde",
+            "artist": "Jim Mandich",
+            "mp3": "/sounds/Tits-Blonde.mp3"
+        },
+        {
+            "name": "Whack It",
+            "artist": "Jim Mandich",
+            "mp3": "/sounds/Whack-It.mp3"
+        },
+        {
             "name": "Oyster",
             "artist": "Jim Mandich",
             "duration": "0:02",
