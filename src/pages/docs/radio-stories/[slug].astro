@@ -28,9 +28,9 @@ const { Content } = await render(story);
 ---
 
 <Layout
-	title={`Neil Rogers - Radio Stories - ${story.data.title}    `}
+	title={`${story.data.title} | Neil Rogers Radio Stories`}
 	description={story.data.description}
-	url={`https://neilrogers.dev/radio-stories/${story.id}`}
+	url={`/docs/radio-stories/${story.id}/`}
 >
 	<div class="card">
 		<h1>{story.data.title}</h1>

@@ -33,6 +33,10 @@ Astro.response.headers.set("Cache-Control", "max-age=3607");
 		<meta property="og:image" content="https://neilrogers.org/neil-studio1200x630.jpg" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content="https://neilrogers.org/neil-studio1200x630.jpg" />
 		{/* The 404 page should not be indexed  */}
 		{url === "/404/" && <meta name="robots" content="noindex" />}
 		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
