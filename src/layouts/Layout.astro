@@ -2,9 +2,8 @@
 import Footer from "../components/Footer.astro";
 import Navigation from "../components/Navigation.astro";
 import "../styles/global.css";
-import { ViewTransitions } from "astro:transitions";
+import { ClientRouter } from "astro:transitions";
 import { AstroFont } from "astro-font";
-import { setupMenu } from "../scripts/menu.js";
 
 export interface Props {
 	title: string;
@@ -52,7 +51,7 @@ Astro.response.headers.set("Cache-Control", "max-age=3607");
 
 		<title>{title}</title>
 
-		<ViewTransitions />
+		<ClientRouter />
 
 		<AstroFont
 			config={[

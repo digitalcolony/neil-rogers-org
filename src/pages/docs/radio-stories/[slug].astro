@@ -1,12 +1,12 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import DocsBreadcrumbs from "../../../components/DocsBreadcrumbs.astro";
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
 	const stories = await getCollection("stories");
 	return stories.map((story) => ({
-		params: { slug: story.slug },
+		params: { slug: story.id },
 		props: { story },
 	}));
 }
@@ -24,13 +24,13 @@ story.data.date = date.toLocaleDateString("en-US", {
 	month: "long",
 	day: "numeric",
 });
-const { Content } = await story.render();
+const { Content } = await render(story);
 ---
 
 <Layout
 	title={`Neil Rogers - Radio Stories - ${story.data.title}    `}
 	description={story.data.description}
-	url={`https://neilrogers.dev/radio-stories/${story.slug}`}
+	url={`https://neilrogers.dev/radio-stories/${story.id}`}
 >
 	<div class="card">
 		<h1>{story.data.title}</h1>
