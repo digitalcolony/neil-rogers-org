@@ -247,6 +247,12 @@
             "mp3": "/sounds/Dammit.mp3"
         },
         {
+            "name": "Dave LaMont",
+            "artist": "",
+            "duration": "0:02",
+            "mp3": "/sounds/Dave-LaMont.mp3"
+        },
+        {
             "name": "Delicious",
             "artist": "Neil Rogers",
             "duration": "0:02",
