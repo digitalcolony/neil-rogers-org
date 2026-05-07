@@ -487,6 +487,12 @@
             "mp3": "/sounds/Go-Screw-Yourself-Rogers.mp3"
         },
         {
+            "name": "Good Looking Guy",
+            "artist": "Steve Geldy Goldstein",
+            "duration": "0:02",
+            "mp3": "/sounds/Good-Looking-Guy.mp3"
+        },
+        {
             "name": "Good Morning Americans",
             "artist": "Paul Harvey",
             "duration": "0:04",
@@ -1069,6 +1075,12 @@
             "mp3": "/sounds/Kick-Ass-Toupe.mp3"
         },
         {
+            "name": "Kick Teeth In",
+            "artist": "Alex Bennett",
+            "duration": "0:02",
+            "mp3": "/sounds/Kick-Teeth-In.mp3"
+        },
+        {
             "name": "Laugh Brooke",
             "artist": "Brooke Daniels",
             "duration": "0:03",
@@ -1169,6 +1181,12 @@
             "artist": "Remus - Hazardous Comedy Network",
             "duration": "0:02",
             "mp3": "/sounds/Remus-My-Oh-My.mp3"
+        },
+        {
+            "name": "Need Help",
+            "artist": "Rick Riley",
+            "duration": "0:02",
+            "mp3": "/sounds/Need-Help.mp3"
         },
         {
             "name": "Neil GOD Epic",
@@ -1793,6 +1811,12 @@
             "artist": "Bob Lassiter",
             "duration": "0:01",
             "mp3": "/sounds/Uh-huh-Lassiter.mp3"
+        },
+        {
+            "name": "Up the Butt",
+            "artist": "Steve Geldy Goldstein",
+            "duration": "0:01",
+            "mp3": "/sounds/Up-the-Butt.mp3"
         },
         {
             "name": "Uh huh King",
